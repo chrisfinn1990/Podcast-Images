@@ -1,0 +1,224 @@
+
+    <div class="phase">
+        <h2>Phase 1: Transcript Import and Highlighting</h2>
+        <div class="steps">
+            <h3>Transcript Import</h3>
+            <ul>
+                <li>The user imports a text document (e.g., .txt, .docx) containing the podcast transcript.</li>
+                <li>The application ingests and displays the transcript text in an editable format.</li>
+            </ul>
+            <h3>Statement Highlighting</h3>
+            <ul>
+                <li>The user can select and highlight specific sentences or phrases within the transcript.</li>
+                <li>Highlighted text is marked for generation of media assets.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="phase">
+        <h2>Phase 2: Generative Tools</h2>
+        <div class="steps">
+            <h3>Image, Audio, and Video Generation</h3>
+            <ul>
+                <li>The user clicks a "Generate New" button, which may be located in the media sidebar under tabs for 'Image', 'Audio', or 'Video'.</li>
+                <li>The highlighted text is used as a prompt for the selected generative tool.</li>
+                <li>Generated media assets (images, audio clips, video clips) appear in the corresponding media tab in the sidebar.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="phase">
+        <h2>Phase 3: Timeline Editing</h2>
+        <div class="steps">
+            <h3>Drag-and-Drop Interface</h3>
+            <ul>
+                <li>The user can drag media assets from the sidebar media tabs (Image, Audio, Video).</li>
+                <li>Assets can be dropped directly onto the timeline to be included in the final video.</li>
+                <li>The timeline shows the arrangement and timing of all media assets.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="phase">
+        <h2>Architectural Overview: Module and Data Flow</h2>
+        <div class="steps">
+            <h3>Core System Modules</h3>
+            <ul>
+                <li>
+                    <h4>Module A: Transcript Ingestion & Preprocessing</h4>
+                    <ul>
+                        <li>Cloud transcription services (e.g., AWS Transcribe): For speech-to-text conversion.</li>
+                        <li>Open-source NLP libraries (e.g., spaCy): For advanced text analysis (entity recognition, dependency parsing).</li>
+                        <li>`TranscriptDataStore`: Persistent storage for raw and processed transcripts.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Module B: Transcript Editor</h4>
+                    <ul>
+                        <li>Web-based editor framework (e.g., React/Vue/Angular): For user interface development.</li>
+                        <li>Version control system: For tracking edits and enabling rollbacks.</li>
+                        <li>`EditorStateManagement`: Manages undo/redo functionality and editor state.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Module C: Integrated Semantic Analysis and Generation</h4>
+                    <ul>
+                        <li><strong>Unified Model:</strong> The system will use a single, powerful generative model that combines deep semantic understanding with the ability to generate images, audio, and video in a variety of artistic styles.</li>
+                        <li><strong>Automated Prompt Suggestion:</strong> When a user highlights a section of the transcript, the model will analyze the text and suggest a detailed prompt. This prompt will include keywords, themes, and stylistic suggestions based on the model's understanding of the text.</li>
+                        <li><strong>User-Controlled Refinement:</strong> The user will have full control to accept, reject, or edit the suggested prompt. A simple interface will allow for easy prompt refinement.</li>
+                        <li><strong>Parameter Control:</strong> The user will retain control over key generation parameters:
+                            <ul>
+                                <li><strong>Temperature:</strong> To adjust the creativity and randomness of the output.</li>
+                                <li><strong>Context:</strong> To add or modify the context provided to the model.</li>
+                                <li><strong>Quality:</strong> To control the output quality and generation speed.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Module D: Asset and Workflow Management</h4>
+                    <ul>
+                        <li><strong>Asset Database:</strong> A database to store generated assets, linked to the transcript section and the prompt that created them.</li>
+                        <li><strong>Automated Metadata:</strong> Generated assets will be automatically tagged with metadata, including the original highlighted text, the final prompt, and all generation parameters.</li>
+                        <li><strong>Generation Queue:</strong> A queue to manage asset generation, providing users with status updates.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Module E: Timeline & Integration Engine</h4>
+                    <ul>
+                        <li>FFmpeg: For robust video composition and processing.</li>
+                        <li>Rendering pipeline: Supports various output formats (e.g., MP4, WebM).</li>
+                        <li>`RenderPipeline`: Manages video encoding and output processes.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Data Flow & Relationships (Conceptual Math)</h3>
+            <p>Let $T_{raw}$ be the raw transcript.</p>
+            <p>Let $T_{struct} = f_{A}(T_{raw})$ be the structured transcript after Module A processing.</p>
+            <p>Let $T_{refined} = f_{B}(T_{struct}, U_{edits})$ be the refined transcript after Module B (user edits).</p>
+            <p>Let $S_{plan} = f_{C}(T_{refined})$ be the scene plan generated by Module C.</p>
+            <p>Let $A_{manifest} = f_{D}(S_{plan})$ be the asset manifest generated by Module D.</p>
+            <p>Let $V_{final} = f_{E}(A_{manifest}, T_{refined})$ be the final video output from Module E.</p>
+            <p>Dependencies: $A \rightarrow B \rightarrow C \rightarrow D \rightarrow E$. Feedback loops for refinement are implicit.</p>
+        </div>
+    </div>
+
+    <div class="phase">
+        <h2>Core UI Architecture: Image Integration</h2>
+        <div class="steps">
+            <h3>Image Lifecycle</h3>
+            <ul>
+                <li><strong>Generation and Acceptance:</strong> Images are generated based on highlighted transcript phrases. Once accepted, they are added to the project's media library.</li>
+                <li><strong>Timeline Integration:</strong> Accepted images are placed on the main timeline for active use in the video sequence.</li>
+                <li><strong>Dynamic Regeneration:</strong> If the user highlights a new section of the transcript, the associated image can be regenerated to reflect the new context.</li>
+            </ul>
+            <h3>Dynamic Highlighting</h3>
+            <ul>
+                <li><strong>Image-Description Link:</strong> A visual highlight on the image is directly linked to its corresponding description.</li>
+                <li><strong>Automatic Updates:</strong> When the image's description is updated, the highlight on the image will also update to reflect the changes.</li>
+            </ul>
+            <h3>Notes</h3>
+            <ul>
+                <li><strong>Functions:</strong> Key functions would include <code>generateImage()</code>, <code>updateImageDescription()</code>, and <code>regenerateImageFromTranscript()</code>.</li>
+                <li><strong>Tools:</strong> This would integrate with the AI image generation models and a central Digital Asset Management (DAM) system for the media library.</li>
+                <li><strong>Features:</strong> User-facing features would include an interactive timeline, in-place image editing/regeneration, and a version history for generated assets.</li>
+                <li><strong>File Menu:</strong> A main 'File' button would provide a dropdown menu with the following options:
+                    <ul>
+                        <li><strong>New:</strong> Create a new project.</li>
+                        <li><strong>Open:</strong> Open an existing project.</li>
+                        <li><strong>Save:</strong> Save the current project.</li>
+                        <li><strong>Save As:</strong> Save the current project with a new name.</li>
+                        <li><strong>Import:</strong> Import files (video, audio, PDF, and text) into the project.</li>
+                        <li><strong>Export:</strong> Export files (video, audio, PDF, and text) from the active project media.</li>
+                    </ul>
+                </li>
+                <li><strong>Mode Change:</strong> A button to switch between different UI modes, with the following options:
+                    <ul>
+                        <li><strong>Transcript:</strong> The default mode for editing and highlighting the podcast transcript.</li>
+                        <li><strong>Timeline:</strong> A mode for arranging and synchronizing visual assets with the audio.</li>
+                        <li><strong>Generate:</strong> A dedicated mode for generating and refining images.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Media Sidebar</h3>
+            <ul>
+                <li><strong>Location:</strong> A persistent sidebar on the left side of the UI.</li>
+                <li><strong>Tabs:</strong> The sidebar will have tabs on the far left for 'Image', 'Text', and 'Video'.</li>
+                <li><strong>File Caching:</strong> Each tab will display files of its type that are currently cached in the project media.</li>
+                <li><strong>Generate New:</strong> At the end of the list of cached files in each tab, a 'Generate New' button with a black plus icon will be available to create new assets.</li>
+            </ul>
+            <h3>Highlight Tool</h3>
+            <ul>
+                <li><strong>Selection:</strong> Users can click and drag to select any portion of the transcript text.</li>
+                <li><strong>Highlighting:</strong> Upon selection, the text will be visually highlighted (e.g., with a yellow background) to indicate that it has been chosen for image generation.</li>
+                <li><strong>Deselection:</strong> Clicking on a highlighted section will remove the highlight.</li>
+                <li><strong>Generate Button:</strong> A "Generate New Images" button will be available. When clicked, all highlighted text segments are collected and sent to the image generation module.</li>
+                <li><strong>Note:</strong> The highlighted text is linked to whichever "Generate New" button is clicked. This allows for context-sensitive image generation depending on the user's workflow.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="phase">
+        <h2>Phase 4: Full Podcast Production</h2>
+        <div class="steps">
+            <h3>Audio Production</h3>
+            <ul>
+                <li>Record high-quality audio</li>
+                <li>Clean and enhance audio</li>
+                <li>Add sound design elements</li>
+                <li>Mix and master audio track</li>
+            </ul>
+
+            <h3>Final Integration</h3>
+            <ul>
+                <li>Combine audio with visuals</li>
+                <li>Add intro/outro sequences</li>
+                <li>Implement overlays and lower thirds</li>
+                <li>Export in multiple formats</li>
+            </ul>
+
+            <h3>Distribution Preparation</h3>
+            <ul>
+                <li>Create platform-specific versions</li>
+                <li>Generate thumbnails and previews</li>
+                <li>Prepare metadata and descriptions</li>
+                <li>Schedule publication strategy</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="phase">
+        <h2>Connections between Architecture and Phase 4</h2>
+        <div class="steps">
+            <p>This section clarifies how the modules from the Architectural Overview map to the tasks in Phase 4.</p>
+            <ul>
+                <li><strong>Audio Production &rarr; Module A & E:</strong> The initial high-quality audio recording from Phase 4 is the primary input for <strong>Module A</strong> (Transcript Ingestion). The final, mastered audio track is then used by <strong>Module E</strong> (Timeline & Integration Engine) to be synchronized with the visual elements.</li>
+                <li><strong>Final Integration &rarr; Module E:</strong> The tasks of combining audio with visuals, adding intros/outros, and exporting the final video are all handled by <strong>Module E</strong>, the Timeline & Integration Engine, utilizing tools like FFmpeg.</li>
+                <li><strong>Distribution Preparation &rarr; Module C & D:</strong> Generating thumbnails and previews for distribution is a task for <strong>Module D</strong> (Visual Asset Orchestrator). The creation of metadata and descriptions is supported by <strong>Module C</strong> (Semantic Analysis & Scene Generation), which can extract relevant information from the transcript.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="phase">
+        <h2>Technical Requirements</h2>
+        <div class="steps">
+            <h3>Software Tools</h3>
+            <ul>
+                <li>Image generation AI (e.g., DALL-E, Midjourney)</li>
+                <li>Audio editing software (e.g., Audacity, Adobe Audition)</li>
+                <li>Video editing software (e.g., Adobe Premiere, DaVinci Resolve)</li>
+                <li>Graphics software (e.g., Photoshop, Illustrator)</li>
+            </ul>
+
+            <h3>Asset Management</h3>
+            <ul>
+                <li>File naming convention system</li>
+                <li>Version control for assets</li>
+                <li>Backup and archive system</li>
+                <li>Asset organization structure</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
