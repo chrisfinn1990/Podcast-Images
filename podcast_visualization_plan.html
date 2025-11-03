@@ -143,7 +143,7 @@
             <h3>Media Sidebar</h3>
             <ul>
                 <li><strong>Location:</strong> A persistent sidebar on the left side of the UI.</li>
-                <li><strong>Tabs:</strong> The sidebar will have tabs on the far left for 'Image', 'Text', and 'Video'.</li>
+                <li><strong>Tabs:</strong> The sidebar will have tabs on the far left for 'Image', 'Text', and 'Audio'.</li>
                 <li><strong>File Caching:</strong> Each tab will display files of its type that are currently cached in the project media.</li>
                 <li><strong>Generate New:</strong> At the end of the list of cached files in each tab, a 'Generate New' button with a black plus icon will be available to create new assets.</li>
             </ul>
@@ -154,6 +154,44 @@
                 <li><strong>Deselection:</strong> Clicking on a highlighted section will remove the highlight.</li>
                 <li><strong>Generate Button:</strong> A "Generate New Images" button will be available. When clicked, all highlighted text segments are collected and sent to the image generation module.</li>
                 <li><strong>Note:</strong> The highlighted text is linked to whichever "Generate New" button is clicked. This allows for context-sensitive image generation depending on the user's workflow.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="phase">
+        <h2>Core UI Architecture: Audio Integration</h2>
+        <div class="steps">
+            <h3>Audio Lifecycle</h3>
+            <ul>
+                <li><strong>Generation and Acceptance:</strong> Audio clips are generated based on highlighted transcript phrases. Once accepted, they are added to the project's media library.</li>
+                <li><strong>Timeline Integration:</strong> Accepted audio clips are placed on the main timeline for active use in the video sequence.</li>
+                <li><strong>Dynamic Regeneration:</strong> If the user highlights a new section of the transcript, the associated audio can be regenerated to reflect the new context.</li>
+            </ul>
+            <h3>Dynamic Highlighting</h3>
+            <ul>
+                <li><strong>Audio-Description Link:</strong> A visual highlight on the audio waveform is directly linked to its corresponding description.</li>
+                <li><strong>Automatic Updates:</strong> When the audio's description is updated, the highlight on the audio will also update to reflect the changes.</li>
+            </ul>
+            <h3>Notes</h3>
+            <ul>
+                <li><strong>Functions:</strong> Key functions would include <code>generateAudio()</code>, <code>updateAudioDescription()</code>, and <code>regenerateAudioFromTranscript()</code>.</li>
+                <li><strong>Tools:</strong> This would integrate with the AI audio generation models and a central Digital Asset Management (DAM) system for the media library.</li>
+                <li><strong>Features:</strong> User-facing features would include an interactive timeline, in-place audio editing/regeneration, and a version history for generated assets.</li>
+            </ul>
+            <h3>Media Sidebar</h3>
+            <ul>
+                <li><strong>Location:</strong> A persistent sidebar on the left side of the UI.</li>
+                <li><strong>Tabs:</strong> The sidebar will have tabs on the far left for 'Image', 'Audio', 'Text', and 'Video'.</li>
+                <li><strong>File Caching:</strong> Each tab will display files of its type that are currently cached in the project media.</li>
+                <li><strong>Generate New:</strong> At the end of the list of cached files in each tab, a 'Generate New' button with a black plus icon will be available to create new assets.</li>
+            </ul>
+            <h3>Highlight Tool</h3>
+            <ul>
+                <li><strong>Selection:</strong> Users can click and drag to select any portion of the transcript text.</li>
+                <li><strong>Highlighting:</strong> Upon selection, the text will be visually highlighted (e.g., with a yellow background) to indicate that it has been chosen for audio generation.</li>
+                <li><strong>Deselection:</strong> Clicking on a highlighted section will remove the highlight.</li>
+                <li><strong>Generate Button:</strong> A "Generate New Audio" button will be available. When clicked, all highlighted text segments are collected and sent to the audio generation module.</li>
+                <li><strong>Note:</strong> The highlighted text is linked to whichever "Generate New" button is clicked. This allows for context-sensitive audio generation depending on the user's workflow.</li>
             </ul>
         </div>
     </div>
