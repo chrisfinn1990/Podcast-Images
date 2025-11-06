@@ -1,2 +1,72 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns:html="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>autopod</title><link rel="stylesheet" href="Resources/style.css" /><script type="application/javascript" src="Resources/script.js"></script></head><body><h1 id="documentTitle">autopod</h1><p id="documentMetadata">Exported at: Tue Nov 04 2025 15:42:17 GMT-0500 (Eastern Standard Time)</p><div class="Page" id="autopod_transcript_page"><h2>AutoPod Transcript</h2><div class="ImageContainer"><img src="pages\autopod_transcript.png" width="1150" height="584" usemap="#map_autopod_transcript" /></div><p class="Notes"></p><div><span style="font-weight: bold;">//this will be the default layout home page//</span></div><p></p><map name="map_autopod_transcript"></map></div><div class="Page" id="autopod_timeline_page"><h2>AutoPod Timeline</h2><div class="ImageContainer"><img src="pages\autopod_timeline.png" width="1150" height="584" usemap="#map_autopod_timeline" /></div><p class="Notes"></p><div><div style="text-align: left;"><span style="font-weight: bold;"><span style="font-size: 11pt;">//This will be where all the media generated is timelined</span><span style="font-size: 11pt; font-family: &quot;Android Roboto&quot;;">//</span></span></div></div><p></p><map name="map_autopod_timeline"></map></div><div class="Page" id="autopod_generative_options_pt1_page"><h2>AutoPod Generative Options pt1</h2><div class="ImageContainer"><img src="pages\autopod_generative_options_pt1.png" width="1150" height="584" usemap="#map_autopod_generative_options_pt1" /></div><p class="Notes"></p><div><span style="font-weight: bold;">//This will be where the generation options are kept//</span></div><p></p><map name="map_autopod_generative_options_pt1"></map></div><div class="Page" id="autopod_generative_options_pt2_page"><h2>AutoPod Generative Options pt2</h2><div class="ImageContainer"><img src="pages\autopod_generative_options_pt2.png" width="1150" height="584" usemap="#map_autopod_generative_options_pt2" /></div><map name="map_autopod_generative_options_pt2"></map></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPod</title>
+    <link rel="stylesheet" href="Resources/style.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="dropdown" role="navigation" aria-label="File menu">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">File</button>
+                <div class="dropdown-content" role="menu">
+                    <a href="#" role="menuitem">New</a>
+                    <a href="#" role="menuitem">Open</a>
+                    <a href="#" role="menuitem">Save</a>
+                    <a href="#" role="menuitem">Save As</a>
+                    <a href="#" role="menuitem">Import</a>
+                    <a href="#" role="menuitem">Export</a>
+                </div>
+            </div>
+            <div class="dropdown" role="navigation" aria-label="Mode selection">
+                <button class="dropbtn" id="mode-button" aria-haspopup="true" aria-expanded="false">Mode</button>
+                <div class="dropdown-content" role="menu">
+                    <a href="#" data-mode="transcript" role="menuitem">Transcript</a>
+                    <a href="#" data-mode="timeline" role="menuitem">Timeline</a>
+                    <a href="#" data-mode="generative" role="menuitem">Generative</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="tabs" role="tablist">
+                <button class="tab-button active" data-tab="image" role="tab" aria-selected="true" aria-controls="image-tab">Image</button>
+                <button class="tab-button" data-tab="text" role="tab" aria-selected="false" aria-controls="text-tab">Text</button>
+                <button class="tab-button" data-tab="audio" role="tab" aria-selected="false" aria-controls="audio-tab">Audio</button>
+            </div>
+            <div class="media-library">
+                <div id="image-tab" class="tab-content active" role="tabpanel" aria-labelledby="image-tab">
+                    <button class="generate-new">Generate New +</button>
+                </div>
+                <div id="text-tab" class="tab-content" role="tabpanel" aria-labelledby="text-tab">
+                    <button class="generate-new">Generate New +</button>
+                </div>
+                <div id="audio-tab" class="tab-content" role="tabpanel" aria-labelledby="audio-tab">
+                    <button class="generate-new">Generate New +</button>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div id="transcript-mode" class="mode-content active">
+                <h1>Transcript</h1>
+                <div class="ImageContainer"><img src="pages/autopod_transcript.png" width="1150" height="584" /></div>
+            </div>
+            <div id="timeline-mode" class="mode-content">
+                <h1>Timeline</h1>
+                <div class="ImageContainer"><img src="pages/autopod_timeline.png" width="1150" height="584" /></div>
+            </div>
+            <div id="generative-mode" class="mode-content">
+                <h1>Generative Options</h1>
+                <div class="ImageContainer"><img src="pages/autopod_generative_options_pt1.png" width="1150" height="584" /></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="Resources/script.js"></script>
+</body>
+</html>

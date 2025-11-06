@@ -1,169 +1,127 @@
-/*
-    place extra stylesheet here
-*/
-
-body, html {
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    font-family: "Product Sans", "Liberation Sans", Arial, sans-serif;
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #2c2c2c;
 }
 
-#documentMetadata,
-#documentTitle {
-    display: none;
+.container {
+    display: flex;
 }
 
-.Page {
-    position: absolute;
-    left: 230px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    background: #00000077;
-    text-align: center;
-}
-body:not(.ExpandMode) .Page {
-    display: flex;    
-    flex-direction: column;
+/* Header */
+header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-}
-body.ExpandMode .Page {
-    overflow: auto;
-    padding: 20px;
-    text-align: center;
-}
-.Page:not(:target) {
-    display: none !important;
 }
 
-.Page > h2 {
-    display: none;
+.menu {
+    display: flex;
 }
-.Page .ImageContainer {
-    box-shadow: 0px 0px 1em #00000077;
-}
-body.ExpandMode .Page .ImageContainer {
-    display: inline-block;
-    margin-bottom: 20px;
-}
-.Page .ImageContainer {
+
+.dropdown {
     position: relative;
-}
-.Page .ImageContainer > .Links > a {
-    position: absolute;
-    background-color: transparent;
-    transition: background-color 0.2s ease;
-}
-body.Active .Page .ImageContainer > .Links > a {
-    background-color: #E79A0F11;
-}
-.Page .ImageContainer > .Links > a:hover {
-    background-color: #FFFFFF55 !important;
+    display: inline-block;
 }
 
-.TOC {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    width: 230px;
-    display: flex;
-    flex-direction: column;
-    
-    overflow-y: auto;
-    overflow-x: visible;
-    z-index: 2;
-    background: #444;
-}
-.TOC > div {
-    display: flex;
-    flex-direction: column;
-}
-.TOC > div.Focused > a {
-    background: #5294E2;
-}
-.TOC > div:not(.Focused):hover > a {
-    background: #5294E266;
-}
-.TOC > div:not(.Focused):not(:hover) {
-    opacity: 0.7;
-}
-.TOC > div + div {
-    margin-top: 1em;
+.dropbtn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-.TOC > div > a {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1em;
-    background: transparent;
-    transition: background 0.2s ease;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
     text-decoration: none;
-}
-.TOC > div > a > img {
     display: block;
-    border: solid 2px #FFF;
-    box-shadow: 0px 0px 5px #000;
 }
-.TOC > div > a > strong {
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
     display: block;
-    text-align: center;
-    color: #FFF;
-    font-weight: normal;
-    margin-top: 0.3em;
 }
 
-.ToggleZoomButton {
-    position: fixed;
-    top: 0.5em;
-    right: 0.5em;
-    width: 1.5em;
-    height: 1.5em;
-    padding: 0.3em;
-    box-sizing: content-box;
-    background: url(expand.png) 50% 50% no-repeat #CCCCCC;
-    background-origin: content-box;
-    background-size: contain;
-    
-    border: solid 1px #777;
-}
-.ToggleZoomButton:active {
-    margin-top: 1px;
-    margin-left: 1px;
-}
-.ToggleZoomButton:not(:hover) {
-    opacity: 0.3;
-}
-body.ExpandMode .ToggleZoomButton {
-    background-image: url(fit.png)
+.dropdown:hover .dropbtn {
+    background-color: #0056b3;
 }
 
 
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    padding: 10px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.tab-button {
+    background-color: #444;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.tab-button.active {
+    background-color: #555;
+}
+
+.media-library {
+    background-color: #444;
+    padding: 10px;
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+}
 
 
 
+.generate-new {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
 
+/* Main Content */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #3c3c3c;
+    color: white;
+}
 
+.mode-content, .tab-content {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.mode-content.active, .tab-content.active {
+    display: block;
+    opacity: 1;
+}
