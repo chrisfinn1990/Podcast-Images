@@ -105,7 +105,7 @@ header {
 .sidebar {
     width: 250px;
     background-color: #333333; /* Darker grey for sidebar */
-    padding: 20px; /* Default padding for expanded state */
+    padding: 0; /* Set padding to 0 */
     display: flex;
     flex-direction: column;
     border-right: 1px solid #D68D8D; /* Reddish-brown border */
@@ -119,9 +119,13 @@ header {
 
 .sidebar-header {
     display: flex;
+    flex-direction: row; /* Explicitly set flex direction to row */
     justify-content: space-between; /* Space out items */
     align-items: center; /* Vertically align items */
     margin-bottom: 20px;
+    background-color: #444444; /* Add a background color for visibility */
+    padding: 10px; /* Add some padding to the header itself */
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
 }
 
 .collapse-btn {
@@ -222,6 +226,7 @@ header {
     background-color: #333333;
     transition: width 0.3s ease; /* Transition for width change */
     overflow-y: auto; /* Enable scrolling for panel content */
+    padding: 20px; /* Add padding to the panel container */
 }
 
 /* Sidebar Panels */
@@ -403,18 +408,18 @@ header {
 }
 
 /* Tab Header hover and active effects */
-#timeline-view svg #g37 path[pencil\\:name="rect_inactive"]:hover,
-#timeline-view svg #g43 path[pencil\\:name="rect_inactive"]:hover,
-#timeline-view svg #g49 path[pencil\\:name="rect_inactive"]:hover {
+#timeline-view svg #g37 path[pencil\:name="rect_inactive"]:hover,
+#timeline-view svg #g43 path[pencil\:name="rect_inactive"]:hover,
+#timeline-view svg #g49 path[pencil\:name="rect_inactive"]:hover {
     fill: #FFAF87; /* Lighter orange for hover */
     cursor: pointer;
 }
 
-#timeline-view svg .active-tab-header path[pencil\\:name="rect_inactive"] {
+#timeline-view svg .active-tab-header path[pencil\:name="rect_inactive"] {
     display: none;
 }
 
-#timeline-view svg .active-tab-header g[pencil\\:name="rect_active"] {
+#timeline-view svg .active-tab-header g[pencil\:name="rect_active"] {
     display: inline;
     visibility: visible;
 }
@@ -428,18 +433,18 @@ header {
 }
 
 /* Tab Header hover and active effects for generative-options-pt2-view */
-#generative-options-pt2-view svg #g110 path[pencil\\:name="rect_inactive"]:hover,
-#generative-options-pt2-view svg #g116 path[pencil\\:name="rect_inactive"]:hover,
-#generative-options-pt2-view svg #g122 path[pencil\\:name="rect_inactive"]:hover {
+#generative-options-pt2-view svg #g110 path[pencil\:name="rect_inactive"]:hover,
+#generative-options-pt2-view svg #g116 path[pencil\:name="rect_inactive"]:hover,
+#generative-options-pt2-view svg #g122 path[pencil\:name="rect_inactive"]:hover {
     fill: #FFAF87; /* Lighter orange for hover */
     cursor: pointer;
 }
 
-#generative-options-pt2-view svg .active-tab-header path[pencil\\:name="rect_inactive"] {
+#generative-options-pt2-view svg .active-tab-header path[pencil\:name="rect_inactive"] {
     display: none;
 }
 
-#generative-options-pt2-view svg .active-tab-header g[pencil\\:name="rect_active"] {
+#generative-options-pt2-view svg .active-tab-header g[pencil\:name="rect_active"] {
     display: inline;
     visibility: visible;
 }
@@ -470,18 +475,18 @@ header {
 }
 
 /* Tab Header hover and active effects for generative-options-pt1-view */
-#generative-options-pt1-view svg #g66 path[pencil\\:name="rect_inactive"]:hover,
-#generative-options-pt1-view svg #g72 path[pencil\\:name="rect_inactive"]:hover,
-#generative-options-pt1-view svg #g78 path[pencil\\:name="rect_inactive"]:hover {
+#generative-options-pt1-view svg #g66 path[pencil\:name="rect_inactive"]:hover,
+#generative-options-pt1-view svg #g72 path[pencil\:name="rect_inactive"]:hover,
+#generative-options-pt1-view svg #g78 path[pencil\:name="rect_inactive"]:hover {
     fill: #FFAF87; /* Lighter orange for hover */
     cursor: pointer;
 }
 
-#generative-options-pt1-view svg .active-tab-header path[pencil\\:name="rect_inactive"] {
+#generative-options-pt1-view svg .active-tab-header path[pencil\:name="rect_inactive"] {
     display: none;
 }
 
-#generative-options-pt1-view svg .active-tab-header g[pencil\\:name="rect_active"] {
+#generative-options-pt1-view svg .active-tab-header g[pencil\:name="rect_active"] {
     display: inline;
     visibility: visible;
 }
@@ -509,18 +514,18 @@ header {
 }
 
 /* Tab Header hover and active effects for transcript-view */
-#transcript-view svg #b4b80cf0635647649a016ff7061dd8a9 path[pencil\\:name="rect_inactive"]:hover,
-#transcript-view svg #c8b1d79468504591b480bc373d1a2ec3 path[pencil\\:name="rect_inactive"]:hover,
-#transcript-view svg #c1ab7ad60d1c43be94d35bc425e22367 path[pencil\\:name="rect_inactive"]:hover {
+#transcript-view svg #b4b80cf0635647649a016ff7061dd8a9 path[pencil\:name="rect_inactive"]:hover,
+#transcript-view svg #c8b1d79468504591b480bc373d1a2ec3 path[pencil\:name="rect_inactive"]:hover,
+#transcript-view svg #c1ab7ad60d1c43be94d35bc425e22367 path[pencil\:name="rect_inactive"]:hover {
     fill: #FFAF87; /* Lighter orange for hover */
     cursor: pointer;
 }
 
-#transcript-view svg .active-tab-header path[pencil\\:name="rect_inactive"] {
+#transcript-view svg .active-tab-header path[pencil\:name="rect_inactive"] {
     display: none;
 }
 
-#transcript-view svg .active-tab-header g[pencil\\:name="rect_active"] {
+#transcript-view svg .active-tab-header g[pencil\:name="rect_active"] {
     display: inline;
     visibility: visible;
 }
@@ -537,11 +542,11 @@ header {
 }
 
 /* Hide mock window frame and sidebar within injected SVGs */
-.view svg g[pencil\\:def="dgthanhan.GenericWireframe\\:windowframe"] {
+.view svg g[pencil\:def="dgthanhan.GenericWireframe\:windowframe"] {
     display: none;
 }
 
-.view svg g[pencil\\:def="mdelorme.Ext.Widgets\\:Panel"] {
+.view svg g[pencil\:def="mdelorme.Ext.Widgets\:Panel"] {
     display: none;
 }
 
@@ -551,4 +556,30 @@ header {
 .view svg > g {
     transform: translate(-180px, -40px) scale(1.05); /* Example values, will need adjustment */
     transform-origin: top left;
+}
+
+/* Styles for minimized sidebar */
+.sidebar.minimized {
+    width: 20px;
+    overflow: hidden; /* Hide content that overflows the minimized width */
+}
+
+.sidebar.minimized .sidebar-header {
+    padding: 0; /* Remove padding from header when minimized */
+}
+
+.sidebar.minimized .sidebar-tabs {
+    display: none; /* Hide tabs when minimized */
+}
+
+.sidebar.minimized .sidebar-panel-container {
+    display: none; /* Hide panel container when minimized */
+}
+
+.sidebar.minimized .menu {
+    display: none; /* Hide main menu when minimized */
+}
+
+.sidebar.minimized .collapse-btn {
+    margin: 0 auto; /* Center the collapse button */
 }

@@ -10,13 +10,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updateSidebarState() {
         if (isSidebarMinimized) {
-            sidebar.style.width = '20px';
-            sidebar.style.padding = '20px 0';
+            sidebar.classList.add('minimized');
             mainContent.style.left = '20px'; // Adjust main content position
             mainContent.style.width = 'calc(100% - 20px)'; // Adjust main content width
         } else {
-            sidebar.style.width = '250px';
-            sidebar.style.padding = '20px';
+            sidebar.classList.remove('minimized');
             mainContent.style.left = '250px'; // Adjust main content position
             mainContent.style.width = 'calc(100% - 250px)'; // Adjust main content width
         }
