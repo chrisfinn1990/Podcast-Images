@@ -110,7 +110,7 @@ header {
     flex-direction: column;
     border-right: 1px solid #D68D8D; /* Reddish-brown border */
     transition: width 0.3s ease, left 0.3s ease, padding 0.3s ease; /* Added padding transition */
-    position: absolute;
+    position: relative; /* Explicitly set to relative */
     left: 0;
     top: 0;
     height: 100%;
@@ -119,15 +119,16 @@ header {
 
 .sidebar-header {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: flex-end; /* Align children to the right */
-    margin-bottom: 20px;
+    justify-content: flex-start; /* Align collapse button to the left */
+    margin-bottom: 0; /* Remove extra space */
 }
 
 .collapse-btn {
     background: none;
     border: none;
     cursor: pointer;
+    z-index: 35; /* Ensure it's above sidebar-tabs */
+    position: relative; /* Needed for z-index to work */
 }
 
 .collapse-btn img {
@@ -233,8 +234,8 @@ header {
     right: 40px; /* Adjust based on sidebar-tabs width */
     height: 100%;
     background-color: #333333;
-    transition: width 0.3s ease; /* Transition for width change */
     overflow-y: auto; /* Enable scrolling for panel content */
+    padding: 20px; /* Add padding to the panel container */
 }
 
 /* Sidebar Panels */
@@ -573,13 +574,14 @@ header {
 }
 
 .sidebar.minimized .sidebar-header {
-    /* No specific padding change needed here if collapse-btn is centered */
-    margin-bottom: 0; /* Remove margin when minimized */
+    padding: 0; /* Remove padding from header when minimized */
+    justify-content: center; /* Center the collapse button */
 }
 
 .sidebar.minimized .sidebar-tabs {
     /* Keep tabs visible, but hide text */
     width: 20px; /* Adjust width to fit minimized sidebar */
+    right: 0; /* Keep tabs on the right */
 }
 
 .sidebar.minimized .sidebar-tabs a {
