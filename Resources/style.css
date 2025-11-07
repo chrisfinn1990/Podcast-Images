@@ -119,8 +119,8 @@ header {
 
 .sidebar-header {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: flex-end; /* Align children to the right */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Vertically align items */
     margin-bottom: 20px;
 }
 
@@ -177,10 +177,8 @@ header {
 
 /* Sidebar Tabs */
 .sidebar-tabs {
-    display: flex; /* Hidden by default */
-    flex-direction: column; /* Arrange tabs vertically */
-    z-index: 30; /* Ensure tabs are above everything else */
-    transition: right 0.3s ease;
+    display: flex;
+    gap: 5px; /* Space between tabs */
 }
 
 .sidebar-tabs a {
@@ -189,21 +187,20 @@ header {
     justify-content: center;
     color: #F0F0F0;
     text-decoration: none;
-    padding: 10px 15px; /* Adjust padding for rotated tabs */
-    margin-bottom: 5px; /* Space between tabs */
+    padding: 8px 12px; /* Adjust padding for horizontal tabs */
     font-size: 14px;
     font-weight: 500;
-    background-color: #282828; /* Dark grey for inactive tabs */
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px; /* Rounded corners for the top of the tab */
-    border: 1px solid #D68D8D; /* Border for tabs */
+    background-color: #282828;
+    border-radius: 8px 8px 0 0; /* Rounded corners for the top of the tab */
+    border: 1px solid #D68D8D;
     border-bottom: none; /* No bottom border for tabs */
     box-sizing: border-box;
     white-space: nowrap;
+    height: auto; /* Auto height for horizontal tabs */
 }
 
 .sidebar-tabs a span {
-    transform: rotate(90deg); /* Rotate text back for readability */
+    transform: none; /* Remove rotation for horizontal tabs */
     transform-origin: center center;
 }
 
@@ -221,15 +218,10 @@ header {
 
 /* Sidebar Panels Container */
 .sidebar-panel-container {
-    position: absolute;
-    top: 0;
-    left: 250px; /* Initial position when sidebar is expanded */
-    width: 250px;
-    height: 100%;
+    flex-grow: 1; /* Allow panel container to take available space */
     background-color: #333333;
-    z-index: 25; /* Between sidebar and tabs */
-    display: none; /* Hidden by default */
-    transition: left 0.3s ease; /* Transition for left property */
+    transition: width 0.3s ease; /* Transition for width change */
+    overflow-y: auto; /* Enable scrolling for panel content */
 }
 
 /* Sidebar Panels */

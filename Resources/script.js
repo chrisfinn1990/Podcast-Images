@@ -8,37 +8,26 @@ document.addEventListener('DOMContentLoaded', function () {
     const sidebarPanelContainer = document.querySelector('.sidebar-panel-container');
     const mainContent = document.querySelector('.main-content');
 
-    // Set initial state based on isSidebarMinimized (which is false by default, meaning expanded)
-    if (isSidebarMinimized) {
-        sidebar.style.width = '20px';
-        sidebar.style.padding = '20px 0';
-        sidebarTabContainer.style.display = 'flex';
-        sidebarPanelContainer.style.display = 'block';
-        sidebarPanelContainer.style.left = '20px'; // Position next to collapsed sidebar
-    } else {
-        sidebar.style.width = '250px';
-        sidebar.style.padding = '20px';
-        sidebarTabContainer.style.display = 'none';
-        sidebarPanelContainer.style.display = 'none';
-        sidebarPanelContainer.style.left = '250px'; // Hide behind expanded sidebar
+    function updateSidebarState() {
+        if (isSidebarMinimized) {
+            sidebar.style.width = '20px';
+            sidebar.style.padding = '20px 0';
+            mainContent.style.left = '20px'; // Adjust main content position
+            mainContent.style.width = 'calc(100% - 20px)'; // Adjust main content width
+        } else {
+            sidebar.style.width = '250px';
+            sidebar.style.padding = '20px';
+            mainContent.style.left = '250px'; // Adjust main content position
+            mainContent.style.width = 'calc(100% - 250px)'; // Adjust main content width
+        }
     }
+
+    // Set initial state
+    updateSidebarState();
 
     collapseBtn.addEventListener('click', () => {
         isSidebarMinimized = !isSidebarMinimized; // Toggle the state
-
-        if (isSidebarMinimized) {
-            sidebar.style.width = '20px';
-            sidebar.style.padding = '20px 0'; // Adjust padding for minimized state
-            sidebarTabContainer.style.display = 'flex';
-            sidebarPanelContainer.style.display = 'block';
-            sidebarPanelContainer.style.left = '20px'; // Position next to collapsed sidebar
-        } else {
-            sidebar.style.width = '250px';
-            sidebar.style.padding = '20px'; // Restore padding for expanded state
-            sidebarTabContainer.style.display = 'none';
-            sidebarPanelContainer.style.display = 'none';
-            sidebarPanelContainer.style.left = '250px'; // Hide behind expanded sidebar
-        }
+        updateSidebarState();
     });
 
     const menuLinks = document.querySelectorAll('.menu a');
