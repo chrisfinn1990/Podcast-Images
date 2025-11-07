@@ -121,6 +121,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    height: 40px; /* Explicit height for the header */
     display: flex;
     justify-content: flex-start; /* Align collapse button to the left */
     box-sizing: border-box; /* Include padding in width calculation */
@@ -142,7 +143,7 @@ header {
 
 .menu {
     position: absolute;
-    top: 60px; /* Adjust based on sidebar-header height */
+    top: 40px; /* Adjust based on sidebar-header height */
     left: 0;
     right: 40px; /* Adjust based on sidebar-tabs width */
     bottom: 0;
@@ -230,7 +231,7 @@ header {
 /* Sidebar Panels Container */
 .sidebar-panel-container {
     position: absolute;
-    top: 0;
+    top: 40px; /* Adjust based on sidebar-header height */
     left: 0;
     right: 40px; /* Adjust based on sidebar-tabs width */
     height: 100%;
