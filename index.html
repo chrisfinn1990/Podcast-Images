@@ -42,13 +42,44 @@
         <aside class="sidebar">
             <div class="sidebar-header">
                 <button id="collapse-btn" class="collapse-btn"><img src="Resources/collapse_filler.svg" alt="Collapse"></button>
+                <div class="sidebar-tabs">
+                    <a href="#" class="active" data-panel="sidebar-panel-text"><span>Text Media</span></a>
+                    <a href="#" data-panel="sidebar-panel-image"><span>Image Media</span></a>
+                    <a href="#" data-panel="sidebar-panel-audio"><span>Audio Media</span></a>
+                </div>
             </div>
             <div class="menu">
-                <a href="#" class="active" data-view="transcript-view"><img src="Resources/transcript_filler.svg" alt=""> <span>Text</span></a>
-                <a href="#" data-view="generative-options-pt1-view"><img src="Resources/media_filler.svg" alt=""> <span>Image</span></a>
-                <a href="#" data-view="generative-options-pt2-view"><img src="Resources/audio_filler.svg" alt=""> <span>Audio</span></a>
+                <!-- Other menu items can go here if needed -->
             </div>
-        </aside>
+            <div class="sidebar-panel-container">
+                <div id="sidebar-panel-text" class="sidebar-panel active-panel">
+                    <h3>In-Project Text Media</h3>
+                    <p>List of text files in the project...</p>
+                    <ul>
+                        <li>transcript_episode_1.txt</li>
+                        <li>notes_episode_1.txt</li>
+                    </ul>
+                    <button>Add Text File</button>
+                </div>
+                <div id="sidebar-panel-image" class="sidebar-panel">
+                    <h3>In-Project Image Media</h3>
+                    <p>List of image files in the project...</p>
+                    <ul>
+                        <li>autopod_AutoPod Generative Options pt1.webp</li>
+                        <li>autopod_AutoPod Timeline.webp</li>
+                    </ul>
+                    <button>Add Image File</button>
+                </div>
+                <div id="sidebar-panel-audio" class="sidebar-panel">
+                    <h3>In-Project Audio Media</h3>
+                    <p>List of audio files in the project...</p>
+                    <ul>
+                        <li>episode_1_final.mp3</li>
+                        <li>background_music.mp3</li>
+                    </ul>
+                    <button>Add Audio File</button>
+                </div>
+            </div>
         <main class="main-content">
             <div id="transcript-view" class="view active-view"></div>
             <div id="timeline-view" class="view"></div>

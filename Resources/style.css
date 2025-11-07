@@ -96,6 +96,7 @@ header {
 }
 
 .container {
+    position: relative;
     display: flex;
     height: calc(100vh - 50px);
 }
@@ -104,37 +105,22 @@ header {
 .sidebar {
     width: 250px;
     background-color: #333333; /* Darker grey for sidebar */
-    padding: 20px;
+    padding: 20px; /* Default padding for expanded state */
     display: flex;
     flex-direction: column;
     border-right: 1px solid #D68D8D; /* Reddish-brown border */
-    transition: width 0.3s ease;
-}
-
-.sidebar.collapsed {
-    width: 20px; /* Adjusted for minimum width to fit 20px icon */
-}
-
-.sidebar.collapsed .menu a {
-    justify-content: center; /* Center icons when collapsed */
-    padding: 10px 0; /* Adjust padding for centering */
-}
-
-.sidebar.collapsed .menu a img {
-    margin-right: 0; /* Remove right margin for icons when collapsed */
-}
-
-.sidebar.collapsed .menu a span {
-    display: none;
-}
-
-.sidebar.collapsed .sidebar-header {
-    justify-content: center;
+    transition: width 0.3s ease, left 0.3s ease, padding 0.3s ease; /* Added padding transition */
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 20; /* Ensure sidebar is above main content */
 }
 
 .sidebar-header {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-end; /* Align children to the right */
     margin-bottom: 20px;
 }
 
@@ -179,10 +165,161 @@ header {
 
 /* Main Content */
 .main-content {
-    flex-grow: 1;
+    position: absolute; /* Changed to absolute */
+    left: 250px; /* Initial position when sidebar is expanded */
+    width: calc(100% - 250px); /* Initial width when sidebar is expanded */
+    height: 100%;
     padding: 30px;
     background-color: #282828; /* Dark grey background */
     overflow-y: auto;
+    transition: left 0.3s ease, width 0.3s ease; /* Added transitions */
+}
+
+/* Sidebar Tabs */
+.sidebar-tabs {
+    display: flex; /* Hidden by default */
+    flex-direction: column; /* Arrange tabs vertically */
+    z-index: 30; /* Ensure tabs are above everything else */
+    transition: right 0.3s ease;
+}
+
+.sidebar-tabs a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F0F0F0;
+    text-decoration: none;
+    padding: 10px 15px; /* Adjust padding for rotated tabs */
+    margin-bottom: 5px; /* Space between tabs */
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #282828; /* Dark grey for inactive tabs */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px; /* Rounded corners for the top of the tab */
+    border: 1px solid #D68D8D; /* Border for tabs */
+    border-bottom: none; /* No bottom border for tabs */
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.sidebar-tabs a span {
+    transform: rotate(90deg); /* Rotate text back for readability */
+    transform-origin: center center;
+}
+
+.sidebar-tabs a:hover {
+    background-color: #FF8C00; /* DarkOrange for hover */
+    color: #FFFFFF;
+}
+
+.sidebar-tabs a.active {
+    background-color: #FF8C00; /* DarkOrange for active */
+    color: #FFFFFF;
+    z-index: 1; /* Bring active tab to front */
+    border-color: #FF8C00; /* Active tab border color */
+}
+
+/* Sidebar Panels Container */
+.sidebar-panel-container {
+    position: absolute;
+    top: 0;
+    left: 250px; /* Initial position when sidebar is expanded */
+    width: 250px;
+    height: 100%;
+    background-color: #333333;
+    z-index: 25; /* Between sidebar and tabs */
+    display: none; /* Hidden by default */
+    transition: left 0.3s ease; /* Transition for left property */
+}
+
+/* Sidebar Panels */
+.sidebar-panel {
+    display: none; /* Hidden by default */
+    padding: 15px;
+    background-color: #333333; /* Darker grey for panel background */
+    border-top: 1px solid #D68D8D; /* Border to separate from menu */
+    flex-grow: 1; /* Allow panel to take available space */
+    overflow-y: auto; /* Enable scrolling for panel content */
+}
+
+.sidebar-panel.active-panel {
+    display: block; /* Show active panel */
+}
+
+.media-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #3a3a3a;
+}
+
+.media-section h4 {
+    margin-top: 0;
+    color: #FF8C00;
+}
+
+.media-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.media-section li {
+    padding: 5px 0;
+    border-bottom: 1px solid #444;
+}
+
+.media-section li:last-child {
+    border-bottom: none;
+}
+
+.media-section button {
+    background-color: #FF8C00;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.media-section button:hover {
+    background-color: #e67e00;
+}
+
+.media-section .slider {
+    width: 100%;
+    -webkit-appearance: none;
+    height: 8px;
+    background: #555;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 4px;
+}
+
+.media-section .slider:hover {
+    opacity: 1;
+}
+
+.media-section .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #FF8C00;
+    cursor: pointer;
+}
+
+.media-section .slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #FF8C00;
+    cursor: pointer;
 }
 
 .transcript-header {
@@ -271,6 +408,140 @@ header {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+/* Tab Header hover and active effects */
+#timeline-view svg #g37 path[pencil\\:name="rect_inactive"]:hover,
+#timeline-view svg #g43 path[pencil\\:name="rect_inactive"]:hover,
+#timeline-view svg #g49 path[pencil\\:name="rect_inactive"]:hover {
+    fill: #FFAF87; /* Lighter orange for hover */
+    cursor: pointer;
+}
+
+#timeline-view svg .active-tab-header path[pencil\\:name="rect_inactive"] {
+    display: none;
+}
+
+#timeline-view svg .active-tab-header g[pencil\\:name="rect_active"] {
+    display: inline;
+    visibility: visible;
+}
+
+/* Scrollbar hover effects for generative-options-pt2-view */
+#generative-options-pt2-view svg #89634aa48c7d45ff908546b5190be634:hover,
+#generative-options-pt2-view svg #b92e63da85664210bb574f40d275b4d5:hover,
+#generative-options-pt2-view svg #1249d2bc4c954187aa5b5fe06c941850:hover {
+    fill: #FFAF87; /* Lighter orange for hover */
+    cursor: pointer;
+}
+
+/* Tab Header hover and active effects for generative-options-pt2-view */
+#generative-options-pt2-view svg #g110 path[pencil\\:name="rect_inactive"]:hover,
+#generative-options-pt2-view svg #g116 path[pencil\\:name="rect_inactive"]:hover,
+#generative-options-pt2-view svg #g122 path[pencil\\:name="rect_inactive"]:hover {
+    fill: #FFAF87; /* Lighter orange for hover */
+    cursor: pointer;
+}
+
+#generative-options-pt2-view svg .active-tab-header path[pencil\\:name="rect_inactive"] {
+    display: none;
+}
+
+#generative-options-pt2-view svg .active-tab-header g[pencil\\:name="rect_active"] {
+    display: inline;
+    visibility: visible;
+}
+
+/* Scaleround handle hover effects for generative-options-pt2-view */
+#generative-options-pt2-view svg #c16788af9b984616b5c2df154d2c4c6e:hover,
+#generative-options-pt2-view svg #d52d36924ec34945b2c9469a057d560b:hover,
+#generative-options-pt2-view svg #4817649a8bcb411fa4290f812317f4bc:hover {
+    fill: #FF8C00; /* DarkOrange for hover */
+    cursor: grab;
+}
+
+/* Combo Entry dropdown arrow hover effects for generative-options-pt2-view */
+#generative-options-pt2-view svg #cad00df1fb7842e490b26adc355f696c:hover,
+#generative-options-pt2-view svg #58b4c0ffab9b41349f375a4314f22df7:hover,
+#generative-options-pt2-view svg #cb7dacdeeef34b35971ef38cb9f467ea:hover,
+#generative-options-pt2-view svg #b2e583ea7c1c412f96b9986d15aace92:hover {
+    fill: #FF8C00; /* DarkOrange for hover */
+    cursor: pointer;
+}
+
+/* Scrollbar hover effects for generative-options-pt1-view */
+#generative-options-pt1-view svg #2ec48869d0c94345b824c58b56afbee8:hover,
+#generative-options-pt1-view svg #53cd68f5e25149ccae36f1ceb754e79b:hover,
+#generative-options-pt1-view svg #b1ec10e655414fa18ce022ee92f9a4ee:hover {
+    fill: #FFAF87; /* Lighter orange for hover */
+    cursor: pointer;
+}
+
+/* Tab Header hover and active effects for generative-options-pt1-view */
+#generative-options-pt1-view svg #g66 path[pencil\\:name="rect_inactive"]:hover,
+#generative-options-pt1-view svg #g72 path[pencil\\:name="rect_inactive"]:hover,
+#generative-options-pt1-view svg #g78 path[pencil\\:name="rect_inactive"]:hover {
+    fill: #FFAF87; /* Lighter orange for hover */
+    cursor: pointer;
+}
+
+#generative-options-pt1-view svg .active-tab-header path[pencil\\:name="rect_inactive"] {
+    display: none;
+}
+
+#generative-options-pt1-view svg .active-tab-header g[pencil\\:name="rect_active"] {
+    display: inline;
+    visibility: visible;
+}
+
+/* Scaleround handle hover effects for generative-options-pt1-view */
+#generative-options-pt1-view svg #64a0b854f2664edf9b210ed76368eab1:hover,
+#generative-options-pt1-view svg #0862731e5c8a44449ad7312cf6dcea33:hover {
+    fill: #FF8C00; /* DarkOrange for hover */
+    cursor: grab;
+}
+
+/* Combo Entry dropdown arrow hover effects for generative-options-pt1-view */
+#generative-options-pt1-view svg #da5d371e1f8a4845b797a6001c1b20ee:hover,
+#generative-options-pt1-view svg #794b2fa0cd7744e0add32f995212faac:hover {
+    fill: #FF8C00; /* DarkOrange for hover */
+    cursor: pointer;
+}
+
+/* Scrollbar hover effects for transcript-view */
+#transcript-view svg #46b6a224fbae4feaa0acd7fa7ce4515f:hover,
+#transcript-view svg #8591b210856443b5bb67333f06f766a1:hover,
+#transcript-view svg #26af0fce9fed4239a4130cee62ab353b:hover {
+    fill: #FFAF87; /* Lighter orange for hover */
+    cursor: pointer;
+}
+
+/* Tab Header hover and active effects for transcript-view */
+#transcript-view svg #b4b80cf0635647649a016ff7061dd8a9 path[pencil\\:name="rect_inactive"]:hover,
+#transcript-view svg #c8b1d79468504591b480bc373d1a2ec3 path[pencil\\:name="rect_inactive"]:hover,
+#transcript-view svg #c1ab7ad60d1c43be94d35bc425e22367 path[pencil\\:name="rect_inactive"]:hover {
+    fill: #FFAF87; /* Lighter orange for hover */
+    cursor: pointer;
+}
+
+#transcript-view svg .active-tab-header path[pencil\\:name="rect_inactive"] {
+    display: none;
+}
+
+#transcript-view svg .active-tab-header g[pencil\\:name="rect_active"] {
+    display: inline;
+    visibility: visible;
+}
+
+/* Scrollbar hover effects */
+#timeline-view svg #dd68a86fa1cd45928ea819533f83d610:hover,
+#timeline-view svg #11a1d588699941c1a4245d53c839bc0d:hover,
+#timeline-view svg #0bcf1cf21dce4be4866fdfc900a583aa:hover,
+#timeline-view svg #d0e320ee01674173b1622f6994af87ca:hover,
+#timeline-view svg #e201deba1ce7496ba5026770cff9c3b5:hover,
+#timeline-view svg #9e955a77617f435b9cab4362c1b9b7ca:hover {
+    fill: #FFAF87; /* Lighter orange for hover */
+    cursor: pointer;
 }
 
 /* Hide mock window frame and sidebar within injected SVGs */
