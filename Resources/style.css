@@ -119,13 +119,9 @@ header {
 
 .sidebar-header {
     display: flex;
-    flex-direction: row; /* Explicitly set flex direction to row */
-    justify-content: space-between; /* Space out items */
-    align-items: center; /* Vertically align items */
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-end; /* Align children to the right */
     margin-bottom: 20px;
-    background-color: #444444; /* Add a background color for visibility */
-    padding: 10px; /* Add some padding to the header itself */
-    border-radius: 8px 8px 0 0; /* Rounded top corners */
 }
 
 .collapse-btn {
@@ -181,8 +177,15 @@ header {
 
 /* Sidebar Tabs */
 .sidebar-tabs {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
     display: flex;
-    gap: 5px; /* Space between tabs */
+    flex-direction: column;
+    justify-content: center; /* Center tabs vertically */
+    z-index: 30;
+    width: 40px; /* Adjust width for vertical tabs */
 }
 
 .sidebar-tabs a {
@@ -191,20 +194,22 @@ header {
     justify-content: center;
     color: #F0F0F0;
     text-decoration: none;
-    padding: 8px 12px; /* Adjust padding for horizontal tabs */
+    padding: 15px 0; /* Adjust padding for vertical tabs */
+    margin-bottom: 5px; /* Space between tabs */
     font-size: 14px;
     font-weight: 500;
     background-color: #282828;
-    border-radius: 8px 8px 0 0; /* Rounded corners for the top of the tab */
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; /* Rounded corners for the left of the tab */
     border: 1px solid #D68D8D;
-    border-bottom: none; /* No bottom border for tabs */
+    border-right: none; /* No right border for tabs */
     box-sizing: border-box;
     white-space: nowrap;
-    height: auto; /* Auto height for horizontal tabs */
+    height: 100px; /* Fixed height for each tab */
 }
 
 .sidebar-tabs a span {
-    transform: none; /* Remove rotation for horizontal tabs */
+    transform: rotate(-90deg); /* Rotate text for vertical tabs */
     transform-origin: center center;
 }
 
@@ -222,11 +227,14 @@ header {
 
 /* Sidebar Panels Container */
 .sidebar-panel-container {
-    flex-grow: 1; /* Allow panel container to take available space */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 40px; /* Adjust based on sidebar-tabs width */
+    height: 100%;
     background-color: #333333;
     transition: width 0.3s ease; /* Transition for width change */
     overflow-y: auto; /* Enable scrolling for panel content */
-    padding: 20px; /* Add padding to the panel container */
 }
 
 /* Sidebar Panels */
@@ -565,11 +573,23 @@ header {
 }
 
 .sidebar.minimized .sidebar-header {
-    padding: 0; /* Remove padding from header when minimized */
+    /* No specific padding change needed here if collapse-btn is centered */
+    margin-bottom: 0; /* Remove margin when minimized */
 }
 
 .sidebar.minimized .sidebar-tabs {
-    display: none; /* Hide tabs when minimized */
+    /* Keep tabs visible, but hide text */
+    width: 20px; /* Adjust width to fit minimized sidebar */
+}
+
+.sidebar.minimized .sidebar-tabs a {
+    padding: 15px 0; /* Keep vertical padding */
+    border-radius: 0; /* Remove border radius for minimized state */
+    border: none; /* Remove borders */
+}
+
+.sidebar.minimized .sidebar-tabs a span {
+    display: none; /* Hide text content of vertical tabs */
 }
 
 .sidebar.minimized .sidebar-panel-container {
