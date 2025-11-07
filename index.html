@@ -8,70 +8,52 @@
 </head>
 <body>
     <header>
+        <div class="menu-container">
+            <button class="hamburger-menu">☰</button>
+            <nav class="dropdown-menu">
+                <ul>
+                    <li>File Options
+                        <ul>
+                            <li>New</li>
+                            <li>Open</li>
+                            <li>Save</li>
+                            <li>Save As</li>
+                            <li>Import</li>
+                            <li>Export</li>
+                        </ul>
+                    </li>
+                    <li>Mode
+                        <ul>
+                            <li data-view="transcript-view">Transcript</li>
+                            <li data-view="timeline-view">Timeline</li>
+                            <li data-view="generative-options-pt1-view">Generative Options pt1</li>
+                            <li data-view="generative-options-pt2-view">Generative Options pt2</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <div class="logo">
-            <img src="Resources/logo.png" alt="AutoPod Logo">
+            <img src="autopod.svg" alt="AutoPod Logo">
             <h1>AutoPod</h1>
         </div>
     </header>
     <div class="container">
         <aside class="sidebar">
             <div class="sidebar-header">
-                <button id="collapse-btn" class="collapse-btn"><img src="Resources/collapse.png" alt="Collapse"></button>
+                <button id="collapse-btn" class="collapse-btn"><img src="Resources/collapse_filler.svg" alt="Collapse"></button>
             </div>
             <div class="menu">
-                <a href="#" class="active"><img src="Resources/transcript_icon.png" alt=""> <span>Transcript</span></a>
-                <a href="#"><img src="Resources/timeline_icon.png" alt=""> <span>Timeline</span></a>
-                <a href="#"><img src="Resources/media_icon.png" alt=""> <span>Media</span></a>
+                <a href="#" class="active" data-view="transcript-view"><img src="Resources/transcript_filler.svg" alt=""> <span>Text</span></a>
+                <a href="#" data-view="generative-options-pt1-view"><img src="Resources/media_filler.svg" alt=""> <span>Image</span></a>
+                <a href="#" data-view="generative-options-pt2-view"><img src="Resources/audio_filler.svg" alt=""> <span>Audio</span></a>
             </div>
         </aside>
         <main class="main-content">
-            <div class="transcript-header">
-                <h2>Transcript</h2>
-                <div class="transcript-actions">
-                    <button><img src="Resources/correct_icon.png" alt="Correct"></button>
-                    <button><img src="Resources/share_icon.png" alt="Share"></button>
-                    <button><img src="Resources/copy_icon.png" alt="Copy"></button>
-                    <button><img src="Resources/summarize_icon.png" alt="Summarize"></button>
-                </div>
-            </div>
-            <div class="transcript">
-                <div class="transcript-item">
-                    <div class="speaker-info">
-                        <span class="speaker">Speaker 1</span>
-                        <span class="timestamp">0:00</span>
-                    </div>
-                    <div class="transcript-text">
-                        <p>Welcome to the AutoPod, where we discuss the latest in AI and automation. Today, we have a special guest, Dr. Evelyn Reed, a leading researcher in generative models.</p>
-                    </div>
-                </div>
-                <div class="transcript-item">
-                    <div class="speaker-info">
-                        <span class="speaker">Speaker 2</span>
-                        <span class="timestamp">0:15</span>
-                    </div>
-                    <div class="transcript-text">
-                        <p>Thanks for having me. It's a pleasure to be here.</p>
-                    </div>
-                </div>
-                <div class="transcript-item">
-                    <div class="speaker-info">
-                        <span class="speaker">Speaker 1</span>
-                        <span class="timestamp">0:22</span>
-                    </div>
-                    <div class="transcript-text">
-                        <p>Let's dive right in. Generative AI has seen explosive growth. What do you think is the most exciting development in this field?</p>
-                    </div>
-                </div>
-                <div class="transcript-item highlight">
-                    <div class="speaker-info">
-                        <span class="speaker">Speaker 2</span>
-                        <span class="timestamp">0:35</span>
-                    </div>
-                    <div class="transcript-text">
-                        <p>For me, it's the multi-modal models. The ability to generate not just text, but also images, audio, and even video from a single prompt is a game-changer. It opens up so many creative possibilities.</p>
-                    </div>
-                </div>
-            </div>
+            <div id="transcript-view" class="view active-view"></div>
+            <div id="timeline-view" class="view"></div>
+            <div id="generative-options-pt1-view" class="view"></div>
+            <div id="generative-options-pt2-view" class="view"></div>
         </main>
     </div>
     <script src="Resources/script.js"></script>

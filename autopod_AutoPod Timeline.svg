@@ -1,0 +1,1699 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1161"
+   height="588"
+   id="exportedSVG"
+   version="1.1"
+   pencil:version="1.2.2"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:pencil="http://www.evolus.vn/Namespace/Pencil">
+  <defs
+     id="defs161">
+    <linearGradient
+       xlink:href="#6ec4e0d68dd14d0087ddc8f7a94eff86"
+       id="linearGradient1"
+       x1="-0.43165447"
+       y1="-0.579182"
+       x2="-0.43165447"
+       y2="45.175609"
+       gradientTransform="scale(1.1583489,0.86329772)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#6ec4e0d68dd14d0087ddc8f7a94eff86"
+       id="linearGradient2"
+       x1="-0.068680282"
+       y1="280.28423"
+       x2="-0.068680282"
+       y2="287.56434"
+       gradientTransform="scale(7.2801099,0.13736056)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#eeec15db41d24938a1882ce08c0cd4f3"
+       id="linearGradient3"
+       x1="-0.43165447"
+       y1="-0.579182"
+       x2="-0.43165447"
+       y2="45.175609"
+       gradientTransform="scale(1.1583489,0.86329772)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#eeec15db41d24938a1882ce08c0cd4f3"
+       id="linearGradient4"
+       x1="-0.068680282"
+       y1="280.28423"
+       x2="-0.068680282"
+       y2="287.56434"
+       gradientTransform="scale(7.2801099,0.13736056)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#6cd59da6b1634dfdae2d4f904834e198"
+       id="linearGradient5"
+       x1="-0.43165447"
+       y1="-0.579182"
+       x2="-0.43165447"
+       y2="45.175609"
+       gradientTransform="scale(1.1583489,0.86329772)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#6cd59da6b1634dfdae2d4f904834e198"
+       id="linearGradient6"
+       x1="-0.068680282"
+       y1="280.28423"
+       x2="-0.068680282"
+       y2="287.56434"
+       gradientTransform="scale(7.2801099,0.13736056)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer_autopod_timeline"
+     style="display:inline">
+    <g
+       id="g55">
+      <rect
+         x="0"
+         y="0"
+         width="1150"
+         height="584"
+         fill="none"
+         id="rect25" />
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:windowframe"
+         id="g27"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">1150,584</pencil:property>
+          <pencil:property
+             name="fillColor">#E8E8E8FF</pencil:property>
+          <pencil:property
+             name="strokeColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="strokeStyle">4|</pencil:property>
+          <pencil:property
+             name="textAlignment">1,1</pencil:property>
+          <pencil:property
+             name="textColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="textFont">Colortube|900|normal|15px|none|0</pencil:property>
+          <pencil:property
+             name="text0" />
+          <pencil:property
+             name="withMinimize">true</pencil:property>
+          <pencil:property
+             name="withMaxmimize">true</pencil:property>
+          <pencil:property
+             name="withClose">true</pencil:property>
+          <pencil:property
+             name="withShadow">true</pencil:property>
+        </pencil:metadata>
+        <rect
+           rx="0"
+           ry="0"
+           style="visibility:visible;fill:#000000;fill-opacity:0.109804;stroke:#4388cc;stroke-width:0;stroke-opacity:1"
+           width="1150"
+           height="584"
+           pencil:name="rectangle3"
+           id="9aa49ba316d946eaa87c68aa6027cbe1"
+           x="4"
+           y="4" />
+        <rect
+           rx="0"
+           ry="0"
+           style="fill:#e8e8e8;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           width="1146"
+           height="580"
+           pencil:name="rectangle0"
+           id="30d9f8de1d424510b9a556a0d7ba41e7"
+           x="2"
+           y="2" />
+        <rect
+           rx="0"
+           ry="0"
+           style="fill:#4388cc;fill-opacity:0.121569;stroke:#4388cc;stroke-width:0;stroke-opacity:1"
+           width="1146"
+           height="40"
+           pencil:name="rectangle1"
+           id="78a5ddc06744407290313c3d66a854d3"
+           x="2"
+           y="2" />
+        <g
+           dominant-baseline="auto"
+           pencil:name="text0text"
+           id="eefa047dc2cc4710801fa69de78ae0db"
+           style="color:#d68d8d;font-style:normal;font-weight:900;font-size:15px;font-family:Colortube;text-decoration:none;text-decoration-line:none;fill:#d68d8d;fill-opacity:1" />
+        <g
+           style="visibility:visible;fill:#ffffff;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           pencil:name="vector0"
+           id="e5fcb389c0d04666ae81f331fb424cc7"
+           transform="matrix(0.73333333,0,0,0.73333333,1124,17)">
+          <path
+             d="M 0,15 15,0 M 1,0 15,15"
+             id="path26" />
+        </g>
+        <g
+           style="visibility:visible;fill:#ffffff;fill-opacity:1;stroke:#d68d8d;stroke-width:2;stroke-opacity:1"
+           pencil:name="vector1"
+           id="2315f42e6d5c4b67b0b5b38db9cacf89"
+           transform="matrix(0.73333333,0,0,-1,1065,29)">
+          <path
+             d="M 0,0 H 15"
+             id="path27" />
+        </g>
+        <rect
+           rx="0"
+           ry="0"
+           style="visibility:visible;fill:#ffffff;fill-opacity:0;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           width="10"
+           height="10"
+           pencil:name="rectangle2"
+           id="398a7b1f821a42af9060e69c4e333819"
+           x="1096"
+           y="17" />
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="Evolus.Sketchy.GUI:box"
+         id="d6ece4b8b73941ce88328b368d78755c"
+         transform="translate(111,62)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">1045,517</pencil:property>
+          <pencil:property
+             name="textPadding">52.24999999999994,34.466666666666676</pencil:property>
+          <pencil:property
+             name="fillColor">#FFEBEB80</pencil:property>
+          <pencil:property
+             name="strokeColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="strokeStyle">9|</pencil:property>
+          <pencil:property
+             name="textContent" />
+          <pencil:property
+             name="textFont">'Comic Sans MS'|normal|normal|12px|none|0</pencil:property>
+          <pencil:property
+             name="textColor">#000000FF</pencil:property>
+          <pencil:property
+             name="textAlign">1,1</pencil:property>
+        </pencil:metadata>
+        <path
+           style="fill:#ffebeb;fill-opacity:0.501961;stroke:#d68d8d;stroke-width:9;stroke-linejoin:round;stroke-opacity:1"
+           pencil:name="line1"
+           id="924cc8be61a14005a8fd98a0f3f29fe9"
+           transform="translate(0.5,0.5)"
+           d="m 0,0 c 348,-1 697,-1 1045,0 0,172 0,345 0,517 C 697,517 348,517 0,517 -1,345 -1,172 0,0 Z" />
+        <text
+           pencil:name="text"
+           id="7e195b480d1f4293ad07bca7f63e8f37"
+           transform="translate(523,259)"
+           style="font-style:normal;font-weight:normal;font-size:12px;font-family:'Comic Sans MS';text-decoration:none;text-decoration-line:none;fill:#000000;fill-opacity:1" />
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="Evolus.Sketchy.GUI:box"
+         id="18ae988ff754441480bd4bfc7f43e6be"
+         transform="translate(92.000041,66.500086)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">1053.75,224.5</pencil:property>
+          <pencil:property
+             name="textPadding">52.68749999999994,14.966666666666669</pencil:property>
+          <pencil:property
+             name="fillColor">#FFEBEB80</pencil:property>
+          <pencil:property
+             name="strokeColor">#FFAF87FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">9|</pencil:property>
+          <pencil:property
+             name="textContent" />
+          <pencil:property
+             name="textFont">'Comic Sans MS'|normal|normal|12px|none|0</pencil:property>
+          <pencil:property
+             name="textColor">#000000FF</pencil:property>
+          <pencil:property
+             name="textAlign">1,1</pencil:property>
+        </pencil:metadata>
+        <path
+           style="fill:#ffebeb;fill-opacity:0.501961;stroke:#ffaf87;stroke-width:9;stroke-linejoin:round;stroke-opacity:1"
+           pencil:name="line1"
+           id="814887ce23c243a9b240b0d0035f4f67"
+           transform="translate(0.5,0.5)"
+           d="m 0,0 c 351,1 703,1 1053.75,0 -1.75,75 -1.75,150 0,224.5 C 703,224 351,224 0,224.5 -1,150 -1,75 0,0 Z" />
+        <text
+           pencil:name="text"
+           id="a59d4b7bfe3a4e518ad88ed3c9ce9f99"
+           transform="translate(527,112)"
+           style="font-style:normal;font-weight:normal;font-size:12px;font-family:'Comic Sans MS';text-decoration:none;text-decoration-line:none;fill:#000000;fill-opacity:1" />
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="Evolus.Sketchy.GUI:box"
+         id="6454cb1abd1e49cf88b1436be1aa098c"
+         transform="translate(86.000048,312.50028)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">1053.75,224.5</pencil:property>
+          <pencil:property
+             name="textPadding">52.68749999999994,14.966666666666669</pencil:property>
+          <pencil:property
+             name="fillColor">#FFEBEB80</pencil:property>
+          <pencil:property
+             name="strokeColor">#FFAF87FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">9|</pencil:property>
+          <pencil:property
+             name="textContent" />
+          <pencil:property
+             name="textFont">'Comic Sans MS'|normal|normal|12px|none|0</pencil:property>
+          <pencil:property
+             name="textColor">#000000FF</pencil:property>
+          <pencil:property
+             name="textAlign">1,1</pencil:property>
+        </pencil:metadata>
+        <path
+           style="fill:#ffebeb;fill-opacity:0.501961;stroke:#ffaf87;stroke-width:9;stroke-linejoin:round;stroke-opacity:1"
+           pencil:name="line1"
+           id="ec203f14e9dd41569b9d96590dffadf1"
+           transform="translate(0.5,0.5)"
+           d="m 0,0 c 351,1 703,1 1053.75,0 1.25,75 1.25,150 0,224.5 C 703,225 351,225 0,224.5 -1,150 -1,75 0,0 Z" />
+        <text
+           pencil:name="text"
+           id="514a0936f2f54c4299374919899fb859"
+           transform="translate(527,112)"
+           style="font-style:normal;font-weight:normal;font-size:12px;font-family:'Comic Sans MS';text-decoration:none;text-decoration-line:none;fill:#000000;fill-opacity:1" />
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="Evolus.WindowsXP.Widgets:Scrollbar"
+         id="g29"
+         transform="translate(1131,41)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">20,547</pencil:property>
+          <pencil:property
+             name="thumbBegin">10.000000000000005,45.583333333333364</pencil:property>
+          <pencil:property
+             name="thumbEnd">10.000000000000005,227.91666666666677</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+        </pencil:metadata>
+        <g
+           transform="translate(-1,1)"
+           id="g28">
+          <defs
+             pencil:name="defs19"
+             id="b4664a0ba90d49f89ced44098c11e7f5">
+            <linearGradient
+               x1="155.22887"
+               y1="2.0773644"
+               x2="171.69083"
+               y2="18.53932"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1.0308342,0,0,0.9700881,20,115)"
+               pencil:name="linearGradient3294"
+               id="004e7e745f964af7b49c3a85f55d8c5b">
+              <stop
+                 style="stop-color: rgb(200, 214, 251); stop-opacity: 1;"
+                 offset="0"
+                 pencil:name="stop5"
+                 id="5bacdae4ff2b41d4a798e2134a580e49" />
+              <stop
+                 style="stop-color: rgb(189, 210, 251); stop-opacity: 1;"
+                 offset="0.60036409"
+                 pencil:name="stop6"
+                 id="86fe1b473aae47489117df2f8110d5f9" />
+              <stop
+                 style="stop-color: rgb(179, 207, 253); stop-opacity: 1;"
+                 offset="0.71293235"
+                 pencil:name="stop7"
+                 id="473f03fa335b4210afc92f77438c787d" />
+              <stop
+                 style="stop-color: rgb(181, 205, 250); stop-opacity: 1;"
+                 offset="1"
+                 pencil:name="stop8"
+                 id="8b431ea395294de6995a76cccd75cc3a" />
+            </linearGradient>
+            <linearGradient
+               pencil:name="linearGradient3224"
+               id="883b7780cffa48ea8f86f5eadf19596a">
+              <stop
+                 style="stop-color:#f3f1ec;stop-opacity:1"
+                 offset="0"
+                 pencil:name="stop3226"
+                 id="3e98a1af83784adda77d98153fc045cb" />
+              <stop
+                 style="stop-color:#ffffff;stop-opacity:1"
+                 offset="1"
+                 pencil:name="stop3232"
+                 id="68d0fae390b642fb8d2f0579b18f9b68" />
+            </linearGradient>
+            <linearGradient
+               pencil:name="linearGradient3200"
+               id="2678e196252941579e6ff6335fc4af34">
+              <stop
+                 style="stop-color: rgb(243, 241, 236); stop-opacity: 1;"
+                 offset="0"
+                 pencil:name="stop1"
+                 id="82a0d95f53cd409fabda1e7639c2648d" />
+              <stop
+                 style="stop-color: rgb(243, 241, 236); stop-opacity: 1;"
+                 offset="0.42391136"
+                 pencil:name="stop2"
+                 id="6ff22630c2c24a07a2a577773937bed4" />
+              <stop
+                 style="stop-color: rgb(124, 159, 211); stop-opacity: 1;"
+                 offset="0.77979147"
+                 pencil:name="stop3"
+                 id="28a3d173b3124443b53a2d004483d63f" />
+              <stop
+                 style="stop-color: rgb(174, 196, 229); stop-opacity: 1;"
+                 offset="1"
+                 pencil:name="stop4"
+                 id="4fabdabc67a84071ac77975adcab8595" />
+            </linearGradient>
+            <linearGradient
+               x1="155.22887"
+               y1="134.00845"
+               x2="169.75064"
+               y2="134.00845"
+               xlink:href="#004e7e745f964af7b49c3a85f55d8c5b"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1.0308342,0,0,0.9700881,-158,100.12501)"
+               pencil:name="linearGradient2425"
+               id="f3a289ae7af74c0db4cdee6f01b6095d" />
+            <linearGradient
+               x1="190.25"
+               y1="125"
+               x2="207"
+               y2="145"
+               xlink:href="#2678e196252941579e6ff6335fc4af34"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="translate(-187,-23.874989)"
+               pencil:name="linearGradient3206"
+               id="5a27d1226c73418bbb3e04d9ea95075c" />
+            <linearGradient
+               x1="187.5"
+               y1="125.5625"
+               x2="207.55617"
+               y2="125.5625"
+               xlink:href="#883b7780cffa48ea8f86f5eadf19596a"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1,0,0,3.9771311,-187.5,-810.3376)"
+               pencil:name="linearGradient3214"
+               id="6194ec033c714b3f9f740faf9c3c4164" />
+            <linearGradient
+               x1="190.25"
+               y1="125"
+               x2="207"
+               y2="145"
+               xlink:href="#2678e196252941579e6ff6335fc4af34"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="translate(-187,-243.87499)"
+               pencil:name="linearGradient3270"
+               id="03faff2d73294c0592ed5a2ab96fcd95" />
+            <linearGradient
+               x1="154.72905"
+               y1="130.40053"
+               x2="169.75848"
+               y2="130.40053"
+               xlink:href="#004e7e745f964af7b49c3a85f55d8c5b"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1.0308342,0,0,0.9700881,-158,-119.87499)"
+               pencil:name="linearGradient3272"
+               id="3dc8729bc4614868aa0e89d1ea76542a" />
+            <linearGradient
+               x1="190.25"
+               y1="125"
+               x2="207"
+               y2="145"
+               xlink:href="#2678e196252941579e6ff6335fc4af34"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1,0,0,9.4666733,-187,-2299.0768)"
+               pencil:name="linearGradient3280"
+               id="ff15c74c2e2e4e35aeb6caa046930aad" />
+            <linearGradient
+               x1="190.01523"
+               y1="134.92021"
+               x2="204.98477"
+               y2="134.92021"
+               xlink:href="#004e7e745f964af7b49c3a85f55d8c5b"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="translate(-188,-24.874989)"
+               pencil:name="linearGradient3292"
+               id="9193192e4f974b318d3a59017d7f1f5b" />
+          </defs>
+          <rect
+             width="19"
+             height="544"
+             x="0.5"
+             y="0.5"
+             style="fill:url(#6194ec033c714b3f9f740faf9c3c4164);fill-opacity:1;fill-rule:nonzero;stroke:#eeede5;stroke-width:1;stroke-opacity:1"
+             pencil:name="bgRect"
+             id="ebef4911113947239d5ca4bf262985cd" />
+          <g
+             pencil:name="endButton"
+             id="dd68a86fa1cd45928ea819533f83d610"
+             transform="translate(0,304)">
+            <rect
+               width="18"
+               height="19"
+               rx="3"
+               ry="3"
+               x="1"
+               y="221.12502"
+               style="fill:url(#5a27d1226c73418bbb3e04d9ea95075c);fill-opacity:1;fill-rule:nonzero;stroke:none"
+               pencil:name="rect3198"
+               id="3329bf305d464902bba34d7ca13d2f20" />
+            <rect
+               width="17"
+               height="18"
+               rx="2.5"
+               ry="2.5"
+               x="1"
+               y="221.12502"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               pencil:name="bgRect211214321294782"
+               id="76dfb9f218f441a180aa4a2e3b505888" />
+            <rect
+               width="14"
+               height="15"
+               rx="1"
+               ry="1"
+               x="2.5"
+               y="222.62502"
+               style="display:inline;overflow:visible;visibility:visible;fill:url(#f3a289ae7af74c0db4cdee6f01b6095d);fill-opacity:1;fill-rule:nonzero;stroke:#c3d3f8;stroke-width:0.969547;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+               pencil:name="endDropRect"
+               id="a1fea4a1aae44eba896b3e4a8ea51f8f" />
+            <path
+               d="m 13.5,228.12501 -4,4 -4,-4"
+               style="display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#4d6185;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+               pencil:name="endMarker"
+               id="3c858458d59344019780648a6309ae1c" />
+          </g>
+          <g
+             pencil:name="beginButton"
+             id="11a1d588699941c1a4245d53c839bc0d">
+            <rect
+               width="18"
+               height="19"
+               rx="2.5"
+               ry="2.5"
+               x="1"
+               y="1.1250114"
+               style="fill:url(#03faff2d73294c0592ed5a2ab96fcd95);fill-opacity:1;fill-rule:nonzero;stroke:none"
+               pencil:name="rect3262"
+               id="17533ea1ba0546a49e628b8343492390" />
+            <rect
+               width="17"
+               height="18"
+               rx="2.5"
+               ry="2.5"
+               x="1"
+               y="1.1250114"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               pencil:name="rect3264"
+               id="1e68abe1805e433ca47192008ea7b8c7" />
+            <rect
+               width="14"
+               height="15"
+               rx="1"
+               ry="1"
+               x="2.5"
+               y="2.6250114"
+               style="display:inline;overflow:visible;visibility:visible;fill:url(#3dc8729bc4614868aa0e89d1ea76542a);fill-opacity:1;fill-rule:nonzero;stroke:#c3d3f8;stroke-width:0.969547;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+               pencil:name="beginDropRect"
+               id="94c915204bd549c594a79a5b91226f1a" />
+            <path
+               d="m 13.5,12.125011 -4,-3.9999996 -4,3.9999996"
+               style="display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#4d6185;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+               pencil:name="beginMarker"
+               id="1aaf3432bf4f4c7bbc2dfc91ee965a5e" />
+          </g>
+          <rect
+             width="18"
+             height="181.83299"
+             rx="3"
+             ry="3"
+             x="1"
+             y="20"
+             style="visibility:visible;fill:url(#ff15c74c2e2e4e35aeb6caa046930aad);fill-opacity:1;fill-rule:nonzero;stroke:none"
+             pencil:name="thumbOut"
+             id="5688e9164f754f1a8787dd489cfd69cc"
+             transform="translate(0,26.583333)" />
+          <rect
+             width="17"
+             height="180.33299"
+             rx="2.5"
+             ry="2.5"
+             x="1"
+             y="21"
+             style="visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             pencil:name="thumbMid"
+             id="093782fd6dea4c659a808ca5e6ad574a"
+             transform="translate(0,25.583333)" />
+          <rect
+             width="14"
+             height="177.33299"
+             rx="1"
+             ry="1"
+             x="2.5"
+             y="22.5"
+             style="overflow:visible;visibility:visible;fill:url(#9193192e4f974b318d3a59017d7f1f5b);fill-opacity:1;fill-rule:nonzero;stroke:#c3d3f8;stroke-width:0.969547;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+             pencil:name="thumbIn"
+             id="8ff9efe92ec848618df175efd41ba29e"
+             transform="translate(0,25.583333)" />
+          <g
+             pencil:name="grip"
+             id="0bcf1cf21dce4be4866fdfc900a583aa"
+             transform="translate(0,36.583333)"
+             style="visibility:visible">
+            <path
+               d="m 5.5,100.62501 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3308"
+               id="c6c8119917c54380b83dc85469617e17" />
+            <path
+               d="m 6.5,101.62501 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#8cb0f8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3312"
+               id="c0ee9594957744249f29fdf25baf4e0b" />
+            <path
+               d="m 5.5,102.62501 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3320"
+               id="4ef7ab94aeae448a861f1e3e1c1fb5d5" />
+            <path
+               d="m 6.5,103.62501 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#8cb0f8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3322"
+               id="4ff6c3235ce04cfb837705d7f9bbcfc1" />
+            <path
+               d="m 5.5,96.625011 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3324"
+               id="d076f0b69f28449ea27d1b331f8fe8fb" />
+            <path
+               d="m 6.5,97.625011 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#8cb0f8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3326"
+               id="4337a6ccb2bb424bab0a3a593de2ec75" />
+            <path
+               d="m 5.5,98.625011 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3328"
+               id="9e43ead90a9e4b70a6c4a0f63463fcda" />
+            <path
+               d="m 6.5,99.625011 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#8cb0f8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3330"
+               id="fe9a773737b945aaacbb67d3fa9f4fa5" />
+          </g>
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="Evolus.WindowsXP.Widgets:Scrollbar"
+         id="0641eebb397b488d8e870f4dabba3017"
+         transform="rotate(90,282,850)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">20,1020</pencil:property>
+          <pencil:property
+             name="thumbBegin">10.00000000000001,84.9999999999999</pencil:property>
+          <pencil:property
+             name="thumbEnd">10.00000000000001,424.99999999999955</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+        </pencil:metadata>
+        <g
+           transform="translate(-1,1)"
+           id="g30">
+          <defs
+             pencil:name="defs19"
+             id="b5ec21019d90438694b8cd127c6f1c0b">
+            <linearGradient
+               x1="155.22887"
+               y1="2.0773644"
+               x2="171.69083"
+               y2="18.53932"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1.0308342,0,0,0.9700881,20,115)"
+               pencil:name="linearGradient3294"
+               id="674afc762b4e45f28500e96242984b33">
+              <stop
+                 style="stop-color: rgb(200, 214, 251); stop-opacity: 1;"
+                 offset="0"
+                 pencil:name="stop5"
+                 id="c4bc5a63330b40cc8a6946bd5d1e65c1" />
+              <stop
+                 style="stop-color: rgb(189, 210, 251); stop-opacity: 1;"
+                 offset="0.60036409"
+                 pencil:name="stop6"
+                 id="0c822a9b71bd4761a6e40f1c335d8f90" />
+              <stop
+                 style="stop-color: rgb(179, 207, 253); stop-opacity: 1;"
+                 offset="0.71293235"
+                 pencil:name="stop7"
+                 id="ba339f3b0a824b41809f07d3a414267d" />
+              <stop
+                 style="stop-color: rgb(181, 205, 250); stop-opacity: 1;"
+                 offset="1"
+                 pencil:name="stop8"
+                 id="80a6e197da874e6cbe72e2b271b13980" />
+            </linearGradient>
+            <linearGradient
+               pencil:name="linearGradient3224"
+               id="f9863b81af294d68a75d1f10eeefd37c">
+              <stop
+                 style="stop-color:#f3f1ec;stop-opacity:1"
+                 offset="0"
+                 pencil:name="stop3226"
+                 id="b52ecd2b3873498a861e1ae608c0105a" />
+              <stop
+                 style="stop-color:#ffffff;stop-opacity:1"
+                 offset="1"
+                 pencil:name="stop3232"
+                 id="b63d850163c34224a9dc316a141635a7" />
+            </linearGradient>
+            <linearGradient
+               pencil:name="linearGradient3200"
+               id="421b09c752f54c2984977a4a6e436e76">
+              <stop
+                 style="stop-color: rgb(243, 241, 236); stop-opacity: 1;"
+                 offset="0"
+                 pencil:name="stop1"
+                 id="b320c62c011d4254ae0843379472c64e" />
+              <stop
+                 style="stop-color: rgb(243, 241, 236); stop-opacity: 1;"
+                 offset="0.42391136"
+                 pencil:name="stop2"
+                 id="5f3abce62de44f9b8b410dac53d774d6" />
+              <stop
+                 style="stop-color: rgb(124, 159, 211); stop-opacity: 1;"
+                 offset="0.77979147"
+                 pencil:name="stop3"
+                 id="bececde19a064d71a2484ec9099dab5a" />
+              <stop
+                 style="stop-color: rgb(174, 196, 229); stop-opacity: 1;"
+                 offset="1"
+                 pencil:name="stop4"
+                 id="b0c02917252e463396ccde55c30233c8" />
+            </linearGradient>
+            <linearGradient
+               x1="155.22887"
+               y1="134.00845"
+               x2="169.75064"
+               y2="134.00845"
+               xlink:href="#674afc762b4e45f28500e96242984b33"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1.0308342,0,0,0.9700881,-158,100.12501)"
+               pencil:name="linearGradient2425"
+               id="93d8c392c30e4cf6afe27540aa55bb2e" />
+            <linearGradient
+               x1="190.25"
+               y1="125"
+               x2="207"
+               y2="145"
+               xlink:href="#421b09c752f54c2984977a4a6e436e76"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="translate(-187,-23.874989)"
+               pencil:name="linearGradient3206"
+               id="a243823246904dc6bce3abf934252620" />
+            <linearGradient
+               x1="187.5"
+               y1="125.5625"
+               x2="207.55617"
+               y2="125.5625"
+               xlink:href="#f9863b81af294d68a75d1f10eeefd37c"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1,0,0,3.9771311,-187.5,-810.3376)"
+               pencil:name="linearGradient3214"
+               id="dad5126e1aec44f192845a9e8561723c" />
+            <linearGradient
+               x1="190.25"
+               y1="125"
+               x2="207"
+               y2="145"
+               xlink:href="#421b09c752f54c2984977a4a6e436e76"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="translate(-187,-243.87499)"
+               pencil:name="linearGradient3270"
+               id="ceea07a079384a829e9a89c3d9a5ac71" />
+            <linearGradient
+               x1="154.72905"
+               y1="130.40053"
+               x2="169.75848"
+               y2="130.40053"
+               xlink:href="#674afc762b4e45f28500e96242984b33"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1.0308342,0,0,0.9700881,-158,-119.87499)"
+               pencil:name="linearGradient3272"
+               id="df1e48ae0e5a4d6fa556c57f6300101a" />
+            <linearGradient
+               x1="190.25"
+               y1="125"
+               x2="207"
+               y2="145"
+               xlink:href="#421b09c752f54c2984977a4a6e436e76"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1,0,0,9.4666733,-187,-2299.0768)"
+               pencil:name="linearGradient3280"
+               id="5f9ab929ea62475199e41f5baa9a6a1d" />
+            <linearGradient
+               x1="190.01523"
+               y1="134.92021"
+               x2="204.98477"
+               y2="134.92021"
+               xlink:href="#674afc762b4e45f28500e96242984b33"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="translate(-188,-24.874989)"
+               pencil:name="linearGradient3292"
+               id="e20986ddf2a744f3b78de2d98490b15e" />
+          </defs>
+          <rect
+             width="19"
+             height="1017"
+             x="0.5"
+             y="0.5"
+             style="fill:url(#dad5126e1aec44f192845a9e8561723c);fill-opacity:1;fill-rule:nonzero;stroke:#eeede5;stroke-width:1;stroke-opacity:1"
+             pencil:name="bgRect"
+             id="55806fbc52b1482b9460d53e46dcbc6f" />
+          <g
+             pencil:name="endButton"
+             id="d0e320ee01674173b1622f6994af87ca"
+             transform="translate(0,777)">
+            <rect
+               width="18"
+               height="19"
+               rx="3"
+               ry="3"
+               x="1"
+               y="221.12502"
+               style="fill:url(#a243823246904dc6bce3abf934252620);fill-opacity:1;fill-rule:nonzero;stroke:none"
+               pencil:name="rect3198"
+               id="207d45ae6b0b47d5950d366ecc4e2a52" />
+            <rect
+               width="17"
+               height="18"
+               rx="2.5"
+               ry="2.5"
+               x="1"
+               y="221.12502"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               pencil:name="bgRect211214321294782"
+               id="4e4928b2fafe4bbc87835511851fdf06" />
+            <rect
+               width="14"
+               height="15"
+               rx="1"
+               ry="1"
+               x="2.5"
+               y="222.62502"
+               style="display:inline;overflow:visible;visibility:visible;fill:url(#93d8c392c30e4cf6afe27540aa55bb2e);fill-opacity:1;fill-rule:nonzero;stroke:#c3d3f8;stroke-width:0.969547;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+               pencil:name="endDropRect"
+               id="10a0bbd909da41c3a108d3fb73d8b298" />
+            <path
+               d="m 13.5,228.12501 -4,4 -4,-4"
+               style="display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#4d6185;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+               pencil:name="endMarker"
+               id="921403a1a90d4397913856d66c53f2d7" />
+          </g>
+          <g
+             pencil:name="beginButton"
+             id="e201deba1ce7496ba5026770cff9c3b5">
+            <rect
+               width="18"
+               height="19"
+               rx="2.5"
+               ry="2.5"
+               x="1"
+               y="1.1250114"
+               style="fill:url(#ceea07a079384a829e9a89c3d9a5ac71);fill-opacity:1;fill-rule:nonzero;stroke:none"
+               pencil:name="rect3262"
+               id="f5b6bc9d43ce4cb8ac3412f8aed7366e" />
+            <rect
+               width="17"
+               height="18"
+               rx="2.5"
+               ry="2.5"
+               x="1"
+               y="1.1250114"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               pencil:name="rect3264"
+               id="04638b3ca5634bb7aefa023a4bbac43f" />
+            <rect
+               width="14"
+               height="15"
+               rx="1"
+               ry="1"
+               x="2.5"
+               y="2.6250114"
+               style="display:inline;overflow:visible;visibility:visible;fill:url(#df1e48ae0e5a4d6fa556c57f6300101a);fill-opacity:1;fill-rule:nonzero;stroke:#c3d3f8;stroke-width:0.969547;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+               pencil:name="beginDropRect"
+               id="39e1bb4471034635a914b7a684226b64" />
+            <path
+               d="m 13.5,12.125011 -4,-3.9999996 -4,3.9999996"
+               style="display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#4d6185;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+               pencil:name="beginMarker"
+               id="f4e8b6b00b794f2eb329e8f57a88d0aa" />
+          </g>
+          <rect
+             width="18"
+             height="339.5"
+             rx="3"
+             ry="3"
+             x="1"
+             y="20"
+             style="visibility:visible;fill:url(#5f9ab929ea62475199e41f5baa9a6a1d);fill-opacity:1;fill-rule:nonzero;stroke:none"
+             pencil:name="thumbOut"
+             id="3b1f8f4224e84f8da2f699c49dd41fbf"
+             transform="translate(0,66)" />
+          <rect
+             width="17"
+             height="338"
+             rx="2.5"
+             ry="2.5"
+             x="1"
+             y="21"
+             style="visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             pencil:name="thumbMid"
+             id="026a35a552ca4a4686693d5fb15c9c70"
+             transform="translate(0,65)" />
+          <rect
+             width="14"
+             height="335"
+             rx="1"
+             ry="1"
+             x="2.5"
+             y="22.5"
+             style="overflow:visible;visibility:visible;fill:url(#e20986ddf2a744f3b78de2d98490b15e);fill-opacity:1;fill-rule:nonzero;stroke:#c3d3f8;stroke-width:0.969547;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+             pencil:name="thumbIn"
+             id="fff221a19b6c4472b9a51b982ffccc72"
+             transform="translate(0,65)" />
+          <g
+             pencil:name="grip"
+             id="9e955a77617f435b9cab4362c1b9b7ca"
+             transform="translate(0,154)"
+             style="visibility:visible">
+            <path
+               d="m 5.5,100.62501 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3308"
+               id="54ee8969fcf346e0b72469c363967150" />
+            <path
+               d="m 6.5,101.62501 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#8cb0f8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3312"
+               id="6df251b4abb94e368ebf69876ddb175f" />
+            <path
+               d="m 5.5,102.62501 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3320"
+               id="03acf77cc0d64239804ab61878323e42" />
+            <path
+               d="m 6.5,103.62501 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#8cb0f8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3322"
+               id="6a6d864da62143ab97cf9e82b1ac7ecf" />
+            <path
+               d="m 5.5,96.625011 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3324"
+               id="d31b291a8e854f26864097ee769cb2eb" />
+            <path
+               d="m 6.5,97.625011 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#8cb0f8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3326"
+               id="15759b3017784e3da0aebcf9cfb4c4a7" />
+            <path
+               d="m 5.5,98.625011 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3328"
+               id="cf253891983441f8b5589b8bb04f64d2" />
+            <path
+               d="m 6.5,99.625011 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#8cb0f8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3330"
+               id="b91cbad420f7459faabbe255fd67ff70" />
+          </g>
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="mdelorme.Ext.Widgets:Panel"
+         id="g31"
+         transform="translate(4,43)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">178,551</pencil:property>
+          <pencil:property
+             name="headerHeight">0,23</pencil:property>
+          <pencil:property
+             name="withHeader">true</pencil:property>
+          <pencil:property
+             name="round">false</pencil:property>
+          <pencil:property
+             name="withClose">false</pencil:property>
+          <pencil:property
+             name="withMax">false</pencil:property>
+          <pencil:property
+             name="withMin">false</pencil:property>
+          <pencil:property
+             name="sliding">none</pencil:property>
+          <pencil:property
+             name="inBorderLayout">none</pencil:property>
+          <pencil:property
+             name="titleText" />
+          <pencil:property
+             name="textColor">#15428BFF</pencil:property>
+          <pencil:property
+             name="textFont">Arial|bold|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textAlign">0,1</pencil:property>
+          <pencil:property
+             name="headerColor">#E4EBF6FF</pencil:property>
+        </pencil:metadata>
+        <defs
+           id="defs30">
+          <linearGradient
+             x1="0"
+             y1="4.0850339"
+             x2="0"
+             y2="69.445572"
+             pencil:name="linearFill"
+             id="bd029f73fccc4c85b3eb3bda9f463349"
+             gradientTransform="scale(2.7233558,0.36719404)"
+             gradientUnits="userSpaceOnUse">
+            <stop
+               style="stop-color:#DAE7F6;stop-opacity:1"
+               offset="0"
+               pencil:name="stop1"
+               id="40fac4214719448095134ba2e8ae125e" />
+            <stop
+               style="stop-color:#CDDEF3;stop-opacity:1"
+               offset="0.49"
+               pencil:name="stop2"
+               id="422223c8a3bc4d5f98f9a3e67fc9b0df" />
+            <stop
+               style="stop-color:#ABC7EC;stop-opacity:1"
+               offset="0.5"
+               pencil:name="stop2"
+               id="8b091fd739034e2aa3301da806999d9e" />
+            <stop
+               style="stop-color:#C9DBF2;stop-opacity:1"
+               offset="1"
+               pencil:name="stop4"
+               id="5a02b30ff7604fd68b051437b6c52b3f" />
+          </linearGradient>
+        </defs>
+        <rect
+           rx="0"
+           ry="0"
+           x="0.5"
+           y="1.5"
+           width="180.7388"
+           height="535"
+           style="fill:#ffffff;stroke-width:0"
+           pencil:name="contentBg"
+           id="38f7fae4e67646fcbe52781bd83b946c" />
+        <rect
+           x="0"
+           y="0"
+           rx="0"
+           ry="0"
+           width="178"
+           height="23"
+           style="fill:#e4ebf6;fill-opacity:1;stroke:none"
+           pencil:name="headerBar"
+           id="f1478eb39538485c826853ced0571c5f" />
+        <g
+           pencil:name="header"
+           id="b0af7426df064214a7ee19c0cf4d570a"
+           style="visibility:visible">
+          <rect
+             rx="0"
+             ry="0"
+             x="0"
+             y="1.5"
+             width="178"
+             height="24"
+             style="fill:url(#bd029f73fccc4c85b3eb3bda9f463349);stroke:none"
+             pencil:name="titleBg"
+             id="bcd9541b3ad34d00b1ece5949c521f99" />
+          <text
+             x="31.5"
+             y="17.25"
+             style="font-style:normal;font-weight:bold;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;fill:#15428b;fill-opacity:1"
+             xml:space="preserve"
+             pencil:name="text"
+             id="a5d5fbd15b8845159649a0a96536ddf2"
+             transform="translate(-21,-5)"> </text>
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcQI5iVnI0AAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAABCUlEQVQoz6WTP8rCQBDF344p bb5GAi6eQYRPJZ2ieIAcwtI6J0id0s4LBASxED2BSvAQEVOJ1ol/iriTrFFQfDCw+3Z+85Il EXhovIxu+FDDvimQB78RB30L5geQSj9d05rMQl7nK+8rMRwnwHQewvV8TOch4gRcz76SoRbJ BRj0JAAbrucDsDHoSSxWKeiM0n1yeQHHD7Pb0QcosNuR3FOAj+fseeoNE84oA+sNUzuvlQ39 nYkE1y6IGHQ9H7sg0s4LF1YiQokIwfbA4H+zygOC7YF7CjCRwGa9Z7DVliASaLUlD9is91qy kSUDliXhwIZlSe1i3vmcXPnLGl9J+arv529b/PJX3QF7KB2f8DUptgAAAABJRU5ErkJggg=="
+             pencil:name="closeButton"
+             id="00659fb3cfd54129abe5a869cac29068"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcRNuxTSScAAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAn0lEQVQoz2NkgIKZu1/8ZyAS pLtKMDIgayQFwC0iVSOyASww2z/8YyAaCDBBaLjm338YGDxiNhPUuGOJLwMDG4TNBBP885c4 W5HVIWyGCq6f54tTY2DSZrg6FM3vPv5BoXGBdx//MMjxsKBqZmJiRKFxAWR5uGZmJiYUGhdA lsewOS53Czk2MzAsn+7LQAqAu0FMkDgNGOrITduMlOQqAMxexSYv4qqOAAAAAElFTkSuQmCC "
+             pencil:name="maxButton"
+             id="bc2345693db5455592517db7a58ea36e"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcRFtc9ae8AAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAjklEQVQoz2NkgIKZu1/8ZyAS pLtKMDIgayQFwC0iVSOyASww2z/8YyAaCDBBaLjm33+I18zAhqb5z18GkgHCZko0v/tIvLvl eFhQNTMxQaLu3JnnODUZmUhit5mZCRKE7RPX4tS8bmkeds0wmyvzg3FqhqnBYjOEtrKSIdrv TDCGmCBxGjDUkZu2GSnJVQACELqwAhqLqgAAAABJRU5ErkJggg== "
+             pencil:name="minButton"
+             id="80982feb267048e5b66b42c7b200df1a"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcaBbB38foAAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAqElEQVQoz2NkgIKZu1/8ZyAS pLtKMDIgayQFwC0iVSOyASww2z/8YyAaCDBBaLjm33+I18zAhqb5z18GkgHCZqjmwKTNOBWv n+eLwmeCMd59/MPw7uMfhrn9nlg1zu33hKvB0MzExAjH8yd6oWicP9ELRR5DMzMTEwpeNNmH gYGBgWHRZB8MOQw/I5sIA0um+hIXYMxMpIc2XIuYIHEaMNSRm7YZKclVAF8AyGf1+nTZAAAA AElFTkSuQmCC "
+             pencil:name="slide_up"
+             id="16b3fe5ed46a464da4a6fc14969a7e1b"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcaFjTJsCQAAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAo0lEQVQoz2NkgIKZu1/8ZyAS pLtKMDIgayQFwC0iVSOyASww2z/8YyAaCDBBaLjm33+I18zABqGYYPw/fzGxR8xmrOIwANf8 +y8q9onfzMDAAKHR5TA0v/v4B44DkzajuDIwaTOKPIZmJiZGBiYmRobkwu1YvZlcuB2uBgbg AcbMBDFn0WQfosONBdlmUgGSzSTrRfhZTJA4DRjqyE3bjJTkKgAob+t58nyMGgAAAABJRU5E rkJggg== "
+             pencil:name="slide_down"
+             id="aed2655960694272a49188c37b81275c"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcWMT12SkMAAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAA70lEQVQoz6VTOwrCQBB9u+YC Nip4CQ+hlWDwCIKoBDvBKhCCEtHORmLwEopWeggvIcTO3sRYjJvfWPh58Bh2Zt+8HXZX4IX1 0Y/wIfqNikBa+A1io2+F6QZSud8enG17+zavEIvvQZadyRYAxXyNiYMwYW9GwtVYB0DrdJ07 h0RjQcLlSMc9pAhQXu1REOujH/XqZZwvAbsSe3OA1W2yfK2qwTtdE2cpRYb25hA3yNfYsQtS xrS8PQBgOmgBACxvn6kzsepqujsAgGPokFLAMWhm090xZy1xpjgf6mzGd7mMc6n42btm+359 2+KfX/UEckIM5jxx8/4AAAAASUVORK5CYII= "
+             pencil:name="up"
+             id="06eaf5d980c74f2fac79776154fcef3b"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcWIrnIC50AAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAA5klEQVQoz6WTPQrCQBCFXyZi rY14ISvFvYRECekCgiAEIUS0sxH1FoqdF7ISrZOoxbiThLHw58FjYOd9MyzZOHhpezo/8KGG nbaDMviNZNG3YHlAzW6/3vGxGsRV4DTj6s33AIDdxEhYndW5kA1kOXs9NgJkeQGux0YyVgKn eeFVyAP8JYOr0FT6Cr7csoqjQRcAEA26qmcldybiTxftjgCAmdfDzOups7Jks0sElwjxqC+A SyRgPOpLRsFEjjjx+c7TzQEAkPim0n+zuepFwAMWgVE9Bbea+jHYAWWp3K9v2/nnr3oCzB4A KkDMYl4AAAAASUVORK5CYII= "
+             pencil:name="down"
+             id="348384dbdb7e49a883cb8327d5137a51"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcWBoXL70wAAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAyUlEQVQoz2NkgIKZu1/8ZyAS pLtKMDIgayQFwC0iVSOyASww2z/8YyAaCDBBaCaYwO8/EJzYvBHOxsb//QdhCFzzn78QzMDA wJDWvhEnHyaGavNfCJ5Y7M/AwMDAkNW1ESv/NzbN7z7+geP6FG8GBgYGhvzejVj5MAAPMCYm RNTVz9rCwMDAwNCY5oOVj6GZmQniiJoZmxgYGBgYWjL8sPKxaka2uS3LH0UROh+LzRC6MwdV ITofGcADTEyQuASCoY7ctM1ISa4CAN7eBBk9agWCAAAAAElFTkSuQmCC "
+             pencil:name="right"
+             id="73cffd4978b64f46ae56aee21110c189"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcWFHZyngQAAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAx0lEQVQoz2NkgIKZu1/8ZyAS pLtKMDIgayQFwC0iVSOyASww2z/8YyAaCDBBaCaYwO8/qDixeSNOPgzAbf7zFyGY1bURRQyd j6H5N1QivxeicGKxP8Pvv5h8rJrfffzD0DhnKwMDAwNDfYo3Vj4MyPGwoPqZiYmRoTHNh4GB gYGhcc5WrHwYhuuBMZiZmBiYmZgYWjL8ILbN2oKVz8zEhKkZ2eS2LH8UMXQ+hp+ZmVADozPH Hy8fxWYxQeISCIY6ctM2IyW5CgCoovN8zMcquwAAAABJRU5ErkJggg== "
+             pencil:name="left"
+             id="388638e133e342a99e3b504ee091646c"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <path
+             style="fill:none;stroke:#99bbe8;stroke-width:1"
+             pencil:name="title_Borderbottom"
+             id="5b01c47728fe48738886308dd902bbc4"
+             d="M 0,25.5 H 178" />
+        </g>
+        <rect
+           rx="0"
+           ry="0"
+           x="0.5"
+           y="0.5"
+           width="180.7388"
+           height="536"
+           style="fill:none;stroke:#99bbe8;stroke-width:1;stroke-linejoin:round"
+           pencil:name="outBorder1"
+           id="5b7644d1e9aa4a368102159b1d1b9a32" />
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="mdelorme.Ext.Widgets:TabHeader"
+         id="g37"
+         transform="rotate(90,63.499988,131.5)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">54,39</pencil:property>
+          <pencil:property
+             name="active">false</pencil:property>
+          <pencil:property
+             name="closable">false</pencil:property>
+          <pencil:property
+             name="tabTitle" />
+          <pencil:property
+             name="textColor">#15428BFF</pencil:property>
+          <pencil:property
+             name="textFontInactive">Arial|normal|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textFontActive">Arial|bold|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textAlign">1,1</pencil:property>
+        </pencil:metadata>
+        <defs
+           id="defs36">
+          <linearGradient
+             x1="-0.42891377"
+             y1="-0.58288288"
+             x2="-0.42891377"
+             y2="44.881397"
+             pencil:name="inactive_panel"
+             id="85e2b02156694a8b86d91d67afdd02ed"
+             gradientTransform="scale(1.1657506,0.85781641)"
+             gradientUnits="userSpaceOnUse">
+            <stop
+               style="stop-color:#CCDEF6;stop-opacity:1"
+               offset="0"
+               id="stop31" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="0.3"
+               id="stop32" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="1"
+               id="stop33" />
+          </linearGradient>
+          <linearGradient
+             x1="0"
+             y1="0"
+             x2="0"
+             y2="1"
+             pencil:name="active_panel"
+             id="6ec4e0d68dd14d0087ddc8f7a94eff86">
+            <stop
+               style="stop-color:#ffffff;stop-opacity:1"
+               offset="0"
+               id="stop34" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="0.3"
+               id="stop35" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="1"
+               id="stop36" />
+          </linearGradient>
+        </defs>
+        <g
+           transform="translate(0.5,3.5)"
+           id="g36">
+          <path
+             style="visibility:visible;fill:url(#85e2b02156694a8b86d91d67afdd02ed);stroke:#8db2e3;stroke-width:1px"
+             pencil:name="rect_inactive"
+             id="52b8c98741d943e680471405802aa0a7"
+             d="M 0,38 V 5 C 0,0 0,0 5,0 h 42 c 5,0 5,0 5,5 V 38 H 0" />
+          <g
+             pencil:name="rect_active"
+             id="93f149cf5a32475cb84623367bebcb63"
+             style="display:none;visibility:hidden">
+            <path
+               style="fill:url(#linearGradient1);stroke:#8db2e3;stroke-width:1px"
+               pencil:name="body_rect_active"
+               id="359dcca92237467a9939e26ed4b2ec64"
+               d="M 0,39 V 5 C 0,0 0,0 5,0 h 42 c 5,0 5,0 5,5 v 34" />
+            <path
+               style="fill:url(#linearGradient2);stroke:#deecfd;stroke-width:1px"
+               pencil:name="bottom_border_rect_active"
+               id="dfe9531260ff40f0b9d4dd015a5ac89d"
+               d="m 52.5,39 h -53" />
+          </g>
+          <text
+             x="33.415905"
+             y="14.214675"
+             style="font-style:normal;font-weight:normal;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;visibility:visible;fill:#15428b;fill-opacity:1"
+             transform="translate(-8,5)"
+             xml:space="preserve"
+             pencil:name="text_inactive"
+             id="b25af5f7c209420da02e834d68fff286"> </text>
+          <text
+             x="33.415905"
+             y="14.214675"
+             style="font-style:normal;font-weight:bold;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;display:none;visibility:hidden;fill:#15428b;fill-opacity:1"
+             transform="translate(27,20)"
+             xml:space="preserve"
+             pencil:name="text_active"
+             id="af2d3ede92e04162a67294f89170f78a"> </text>
+          <image
+             height="11"
+             width="11"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAMAAACecocUAAAAAXNSR0IArs4c6QAAADlQTFRF QP9AVHqvW4CzYoa4aIu8b5HAjbLjmbvox9vzz+T70uf81un+4fP/6Pb/8Pn/9Pr/9/z/+/3/ ////OIdsdAAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwY AAAAB3RJTUUH2AkQFDgRCbCWqQAAAFBJREFUCNc1zVkOgDAIRVGwUqh9dnD/ixUk3oTk8ANE pBl5+mQahI0xDL7oNpEhYtu97jO6l3sCpRRgutGOqCFcmS/m+rnX3n0QR5Hls//vCxDrA+Pj d70yAAAAAElFTkSuQmCC"
+             pencil:name="close"
+             id="c75c08cecd8a44d8b9df36c9aa04cf74"
+             transform="translate(39,2)"
+             style="display:none;visibility:hidden" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="mdelorme.Ext.Widgets:TabHeader"
+         id="g43"
+         transform="rotate(90,36.999988,157.99999)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">54,39</pencil:property>
+          <pencil:property
+             name="active">false</pencil:property>
+          <pencil:property
+             name="closable">false</pencil:property>
+          <pencil:property
+             name="tabTitle" />
+          <pencil:property
+             name="textColor">#15428BFF</pencil:property>
+          <pencil:property
+             name="textFontInactive">Arial|normal|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textFontActive">Arial|bold|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textAlign">1,1</pencil:property>
+        </pencil:metadata>
+        <defs
+           id="defs42">
+          <linearGradient
+             x1="-0.42891377"
+             y1="-0.58288288"
+             x2="-0.42891377"
+             y2="44.881397"
+             pencil:name="inactive_panel"
+             id="142e6e8a38984be680aec30a049688d2"
+             gradientTransform="scale(1.1657506,0.85781641)"
+             gradientUnits="userSpaceOnUse">
+            <stop
+               style="stop-color:#CCDEF6;stop-opacity:1"
+               offset="0"
+               id="stop37" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="0.3"
+               id="stop38" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="1"
+               id="stop39" />
+          </linearGradient>
+          <linearGradient
+             x1="0"
+             y1="0"
+             x2="0"
+             y2="1"
+             pencil:name="active_panel"
+             id="eeec15db41d24938a1882ce08c0cd4f3">
+            <stop
+               style="stop-color:#ffffff;stop-opacity:1"
+               offset="0"
+               id="stop40" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="0.3"
+               id="stop41" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="1"
+               id="stop42" />
+          </linearGradient>
+        </defs>
+        <g
+           transform="translate(0.5,3.5)"
+           id="g42">
+          <path
+             style="visibility:visible;fill:url(#142e6e8a38984be680aec30a049688d2);stroke:#8db2e3;stroke-width:1px"
+             pencil:name="rect_inactive"
+             id="e54d5281893f426b9f5132bae78da70e"
+             d="M 0,38 V 5 C 0,0 0,0 5,0 h 42 c 5,0 5,0 5,5 V 38 H 0" />
+          <g
+             pencil:name="rect_active"
+             id="6fb02f7e5b7e47fca5e5556aab46b672"
+             style="display:none;visibility:hidden">
+            <path
+               style="fill:url(#linearGradient3);stroke:#8db2e3;stroke-width:1px"
+               pencil:name="body_rect_active"
+               id="7da221cdf9b14e37a980e5fc62b040e4"
+               d="M 0,39 V 5 C 0,0 0,0 5,0 h 42 c 5,0 5,0 5,5 v 34" />
+            <path
+               style="fill:url(#linearGradient4);stroke:#deecfd;stroke-width:1px"
+               pencil:name="bottom_border_rect_active"
+               id="be3f3e3f5bce4f04bbac08f4ec00b09a"
+               d="m 52.5,39 h -53" />
+          </g>
+          <text
+             x="33.415905"
+             y="14.214675"
+             style="font-style:normal;font-weight:normal;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;visibility:visible;fill:#15428b;fill-opacity:1"
+             transform="translate(-8,5)"
+             xml:space="preserve"
+             pencil:name="text_inactive"
+             id="38bb8cd6bea04400a51c0c48cdebd99d"> </text>
+          <text
+             x="33.415905"
+             y="14.214675"
+             style="font-style:normal;font-weight:bold;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;display:none;visibility:hidden;fill:#15428b;fill-opacity:1"
+             transform="translate(27,20)"
+             xml:space="preserve"
+             pencil:name="text_active"
+             id="f9f1c04af4ae40a8ba125a49e7b8e8c5"> </text>
+          <image
+             height="11"
+             width="11"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAMAAACecocUAAAAAXNSR0IArs4c6QAAADlQTFRF QP9AVHqvW4CzYoa4aIu8b5HAjbLjmbvox9vzz+T70uf81un+4fP/6Pb/8Pn/9Pr/9/z/+/3/ ////OIdsdAAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwY AAAAB3RJTUUH2AkQFDgRCbCWqQAAAFBJREFUCNc1zVkOgDAIRVGwUqh9dnD/ixUk3oTk8ANE pBl5+mQahI0xDL7oNpEhYtu97jO6l3sCpRRgutGOqCFcmS/m+rnX3n0QR5Hls//vCxDrA+Pj d70yAAAAAElFTkSuQmCC"
+             pencil:name="close"
+             id="a73883950c7f4158b1f1ab2c590067f5"
+             transform="translate(39,2)"
+             style="display:none;visibility:hidden" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="mdelorme.Ext.Widgets:TabHeader"
+         id="g49"
+         transform="rotate(90,10.499988,184.49999)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">54,39</pencil:property>
+          <pencil:property
+             name="active">false</pencil:property>
+          <pencil:property
+             name="closable">false</pencil:property>
+          <pencil:property
+             name="tabTitle" />
+          <pencil:property
+             name="textColor">#15428BFF</pencil:property>
+          <pencil:property
+             name="textFontInactive">Arial|normal|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textFontActive">Arial|bold|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textAlign">1,1</pencil:property>
+        </pencil:metadata>
+        <defs
+           id="defs48">
+          <linearGradient
+             x1="-0.42891377"
+             y1="-0.58288288"
+             x2="-0.42891377"
+             y2="44.881397"
+             pencil:name="inactive_panel"
+             id="385c296333204459a09d2e85af75bb74"
+             gradientTransform="scale(1.1657506,0.85781641)"
+             gradientUnits="userSpaceOnUse">
+            <stop
+               style="stop-color:#CCDEF6;stop-opacity:1"
+               offset="0"
+               id="stop43" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="0.3"
+               id="stop44" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="1"
+               id="stop45" />
+          </linearGradient>
+          <linearGradient
+             x1="0"
+             y1="0"
+             x2="0"
+             y2="1"
+             pencil:name="active_panel"
+             id="6cd59da6b1634dfdae2d4f904834e198">
+            <stop
+               style="stop-color:#ffffff;stop-opacity:1"
+               offset="0"
+               id="stop46" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="0.3"
+               id="stop47" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="1"
+               id="stop48" />
+          </linearGradient>
+        </defs>
+        <g
+           transform="translate(0.5,3.5)"
+           id="g48">
+          <path
+             style="visibility:visible;fill:url(#385c296333204459a09d2e85af75bb74);stroke:#8db2e3;stroke-width:1px"
+             pencil:name="rect_inactive"
+             id="30c19c82a0eb46a48ba9128d5400e0ee"
+             d="M 0,38 V 5 C 0,0 0,0 5,0 h 42 c 5,0 5,0 5,5 V 38 H 0" />
+          <g
+             pencil:name="rect_active"
+             id="ef2a7b4aa0f843809e4aee21f142585b"
+             style="display:none;visibility:hidden">
+            <path
+               style="fill:url(#linearGradient5);stroke:#8db2e3;stroke-width:1px"
+               pencil:name="body_rect_active"
+               id="38891ff23fe8457980d55764536ebd1b"
+               d="M 0,39 V 5 C 0,0 0,0 5,0 h 42 c 5,0 5,0 5,5 v 34" />
+            <path
+               style="fill:url(#linearGradient6);stroke:#deecfd;stroke-width:1px"
+               pencil:name="bottom_border_rect_active"
+               id="5bd6a1503c3848b98e7d9b919276dded"
+               d="m 52.5,39 h -53" />
+          </g>
+          <text
+             x="33.415905"
+             y="14.214675"
+             style="font-style:normal;font-weight:normal;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;visibility:visible;fill:#15428b;fill-opacity:1"
+             transform="translate(-8,5)"
+             xml:space="preserve"
+             pencil:name="text_inactive"
+             id="ce8c6db7b64c4bf68e794b270aa7d38b"> </text>
+          <text
+             x="33.415905"
+             y="14.214675"
+             style="font-style:normal;font-weight:bold;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;display:none;visibility:hidden;fill:#15428b;fill-opacity:1"
+             transform="translate(27,20)"
+             xml:space="preserve"
+             pencil:name="text_active"
+             id="3cc49d592a7544c9bd189bb52272f565"> </text>
+          <image
+             height="11"
+             width="11"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAMAAACecocUAAAAAXNSR0IArs4c6QAAADlQTFRF QP9AVHqvW4CzYoa4aIu8b5HAjbLjmbvox9vzz+T70uf81un+4fP/6Pb/8Pn/9Pr/9/z/+/3/ ////OIdsdAAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwY AAAAB3RJTUUH2AkQFDgRCbCWqQAAAFBJREFUCNc1zVkOgDAIRVGwUqh9dnD/ixUk3oTk8ANE pBl5+mQahI0xDL7oNpEhYtu97jO6l3sCpRRgutGOqCFcmS/m+rnX3n0QR5Hls//vCxDrA+Pj d70yAAAAAElFTkSuQmCC"
+             pencil:name="close"
+             id="e67961a84dd7489ba1b104791438197e"
+             transform="translate(39,2)"
+             style="display:none;visibility:hidden" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="nz.nwatson.MaterialIcons:tooltip-text"
+         id="g50"
+         transform="translate(161,83.200488)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">24,24</pencil:property>
+          <pencil:property
+             name="fillColor">#FF7D7DFF</pencil:property>
+        </pencil:metadata>
+        <rect
+           style="fill:#000000;fill-opacity:0;stroke:none"
+           x="0"
+           y="0"
+           pencil:name="bgRect"
+           id="fd44b8b1ef3a4016b776aea60440bf5b"
+           height="24"
+           width="24" />
+        <g
+           pencil:name="icon"
+           id="019c3fb7a54d41ae9f6995a66f44ac57"
+           style="fill:#ff7d7d;fill-opacity:1">
+          <path
+             stroke-width="0.2"
+             stroke-linejoin="round"
+             d="m 4,2 h 16 c 1.1046,0 2,0.89543 2,2 v 12 c 0,1.1046 -0.8954,2 -2,2 H 16 L 12,22 8,18 H 4 C 2.89543,18 2,17.1046 2,16 V 4 C 2,2.89543 2.89543,2 4,2 Z m 1,3.00001 v 2 h 14 v -2 z m 0,4 V 11 H 15 V 9.00001 Z M 5,13 v 2 h 12 v -2 z"
+             id="path49" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="nz.nwatson.MaterialIcons:file-image"
+         id="g51"
+         transform="translate(160.80001,135.60003)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">24,24</pencil:property>
+          <pencil:property
+             name="fillColor">#FF7D7DFF</pencil:property>
+        </pencil:metadata>
+        <rect
+           style="fill:#000000;fill-opacity:0;stroke:none"
+           x="0"
+           y="0"
+           pencil:name="bgRect"
+           id="8f686f769868461bbc774bead5b0dcaa"
+           height="24"
+           width="24" />
+        <g
+           pencil:name="icon"
+           id="7efefd311e3f4d94a7cca718dd132d61"
+           style="fill:#ff7d7d;fill-opacity:1">
+          <path
+             stroke-width="0.2"
+             stroke-linejoin="round"
+             d="m 12.9994,8.99807 h 5.5 l -5.5,-5.5 z M 5.99938,1.99809 h 8.00002 l 6,5.99999 V 19.9981 c 0,1.104 -0.896,2 -2,2 H 5.98937 c -1.104,0 -1.98998,-0.896 -1.98998,-2 L 4.0094,3.99808 c 0,-1.10401 0.88497,-1.99999 1.98998,-1.99999 z M 6,20 h 9 3 v -8 l -4,4 -2,-2 z M 8,9 c -1.10457,0 -2,0.89543 -2,2 0,1.1046 0.89543,2 2,2 1.10457,0 2,-0.8954 2,-2 C 10,9.89543 9.10457,9 8,9 Z"
+             id="path50" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="nz.nwatson.MaterialIcons:volume"
+         id="g52"
+         transform="translate(158.80001,189.20022)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">24,24</pencil:property>
+          <pencil:property
+             name="fillColor">#FF7D7DFF</pencil:property>
+        </pencil:metadata>
+        <rect
+           style="fill:#000000;fill-opacity:0;stroke:none"
+           x="0"
+           y="0"
+           pencil:name="bgRect"
+           id="dbdb55a142064087b62c282dc1024c3b"
+           height="24"
+           width="24" />
+        <g
+           pencil:name="icon"
+           id="6084f73c15504c5890e513032bf606a3"
+           style="fill:#ff7d7d;fill-opacity:1">
+          <path
+             stroke-width="0.2"
+             stroke-linejoin="round"
+             d="m 3,9.00002 3.99998,2e-5 L 12,4.00002 V 20 L 6.99998,15 h -4 z m 17.9999,3.00008 c 0,4.2831 -2.9919,7.8675 -6.9999,8.7769 v -2.0668 c 2.8914,-0.8606 4.9999,-3.5391 4.9999,-6.7101 C 18.9999,8.8291 16.8914,6.15058 14,5.29 V 3.22307 c 4.008,0.90948 6.9999,4.49381 6.9999,8.77703 z M 17,12 c 0,2.0503 -1.2341,3.8124 -3,4.584 V 7.41605 C 15.7659,8.1876 17,9.94968 17,12 Z"
+             id="path51" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="nz.nwatson.MaterialIcons:menu"
+         id="g53"
+         transform="translate(4.3501221,0.15003153)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">45,45</pencil:property>
+          <pencil:property
+             name="fillColor">#FF7D7DFF</pencil:property>
+        </pencil:metadata>
+        <rect
+           style="fill:#000000;fill-opacity:0;stroke:none"
+           x="0"
+           y="0"
+           pencil:name="bgRect"
+           id="7b3f2357bb5f45f5beaf8ea4a13e9436"
+           height="45"
+           width="45" />
+        <g
+           pencil:name="icon"
+           id="373f59449d2a4d7f8115359dfc0ef08f"
+           transform="scale(1.875)"
+           style="fill:#ff7d7d;fill-opacity:1">
+          <path
+             stroke-width="0.2"
+             stroke-linejoin="round"
+             d="M 3,6 H 21 V 8 H 3 Z m 0,5 h 18 v 2 H 3 Z m 0,5 h 18 v 2 H 3 Z"
+             id="path52" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="nz.nwatson.MaterialIcons:menu-left"
+         id="g54"
+         transform="translate(152,36)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">39,39</pencil:property>
+          <pencil:property
+             name="fillColor">#FF7D7DFF</pencil:property>
+        </pencil:metadata>
+        <rect
+           style="fill:#000000;fill-opacity:0;stroke:none"
+           x="0"
+           y="0"
+           pencil:name="bgRect"
+           id="828b33e5b2df419cbb62f41d266c7a0d"
+           height="39"
+           width="39" />
+        <g
+           pencil:name="icon"
+           id="e9fe1c8f9de6430f9d86d11d9aa3f16d"
+           transform="scale(1.625)"
+           style="fill:#ff7d7d;fill-opacity:1">
+          <path
+             stroke-width="0.2"
+             stroke-linejoin="round"
+             d="m 14,7 -5,5 5,5 z"
+             id="path53" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="Evolus.Sketchy.GUI:lineV2"
+         pencil:sc="Horizontal Line"
+         id="4ee161756432413f9e5da9f934c36d44"
+         transform="translate(397.25001,301.0001)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="startLine">-206,0</pencil:property>
+          <pencil:property
+             name="endLine">710,0</pencil:property>
+          <pencil:property
+             name="mode">horizontal</pencil:property>
+          <pencil:property
+             name="strokeColor">#CC9933FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">15|5,5</pencil:property>
+        </pencil:metadata>
+        <g
+           pencil:name="rect"
+           id="be623a15c7da469cb6a2ec5ab60d49e9"
+           transform="translate(0.5,0.5)"
+           style="stroke:#cc9933;stroke-width:15;stroke-dasharray:5, 5;stroke-opacity:1">
+          <path
+             style="fill:none;stroke:#ffffff;stroke-width:8px;stroke-opacity:0"
+             pencil:name="bg"
+             id="46d2c14e152d4ae890a5024eff85cfa6"
+             transform="translate(0.5,0.5)"
+             d="M -206,0 C 99,-1 405,-1 710,0" />
+          <path
+             style="fill:none;stroke-linejoin:round"
+             pencil:name="line1"
+             id="3991ee83a403446b8555d9c5abf0e7c6"
+             transform="translate(0.5,0.5)"
+             d="M -206,0 C 99,-1 405,-1 710,0" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

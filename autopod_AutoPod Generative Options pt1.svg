@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1154"
+   height="588"
+   id="exportedSVG"
+   version="1.1"
+   pencil:version="1.2.2"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:pencil="http://www.evolus.vn/Namespace/Pencil"
+   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <defs
+     id="defs161">
+    <linearGradient
+       xlink:href="#e7ab9fe2a3b44d2ea56e1b7bc40c9f50"
+       id="linearGradient1"
+       x1="-0.43165447"
+       y1="-0.579182"
+       x2="-0.43165447"
+       y2="45.175609"
+       gradientTransform="scale(1.1583489,0.86329772)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#e7ab9fe2a3b44d2ea56e1b7bc40c9f50"
+       id="linearGradient2"
+       x1="-0.068680282"
+       y1="280.28423"
+       x2="-0.068680282"
+       y2="287.56434"
+       gradientTransform="scale(7.2801099,0.13736056)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#d7bc20f80bb441bf83cde48fee79cada"
+       id="linearGradient3"
+       x1="-0.43165447"
+       y1="-0.579182"
+       x2="-0.43165447"
+       y2="45.175609"
+       gradientTransform="scale(1.1583489,0.86329772)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#d7bc20f80bb441bf83cde48fee79cada"
+       id="linearGradient4"
+       x1="-0.068680282"
+       y1="280.28423"
+       x2="-0.068680282"
+       y2="287.56434"
+       gradientTransform="scale(7.2801099,0.13736056)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#e79098a3bcfe43cfbca9bc181d7741e7"
+       id="linearGradient5"
+       x1="-0.43165447"
+       y1="-0.579182"
+       x2="-0.43165447"
+       y2="45.175609"
+       gradientTransform="scale(1.1583489,0.86329772)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#e79098a3bcfe43cfbca9bc181d7741e7"
+       id="linearGradient6"
+       x1="-0.068680282"
+       y1="280.28423"
+       x2="-0.068680282"
+       y2="287.56434"
+       gradientTransform="scale(7.2801099,0.13736056)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer_autopod_generative_options_pt1"
+     style="display:inline">
+    <g
+       id="g99">
+      <rect
+         x="0"
+         y="0"
+         width="1150"
+         height="584"
+         fill="none"
+         id="rect55" />
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:windowframe"
+         id="g56"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">1150,584</pencil:property>
+          <pencil:property
+             name="fillColor">#E8E8E8FF</pencil:property>
+          <pencil:property
+             name="strokeColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="strokeStyle">4|</pencil:property>
+          <pencil:property
+             name="textAlignment">1,1</pencil:property>
+          <pencil:property
+             name="textColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="textFont">Colortube|900|normal|15px|none|0</pencil:property>
+          <pencil:property
+             name="text0" />
+          <pencil:property
+             name="withMinimize">true</pencil:property>
+          <pencil:property
+             name="withMaxmimize">true</pencil:property>
+          <pencil:property
+             name="withClose">true</pencil:property>
+          <pencil:property
+             name="withShadow">true</pencil:property>
+        </pencil:metadata>
+        <rect
+           rx="0"
+           ry="0"
+           style="visibility:visible;fill:#000000;fill-opacity:0.109804;stroke:#4388cc;stroke-width:0;stroke-opacity:1"
+           width="1150"
+           height="584"
+           pencil:name="rectangle3"
+           id="635ad82098104549998bf32c16a6bdeb"
+           x="4"
+           y="4" />
+        <rect
+           rx="0"
+           ry="0"
+           style="fill:#e8e8e8;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           width="1146"
+           height="580"
+           pencil:name="rectangle0"
+           id="16a16b1c35bb4e118af8f1feaf7a5445"
+           x="2"
+           y="2" />
+        <rect
+           rx="0"
+           ry="0"
+           style="fill:#4388cc;fill-opacity:0.121569;stroke:#4388cc;stroke-width:0;stroke-opacity:1"
+           width="1146"
+           height="40"
+           pencil:name="rectangle1"
+           id="13f6e868fa99439cb31a29bfb5ae886b"
+           x="2"
+           y="2" />
+        <g
+           dominant-baseline="auto"
+           pencil:name="text0text"
+           id="69b73464ae8c4c998db4cf8859c3c93d"
+           style="color:#d68d8d;font-style:normal;font-weight:900;font-size:15px;font-family:Colortube;text-decoration:none;text-decoration-line:none;fill:#d68d8d;fill-opacity:1" />
+        <g
+           style="visibility:visible;fill:#ffffff;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           pencil:name="vector0"
+           id="3e84b48059a24b199ac0237918ccddb6"
+           transform="matrix(0.73333333,0,0,0.73333333,1124,17)">
+          <path
+             d="M 0,15 15,0 M 1,0 15,15"
+             id="path55" />
+        </g>
+        <g
+           style="visibility:visible;fill:#ffffff;fill-opacity:1;stroke:#d68d8d;stroke-width:2;stroke-opacity:1"
+           pencil:name="vector1"
+           id="bfc4fbdbbc2b44de8b064f6fe95ae7f1"
+           transform="matrix(0.73333333,0,0,-1,1065,29)">
+          <path
+             d="M 0,0 H 15"
+             id="path56" />
+        </g>
+        <rect
+           rx="0"
+           ry="0"
+           style="visibility:visible;fill:#ffffff;fill-opacity:0;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           width="10"
+           height="10"
+           pencil:name="rectangle2"
+           id="18e4254ade4f405693908d11928065c7"
+           x="1096"
+           y="17" />
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="Evolus.WindowsXP.Widgets:Scrollbar"
+         id="g58"
+         transform="translate(1126,41)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">19,541</pencil:property>
+          <pencil:property
+             name="thumbBegin">9.5,45.08333333333336</pencil:property>
+          <pencil:property
+             name="thumbEnd">9.5,225.4166666666667</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+        </pencil:metadata>
+        <g
+           transform="translate(-1,1)"
+           id="g57">
+          <defs
+             pencil:name="defs19"
+             id="b701be52562c4e2a8f105e54828a1a8b">
+            <linearGradient
+               x1="155.22887"
+               y1="2.0773644"
+               x2="171.69083"
+               y2="18.53932"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1.0308342,0,0,0.9700881,20,115)"
+               pencil:name="linearGradient3294"
+               id="e18baebb70504ee999d6284f1c0b2cbf">
+              <stop
+                 style="stop-color: rgb(200, 214, 251); stop-opacity: 1;"
+                 offset="0"
+                 pencil:name="stop5"
+                 id="67e3978dfcb34f399f48414a7248f2b6" />
+              <stop
+                 style="stop-color: rgb(189, 210, 251); stop-opacity: 1;"
+                 offset="0.60036409"
+                 pencil:name="stop6"
+                 id="9d201aea8983412a8e8293a3aadf1d1b" />
+              <stop
+                 style="stop-color: rgb(179, 207, 253); stop-opacity: 1;"
+                 offset="0.71293235"
+                 pencil:name="stop7"
+                 id="8d65eb46515d4d2793f6aec10a78dc21" />
+              <stop
+                 style="stop-color: rgb(181, 205, 250); stop-opacity: 1;"
+                 offset="1"
+                 pencil:name="stop8"
+                 id="8b5a2410497742448397aed058c559e8" />
+            </linearGradient>
+            <linearGradient
+               pencil:name="linearGradient3224"
+               id="28ed64659d1f4951a1cfca1a83d0fecb">
+              <stop
+                 style="stop-color:#f3f1ec;stop-opacity:1"
+                 offset="0"
+                 pencil:name="stop3226"
+                 id="c984c0f4308d409cab6e1a10ba4b792c" />
+              <stop
+                 style="stop-color:#ffffff;stop-opacity:1"
+                 offset="1"
+                 pencil:name="stop3232"
+                 id="4b893cfff84e4e47a9398078281ea116" />
+            </linearGradient>
+            <linearGradient
+               pencil:name="linearGradient3200"
+               id="9890b873a41244ed96f557a7dde5d5da">
+              <stop
+                 style="stop-color: rgb(243, 241, 236); stop-opacity: 1;"
+                 offset="0"
+                 pencil:name="stop1"
+                 id="ea76ab015db54131bb475913def53486" />
+              <stop
+                 style="stop-color: rgb(243, 241, 236); stop-opacity: 1;"
+                 offset="0.42391136"
+                 pencil:name="stop2"
+                 id="b52e38c61a6a419cba02b2dbac245da2" />
+              <stop
+                 style="stop-color: rgb(124, 159, 211); stop-opacity: 1;"
+                 offset="0.77979147"
+                 pencil:name="stop3"
+                 id="e281717663b54cb0a16515304674978d" />
+              <stop
+                 style="stop-color: rgb(174, 196, 229); stop-opacity: 1;"
+                 offset="1"
+                 pencil:name="stop4"
+                 id="9d60a71ad725471e8e1ae777ac7e42d8" />
+            </linearGradient>
+            <linearGradient
+               x1="155.22887"
+               y1="134.00845"
+               x2="169.75064"
+               y2="134.00845"
+               xlink:href="#e18baebb70504ee999d6284f1c0b2cbf"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1.0308342,0,0,0.9700881,-158,100.12501)"
+               pencil:name="linearGradient2425"
+               id="e56ecf39a001453aa32926425f99bf51" />
+            <linearGradient
+               x1="190.25"
+               y1="125"
+               x2="207"
+               y2="145"
+               xlink:href="#9890b873a41244ed96f557a7dde5d5da"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="translate(-187,-23.874989)"
+               pencil:name="linearGradient3206"
+               id="7b890224096a43e095548f119ea67168" />
+            <linearGradient
+               x1="187.5"
+               y1="125.5625"
+               x2="207.55617"
+               y2="125.5625"
+               xlink:href="#28ed64659d1f4951a1cfca1a83d0fecb"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1,0,0,3.9771311,-187.5,-810.3376)"
+               pencil:name="linearGradient3214"
+               id="697c3e0a8ff74f7abf29cb83dbe48312" />
+            <linearGradient
+               x1="190.25"
+               y1="125"
+               x2="207"
+               y2="145"
+               xlink:href="#9890b873a41244ed96f557a7dde5d5da"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="translate(-187,-243.87499)"
+               pencil:name="linearGradient3270"
+               id="19a59a4a03e84702a1140018937c9c21" />
+            <linearGradient
+               x1="154.72905"
+               y1="130.40053"
+               x2="169.75848"
+               y2="130.40053"
+               xlink:href="#e18baebb70504ee999d6284f1c0b2cbf"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1.0308342,0,0,0.9700881,-158,-119.87499)"
+               pencil:name="linearGradient3272"
+               id="8a9461b7a0cd4b5c85ba4d1b9c06c577" />
+            <linearGradient
+               x1="190.25"
+               y1="125"
+               x2="207"
+               y2="145"
+               xlink:href="#9890b873a41244ed96f557a7dde5d5da"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="matrix(1,0,0,9.4666733,-187,-2299.0768)"
+               pencil:name="linearGradient3280"
+               id="bb3eaa0eed0b4211806a0c51b0795e29" />
+            <linearGradient
+               x1="190.01523"
+               y1="134.92021"
+               x2="204.98477"
+               y2="134.92021"
+               xlink:href="#e18baebb70504ee999d6284f1c0b2cbf"
+               gradientUnits="userSpaceOnUse"
+               gradientTransform="translate(-188,-24.874989)"
+               pencil:name="linearGradient3292"
+               id="899e2aefff2e497d9efee205a2059c3b" />
+          </defs>
+          <rect
+             width="18"
+             height="538"
+             x="0.5"
+             y="0.5"
+             style="fill:url(#697c3e0a8ff74f7abf29cb83dbe48312);fill-opacity:1;fill-rule:nonzero;stroke:#eeede5;stroke-width:1;stroke-opacity:1"
+             pencil:name="bgRect"
+             id="a89259056e624920b6ba2bd019a2d4b2" />
+          <g
+             pencil:name="endButton"
+             id="2ec48869d0c94345b824c58b56afbee8"
+             transform="translate(0,298)">
+            <rect
+               width="18"
+               height="19"
+               rx="3"
+               ry="3"
+               x="1"
+               y="221.12502"
+               style="fill:url(#7b890224096a43e095548f119ea67168);fill-opacity:1;fill-rule:nonzero;stroke:none"
+               pencil:name="rect3198"
+               id="f7034d9c53354726af1cec028fb401e7" />
+            <rect
+               width="17"
+               height="18"
+               rx="2.5"
+               ry="2.5"
+               x="1"
+               y="221.12502"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               pencil:name="bgRect211214321294782"
+               id="6722759d833f471c872e14e046ef6cd9" />
+            <rect
+               width="14"
+               height="15"
+               rx="1"
+               ry="1"
+               x="2.5"
+               y="222.62502"
+               style="display:inline;overflow:visible;visibility:visible;fill:url(#e56ecf39a001453aa32926425f99bf51);fill-opacity:1;fill-rule:nonzero;stroke:#c3d3f8;stroke-width:0.969547;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+               pencil:name="endDropRect"
+               id="2d36565ef8fe4f2daa69f35294988b12" />
+            <path
+               d="m 13.5,228.12501 -4,4 -4,-4"
+               style="display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#4d6185;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+               pencil:name="endMarker"
+               id="32be92047f864a4a8cb37fd42bc4db73" />
+          </g>
+          <g
+             pencil:name="beginButton"
+             id="53cd68f5e25149ccae36f1ceb754e79b">
+            <rect
+               width="18"
+               height="19"
+               rx="2.5"
+               ry="2.5"
+               x="1"
+               y="1.1250114"
+               style="fill:url(#19a59a4a03e84702a1140018937c9c21);fill-opacity:1;fill-rule:nonzero;stroke:none"
+               pencil:name="rect3262"
+               id="c64d02b7609f48c7809196dbe2323b37" />
+            <rect
+               width="17"
+               height="18"
+               rx="2.5"
+               ry="2.5"
+               x="1"
+               y="1.1250114"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               pencil:name="rect3264"
+               id="f8cffd4473a64971b3d787308e8083ae" />
+            <rect
+               width="14"
+               height="15"
+               rx="1"
+               ry="1"
+               x="2.5"
+               y="2.6250114"
+               style="display:inline;overflow:visible;visibility:visible;fill:url(#8a9461b7a0cd4b5c85ba4d1b9c06c577);fill-opacity:1;fill-rule:nonzero;stroke:#c3d3f8;stroke-width:0.969547;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+               pencil:name="beginDropRect"
+               id="0ad9a9685b6a47d6ba2daf18968785be" />
+            <path
+               d="m 13.5,12.125011 -4,-3.9999996 -4,3.9999996"
+               style="display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#4d6185;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+               pencil:name="beginMarker"
+               id="bf5a21733aca47ed994733142966b9b1" />
+          </g>
+          <rect
+             width="18"
+             height="179.83299"
+             rx="3"
+             ry="3"
+             x="1"
+             y="20"
+             style="visibility:visible;fill:url(#bb3eaa0eed0b4211806a0c51b0795e29);fill-opacity:1;fill-rule:nonzero;stroke:none"
+             pencil:name="thumbOut"
+             id="8be213bae6eb47e7a4ca2ebb65214a19"
+             transform="translate(0,26.083333)" />
+          <rect
+             width="17"
+             height="178.33299"
+             rx="2.5"
+             ry="2.5"
+             x="1"
+             y="21"
+             style="visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             pencil:name="thumbMid"
+             id="09fe397f7dde4421857755730b312ee4"
+             transform="translate(0,25.083333)" />
+          <rect
+             width="14"
+             height="175.33299"
+             rx="1"
+             ry="1"
+             x="2.5"
+             y="22.5"
+             style="overflow:visible;visibility:visible;fill:url(#899e2aefff2e497d9efee205a2059c3b);fill-opacity:1;fill-rule:nonzero;stroke:#c3d3f8;stroke-width:0.969547;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+             pencil:name="thumbIn"
+             id="4cad3d2b31a143caa56dc54734d47797"
+             transform="translate(0,25.083333)" />
+          <g
+             pencil:name="grip"
+             id="b1ec10e655414fa18ce022ee92f9a4ee"
+             transform="translate(0,35.083333)"
+             style="visibility:visible">
+            <path
+               d="m 5.5,100.62501 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3308"
+               id="1c7c4d118afb4efb8432ee5c7678c6ec" />
+            <path
+               d="m 6.5,101.62501 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#8cb0f8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3312"
+               id="0785dfa8664d42129cd455e55f7e3f72" />
+            <path
+               d="m 5.5,102.62501 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3320"
+               id="5e47ba4d6eb64ec09e883c4abf2e3ad2" />
+            <path
+               d="m 6.5,103.62501 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#8cb0f8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3322"
+               id="bc5a9ffc7ecf489f8f64eecd71fee962" />
+            <path
+               d="m 5.5,96.625011 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3324"
+               id="d917f1051a7b4d7a99dc8e60755d56a6" />
+            <path
+               d="m 6.5,97.625011 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#8cb0f8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3326"
+               id="b9893fb9458b4ae4a637dffc55bbbb09" />
+            <path
+               d="m 5.5,98.625011 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3328"
+               id="f199f0d8f8ec4ca0b307173d22c6b63d" />
+            <path
+               d="m 6.5,99.625011 h 6.00943"
+               style="fill:none;fill-rule:evenodd;stroke:#8cb0f8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               pencil:name="path3330"
+               id="97cad332a01749e9aee2be5e255e60c5" />
+          </g>
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="Evolus.BasicWebElements:pane-v2"
+         id="g59"
+         transform="matrix(1.0000011,0,0,1.0000011,183.75001,87.750011)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="radius">10,0</pencil:property>
+          <pencil:property
+             name="textPadding">0,16.81166084608209</pencil:property>
+          <pencil:property
+             name="fixedRadius">false</pencil:property>
+          <pencil:property
+             name="fillColor">#FFEBEBFF</pencil:property>
+          <pencil:property
+             name="shadowStyle">0|0|3|0|#000000</pencil:property>
+          <pencil:property
+             name="shadowColor">#00000000</pencil:property>
+          <pencil:property
+             name="strokeColor">#FFD4D4FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">14|</pencil:property>
+          <pencil:property
+             name="rightBorder">true</pencil:property>
+          <pencil:property
+             name="bottomBorder">false</pencil:property>
+          <pencil:property
+             name="textContent" />
+          <pencil:property
+             name="textFont">CaslonAntique|normal|normal|13px|none|0</pencil:property>
+          <pencil:property
+             name="textColor">#000000FF</pencil:property>
+          <pencil:property
+             name="textAlign">1,1</pencil:property>
+          <pencil:property
+             name="box">932.4501907957533,504.3498253824625</pencil:property>
+          <pencil:property
+             name="cornerStyle">none</pencil:property>
+          <pencil:property
+             name="customStyle" />
+        </pencil:metadata>
+        <foreignObject
+           x="-3"
+           y="-3"
+           width="938.4501907957533"
+           height="510.3498253824625"
+           pencil:name="htmlObject"
+           id="0681fb0eddaa4745b1eef01ea3addb79"
+           style="padding-top: 3px;">
+          <xhtml:div
+             style="box-sizing: border-box; overflow: hidden; box-shadow: none; width: 932.45px; height: 504.35px; padding: 0px; background-color: rgb(255, 235, 235); x: 10px; border-radius: 0px; border-width: 14px 14px 0px; border-style: solid; border-color: rgb(255, 212, 212); border-image: initial; margin-left: 3px;"
+             pencil:name="div"
+             id="2b84be3b7aef46eca136dc7bb60d8441" />
+        </foreignObject>
+        <foreignObject
+           x="0"
+           y="0"
+           width="932.4501907957533"
+           height="504.3498253824625"
+           pencil:name="htmlObject2"
+           id="5f1feaf2fad04f6c9636a0f9d33aa464"
+           style="font-family: CaslonAntique; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0);">
+          <xhtml:div
+             style="box-sizing: border-box; overflow: hidden; display: table-cell; width: 932.45px; height: 504.35px; padding: 0px; text-align: center; vertical-align: middle;"
+             pencil:name="div2"
+             id="3f3cd02d05f0493594c4f0b35d9b2f63">
+            <xhtml:div />
+          </xhtml:div>
+        </foreignObject>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="mdelorme.Ext.Widgets:Panel"
+         id="g60"
+         transform="translate(4,43)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">178,551</pencil:property>
+          <pencil:property
+             name="headerHeight">0,23</pencil:property>
+          <pencil:property
+             name="withHeader">true</pencil:property>
+          <pencil:property
+             name="round">false</pencil:property>
+          <pencil:property
+             name="withClose">false</pencil:property>
+          <pencil:property
+             name="withMax">false</pencil:property>
+          <pencil:property
+             name="withMin">false</pencil:property>
+          <pencil:property
+             name="sliding">none</pencil:property>
+          <pencil:property
+             name="inBorderLayout">none</pencil:property>
+          <pencil:property
+             name="titleText" />
+          <pencil:property
+             name="textColor">#15428BFF</pencil:property>
+          <pencil:property
+             name="textFont">Arial|bold|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textAlign">0,1</pencil:property>
+          <pencil:property
+             name="headerColor">#E4EBF6FF</pencil:property>
+        </pencil:metadata>
+        <defs
+           id="defs59">
+          <linearGradient
+             x1="0"
+             y1="4.0850339"
+             x2="0"
+             y2="69.445572"
+             pencil:name="linearFill"
+             id="3cb58655e7db4557905a6ffdc955ab49"
+             gradientTransform="scale(2.7233558,0.36719404)"
+             gradientUnits="userSpaceOnUse">
+            <stop
+               style="stop-color:#DAE7F6;stop-opacity:1"
+               offset="0"
+               pencil:name="stop1"
+               id="dc3c8e88a30a46c78ee49766e1fca23e" />
+            <stop
+               style="stop-color:#CDDEF3;stop-opacity:1"
+               offset="0.49"
+               pencil:name="stop2"
+               id="c3135bc5ee8b436f83e3133acdb93149" />
+            <stop
+               style="stop-color:#ABC7EC;stop-opacity:1"
+               offset="0.5"
+               pencil:name="stop2"
+               id="cebbf2eb14a149beb976e6198fd5d653" />
+            <stop
+               style="stop-color:#C9DBF2;stop-opacity:1"
+               offset="1"
+               pencil:name="stop4"
+               id="1c40473670a640d7bc2b6a9fa2f99e0f" />
+          </linearGradient>
+        </defs>
+        <rect
+           rx="0"
+           ry="0"
+           x="0.5"
+           y="1.5"
+           width="180.7388"
+           height="535"
+           style="fill:#ffffff;stroke-width:0"
+           pencil:name="contentBg"
+           id="0721300cb0a248dc853785d401503015" />
+        <rect
+           x="0"
+           y="0"
+           rx="0"
+           ry="0"
+           width="178"
+           height="23"
+           style="fill:#e4ebf6;fill-opacity:1;stroke:none"
+           pencil:name="headerBar"
+           id="d4bf36bda5314611856431580fb71ef3" />
+        <g
+           pencil:name="header"
+           id="12bb83aa996442cb9df404f831847f45"
+           style="visibility:visible">
+          <rect
+             rx="0"
+             ry="0"
+             x="0"
+             y="1.5"
+             width="178"
+             height="24"
+             style="fill:url(#3cb58655e7db4557905a6ffdc955ab49);stroke:none"
+             pencil:name="titleBg"
+             id="ca2f183900864cbb945f356f8ce0b702" />
+          <text
+             x="31.5"
+             y="17.25"
+             style="font-style:normal;font-weight:bold;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;fill:#15428b;fill-opacity:1"
+             xml:space="preserve"
+             pencil:name="text"
+             id="5893b531f76f49229390e41ab1421fe7"
+             transform="translate(-21,-5)"> </text>
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcQI5iVnI0AAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAABCUlEQVQoz6WTP8rCQBDF344p bb5GAi6eQYRPJZ2ieIAcwtI6J0id0s4LBASxED2BSvAQEVOJ1ol/iriTrFFQfDCw+3Z+85Il EXhovIxu+FDDvimQB78RB30L5geQSj9d05rMQl7nK+8rMRwnwHQewvV8TOch4gRcz76SoRbJ BRj0JAAbrucDsDHoSSxWKeiM0n1yeQHHD7Pb0QcosNuR3FOAj+fseeoNE84oA+sNUzuvlQ39 nYkE1y6IGHQ9H7sg0s4LF1YiQokIwfbA4H+zygOC7YF7CjCRwGa9Z7DVliASaLUlD9is91qy kSUDliXhwIZlSe1i3vmcXPnLGl9J+arv529b/PJX3QF7KB2f8DUptgAAAABJRU5ErkJggg=="
+             pencil:name="closeButton"
+             id="7739c6a7312046db8b62571d067b2943"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcRNuxTSScAAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAn0lEQVQoz2NkgIKZu1/8ZyAS pLtKMDIgayQFwC0iVSOyASww2z/8YyAaCDBBaLjm338YGDxiNhPUuGOJLwMDG4TNBBP885c4 W5HVIWyGCq6f54tTY2DSZrg6FM3vPv5BoXGBdx//MMjxsKBqZmJiRKFxAWR5uGZmJiYUGhdA lsewOS53Czk2MzAsn+7LQAqAu0FMkDgNGOrITduMlOQqAMxexSYv4qqOAAAAAElFTkSuQmCC "
+             pencil:name="maxButton"
+             id="5865f2128ffb4ebc94e4b00d365f225c"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcRFtc9ae8AAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAjklEQVQoz2NkgIKZu1/8ZyAS pLtKMDIgayQFwC0iVSOyASww2z/8YyAaCDBBaLjm33+I18zAhqb5z18GkgHCZko0v/tIvLvl eFhQNTMxQaLu3JnnODUZmUhit5mZCRKE7RPX4tS8bmkeds0wmyvzg3FqhqnBYjOEtrKSIdrv TDCGmCBxGjDUkZu2GSnJVQACELqwAhqLqgAAAABJRU5ErkJggg== "
+             pencil:name="minButton"
+             id="e037c6e4faea407187c91b4e55dd7393"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcaBbB38foAAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAqElEQVQoz2NkgIKZu1/8ZyAS pLtKMDIgayQFwC0iVSOyASww2z/8YyAaCDBBaLjm33+I18zAhqb5z18GkgHCZqjmwKTNOBWv n+eLwmeCMd59/MPw7uMfhrn9nlg1zu33hKvB0MzExAjH8yd6oWicP9ELRR5DMzMTEwpeNNmH gYGBgWHRZB8MOQw/I5sIA0um+hIXYMxMpIc2XIuYIHEaMNSRm7YZKclVAF8AyGf1+nTZAAAA AElFTkSuQmCC "
+             pencil:name="slide_up"
+             id="7efa08098cd74b1aa94a46c428b2671c"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcaFjTJsCQAAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAo0lEQVQoz2NkgIKZu1/8ZyAS pLtKMDIgayQFwC0iVSOyASww2z/8YyAaCDBBaLjm33+I18zABqGYYPw/fzGxR8xmrOIwANf8 +y8q9onfzMDAAKHR5TA0v/v4B44DkzajuDIwaTOKPIZmJiZGBiYmRobkwu1YvZlcuB2uBgbg AcbMBDFn0WQfosONBdlmUgGSzSTrRfhZTJA4DRjqyE3bjJTkKgAob+t58nyMGgAAAABJRU5E rkJggg== "
+             pencil:name="slide_down"
+             id="aa36c569c189408a9b311c26791dd435"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcWMT12SkMAAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAA70lEQVQoz6VTOwrCQBB9u+YC Nip4CQ+hlWDwCIKoBDvBKhCCEtHORmLwEopWeggvIcTO3sRYjJvfWPh58Bh2Zt+8HXZX4IX1 0Y/wIfqNikBa+A1io2+F6QZSud8enG17+zavEIvvQZadyRYAxXyNiYMwYW9GwtVYB0DrdJ07 h0RjQcLlSMc9pAhQXu1REOujH/XqZZwvAbsSe3OA1W2yfK2qwTtdE2cpRYb25hA3yNfYsQtS xrS8PQBgOmgBACxvn6kzsepqujsAgGPokFLAMWhm090xZy1xpjgf6mzGd7mMc6n42btm+359 2+KfX/UEckIM5jxx8/4AAAAASUVORK5CYII= "
+             pencil:name="up"
+             id="449707fca4ca455fbd0efabbcfacdd97"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcWIrnIC50AAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAA5klEQVQoz6WTPQrCQBCFXyZi rY14ISvFvYRECekCgiAEIUS0sxH1FoqdF7ISrZOoxbiThLHw58FjYOd9MyzZOHhpezo/8KGG nbaDMviNZNG3YHlAzW6/3vGxGsRV4DTj6s33AIDdxEhYndW5kA1kOXs9NgJkeQGux0YyVgKn eeFVyAP8JYOr0FT6Cr7csoqjQRcAEA26qmcldybiTxftjgCAmdfDzOups7Jks0sElwjxqC+A SyRgPOpLRsFEjjjx+c7TzQEAkPim0n+zuepFwAMWgVE9Bbea+jHYAWWp3K9v2/nnr3oCzB4A KkDMYl4AAAAASUVORK5CYII= "
+             pencil:name="down"
+             id="fe6dd8ca420044e3a4993339a0f08779"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcWBoXL70wAAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAyUlEQVQoz2NkgIKZu1/8ZyAS pLtKMDIgayQFwC0iVSOyASww2z/8YyAaCDBBaCaYwO8/EJzYvBHOxsb//QdhCFzzn78QzMDA wJDWvhEnHyaGavNfCJ5Y7M/AwMDAkNW1ESv/NzbN7z7+geP6FG8GBgYGhvzejVj5MAAPMCYm RNTVz9rCwMDAwNCY5oOVj6GZmQniiJoZmxgYGBgYWjL8sPKxaka2uS3LH0UROh+LzRC6MwdV ITofGcADTEyQuASCoY7ctM1ISa4CAN7eBBk9agWCAAAAAElFTkSuQmCC "
+             pencil:name="right"
+             id="5ea0230d64734ae89db5e5deb901052a"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <image
+             height="15"
+             width="15"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAAZiS0dE AP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gJDAcWFHZyngQAAAAZ dEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAx0lEQVQoz2NkgIKZu1/8ZyAS pLtKMDIgayQFwC0iVSOyASww2z/8YyAaCDBBaCaYwO8/qDixeSNOPgzAbf7zFyGY1bURRQyd j6H5N1QivxeicGKxP8Pvv5h8rJrfffzD0DhnKwMDAwNDfYo3Vj4MyPGwoPqZiYmRoTHNh4GB gYGhcc5WrHwYhuuBMZiZmBiYmZgYWjL8ILbN2oKVz8zEhKkZ2eS2LH8UMXQ+hp+ZmVADozPH Hy8fxWYxQeISCIY6ctM2IyW5CgCoovN8zMcquwAAAABJRU5ErkJggg== "
+             pencil:name="left"
+             id="0b569f886ef545bba9f4bfac2e3f7884"
+             transform="translate(159,4)"
+             style="display:none;visibility:hidden" />
+          <path
+             style="fill:none;stroke:#99bbe8;stroke-width:1"
+             pencil:name="title_Borderbottom"
+             id="2939de5ed01041a9ba1f700751b9935c"
+             d="M 0,25.5 H 178" />
+        </g>
+        <rect
+           rx="0"
+           ry="0"
+           x="0.5"
+           y="0.5"
+           width="180.7388"
+           height="536"
+           style="fill:none;stroke:#99bbe8;stroke-width:1;stroke-linejoin:round"
+           pencil:name="outBorder1"
+           id="6fff1c1ad3c747be9b254e7aa2828100" />
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="mdelorme.Ext.Widgets:TabHeader"
+         id="g66"
+         transform="rotate(90,63.499988,131.5)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">54,39</pencil:property>
+          <pencil:property
+             name="active">false</pencil:property>
+          <pencil:property
+             name="closable">false</pencil:property>
+          <pencil:property
+             name="tabTitle" />
+          <pencil:property
+             name="textColor">#15428BFF</pencil:property>
+          <pencil:property
+             name="textFontInactive">Arial|normal|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textFontActive">Arial|bold|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textAlign">1,1</pencil:property>
+        </pencil:metadata>
+        <defs
+           id="defs65">
+          <linearGradient
+             x1="-0.42891377"
+             y1="-0.58288288"
+             x2="-0.42891377"
+             y2="44.881397"
+             pencil:name="inactive_panel"
+             id="e26f6502b49d4cebbef29017db92cb7f"
+             gradientTransform="scale(1.1657506,0.85781641)"
+             gradientUnits="userSpaceOnUse">
+            <stop
+               style="stop-color:#CCDEF6;stop-opacity:1"
+               offset="0"
+               id="stop60" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="0.3"
+               id="stop61" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="1"
+               id="stop62" />
+          </linearGradient>
+          <linearGradient
+             x1="0"
+             y1="0"
+             x2="0"
+             y2="1"
+             pencil:name="active_panel"
+             id="e7ab9fe2a3b44d2ea56e1b7bc40c9f50">
+            <stop
+               style="stop-color:#ffffff;stop-opacity:1"
+               offset="0"
+               id="stop63" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="0.3"
+               id="stop64" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="1"
+               id="stop65" />
+          </linearGradient>
+        </defs>
+        <g
+           transform="translate(0.5,3.5)"
+           id="g65">
+          <path
+             style="visibility:visible;fill:url(#e26f6502b49d4cebbef29017db92cb7f);stroke:#8db2e3;stroke-width:1px"
+             pencil:name="rect_inactive"
+             id="7d30376c70df4285b7ce2d61869611d7"
+             d="M 0,38 V 5 C 0,0 0,0 5,0 h 42 c 5,0 5,0 5,5 V 38 H 0" />
+          <g
+             pencil:name="rect_active"
+             id="7ccb1b055f2944a7854f8458c430b21c"
+             style="display:none;visibility:hidden">
+            <path
+               style="fill:url(#linearGradient1);stroke:#8db2e3;stroke-width:1px"
+               pencil:name="body_rect_active"
+               id="c292ea7e67a743d082b13345ed34831d"
+               d="M 0,39 V 5 C 0,0 0,0 5,0 h 42 c 5,0 5,0 5,5 v 34" />
+            <path
+               style="fill:url(#linearGradient2);stroke:#deecfd;stroke-width:1px"
+               pencil:name="bottom_border_rect_active"
+               id="f570db1ca20b4871b263009123e5a83e"
+               d="m 52.5,39 h -53" />
+          </g>
+          <text
+             x="33.415905"
+             y="14.214675"
+             style="font-style:normal;font-weight:normal;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;visibility:visible;fill:#15428b;fill-opacity:1"
+             transform="translate(-8,5)"
+             xml:space="preserve"
+             pencil:name="text_inactive"
+             id="d07a2906696b43a5bcaa98ac95936373"> </text>
+          <text
+             x="33.415905"
+             y="14.214675"
+             style="font-style:normal;font-weight:bold;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;display:none;visibility:hidden;fill:#15428b;fill-opacity:1"
+             transform="translate(27,20)"
+             xml:space="preserve"
+             pencil:name="text_active"
+             id="580407b6bd6844ac97940fbaa9b65a75"> </text>
+          <image
+             height="11"
+             width="11"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAMAAACecocUAAAAAXNSR0IArs4c6QAAADlQTFRF QP9AVHqvW4CzYoa4aIu8b5HAjbLjmbvox9vzz+T70uf81un+4fP/6Pb/8Pn/9Pr/9/z/+/3/ ////OIdsdAAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwY AAAAB3RJTUUH2AkQFDgRCbCWqQAAAFBJREFUCNc1zVkOgDAIRVGwUqh9dnD/ixUk3oTk8ANE pBl5+mQahI0xDL7oNpEhYtu97jO6l3sCpRRgutGOqCFcmS/m+rnX3n0QR5Hls//vCxDrA+Pj d70yAAAAAElFTkSuQmCC"
+             pencil:name="close"
+             id="647fadda89194afbae7ef4b48c6fec1f"
+             transform="translate(39,2)"
+             style="display:none;visibility:hidden" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="mdelorme.Ext.Widgets:TabHeader"
+         id="g72"
+         transform="rotate(90,36.999988,157.99999)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">54,39</pencil:property>
+          <pencil:property
+             name="active">false</pencil:property>
+          <pencil:property
+             name="closable">false</pencil:property>
+          <pencil:property
+             name="tabTitle" />
+          <pencil:property
+             name="textColor">#15428BFF</pencil:property>
+          <pencil:property
+             name="textFontInactive">Arial|normal|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textFontActive">Arial|bold|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textAlign">1,1</pencil:property>
+        </pencil:metadata>
+        <defs
+           id="defs71">
+          <linearGradient
+             x1="-0.42891377"
+             y1="-0.58288288"
+             x2="-0.42891377"
+             y2="44.881397"
+             pencil:name="inactive_panel"
+             id="94eaa5173c32473d999030c35659b627"
+             gradientTransform="scale(1.1657506,0.85781641)"
+             gradientUnits="userSpaceOnUse">
+            <stop
+               style="stop-color:#CCDEF6;stop-opacity:1"
+               offset="0"
+               id="stop66" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="0.3"
+               id="stop67" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="1"
+               id="stop68" />
+          </linearGradient>
+          <linearGradient
+             x1="0"
+             y1="0"
+             x2="0"
+             y2="1"
+             pencil:name="active_panel"
+             id="d7bc20f80bb441bf83cde48fee79cada">
+            <stop
+               style="stop-color:#ffffff;stop-opacity:1"
+               offset="0"
+               id="stop69" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="0.3"
+               id="stop70" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="1"
+               id="stop71" />
+          </linearGradient>
+        </defs>
+        <g
+           transform="translate(0.5,3.5)"
+           id="g71">
+          <path
+             style="visibility:visible;fill:url(#94eaa5173c32473d999030c35659b627);stroke:#8db2e3;stroke-width:1px"
+             pencil:name="rect_inactive"
+             id="ec13cef206494fbb924be3c71972d876"
+             d="M 0,38 V 5 C 0,0 0,0 5,0 h 42 c 5,0 5,0 5,5 V 38 H 0" />
+          <g
+             pencil:name="rect_active"
+             id="ac6fe50519ab47598d275694cc839545"
+             style="display:none;visibility:hidden">
+            <path
+               style="fill:url(#linearGradient3);stroke:#8db2e3;stroke-width:1px"
+               pencil:name="body_rect_active"
+               id="3091fb7f08e7446d9f485c983e478cd0"
+               d="M 0,39 V 5 C 0,0 0,0 5,0 h 42 c 5,0 5,0 5,5 v 34" />
+            <path
+               style="fill:url(#linearGradient4);stroke:#deecfd;stroke-width:1px"
+               pencil:name="bottom_border_rect_active"
+               id="ba4262d874464828869449b8b570edcf"
+               d="m 52.5,39 h -53" />
+          </g>
+          <text
+             x="33.415905"
+             y="14.214675"
+             style="font-style:normal;font-weight:normal;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;visibility:visible;fill:#15428b;fill-opacity:1"
+             transform="translate(-8,5)"
+             xml:space="preserve"
+             pencil:name="text_inactive"
+             id="37b954d7930b4a4ca6b8b91ecea75b3a"> </text>
+          <text
+             x="33.415905"
+             y="14.214675"
+             style="font-style:normal;font-weight:bold;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;display:none;visibility:hidden;fill:#15428b;fill-opacity:1"
+             transform="translate(27,20)"
+             xml:space="preserve"
+             pencil:name="text_active"
+             id="9cf523e57e104358aff924b56dd24b0a"> </text>
+          <image
+             height="11"
+             width="11"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAMAAACecocUAAAAAXNSR0IArs4c6QAAADlQTFRF QP9AVHqvW4CzYoa4aIu8b5HAjbLjmbvox9vzz+T70uf81un+4fP/6Pb/8Pn/9Pr/9/z/+/3/ ////OIdsdAAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwY AAAAB3RJTUUH2AkQFDgRCbCWqQAAAFBJREFUCNc1zVkOgDAIRVGwUqh9dnD/ixUk3oTk8ANE pBl5+mQahI0xDL7oNpEhYtu97jO6l3sCpRRgutGOqCFcmS/m+rnX3n0QR5Hls//vCxDrA+Pj d70yAAAAAElFTkSuQmCC"
+             pencil:name="close"
+             id="d54757f31ae946b5b3e200f50754aaf4"
+             transform="translate(39,2)"
+             style="display:none;visibility:hidden" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="mdelorme.Ext.Widgets:TabHeader"
+         id="g78"
+         transform="rotate(90,10.499988,184.49999)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">54,39</pencil:property>
+          <pencil:property
+             name="active">false</pencil:property>
+          <pencil:property
+             name="closable">false</pencil:property>
+          <pencil:property
+             name="tabTitle" />
+          <pencil:property
+             name="textColor">#15428BFF</pencil:property>
+          <pencil:property
+             name="textFontInactive">Arial|normal|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textFontActive">Arial|bold|normal|11px|none|0</pencil:property>
+          <pencil:property
+             name="textAlign">1,1</pencil:property>
+        </pencil:metadata>
+        <defs
+           id="defs77">
+          <linearGradient
+             x1="-0.42891377"
+             y1="-0.58288288"
+             x2="-0.42891377"
+             y2="44.881397"
+             pencil:name="inactive_panel"
+             id="03e0506894a5467f9e20b8574d51d295"
+             gradientTransform="scale(1.1657506,0.85781641)"
+             gradientUnits="userSpaceOnUse">
+            <stop
+               style="stop-color:#CCDEF6;stop-opacity:1"
+               offset="0"
+               id="stop72" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="0.3"
+               id="stop73" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="1"
+               id="stop74" />
+          </linearGradient>
+          <linearGradient
+             x1="0"
+             y1="0"
+             x2="0"
+             y2="1"
+             pencil:name="active_panel"
+             id="e79098a3bcfe43cfbca9bc181d7741e7">
+            <stop
+               style="stop-color:#ffffff;stop-opacity:1"
+               offset="0"
+               id="stop75" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="0.3"
+               id="stop76" />
+            <stop
+               style="stop-color:#DEECFD;stop-opacity:1"
+               offset="1"
+               id="stop77" />
+          </linearGradient>
+        </defs>
+        <g
+           transform="translate(0.5,3.5)"
+           id="g77">
+          <path
+             style="visibility:visible;fill:url(#03e0506894a5467f9e20b8574d51d295);stroke:#8db2e3;stroke-width:1px"
+             pencil:name="rect_inactive"
+             id="56289cbced4c43a0bcfb59a358a49a9f"
+             d="M 0,38 V 5 C 0,0 0,0 5,0 h 42 c 5,0 5,0 5,5 V 38 H 0" />
+          <g
+             pencil:name="rect_active"
+             id="8f01dfa495274b3e97f8255453ff1773"
+             style="display:none;visibility:hidden">
+            <path
+               style="fill:url(#linearGradient5);stroke:#8db2e3;stroke-width:1px"
+               pencil:name="body_rect_active"
+               id="dfdcbdb011c94e819676894ba8460003"
+               d="M 0,39 V 5 C 0,0 0,0 5,0 h 42 c 5,0 5,0 5,5 v 34" />
+            <path
+               style="fill:url(#linearGradient6);stroke:#deecfd;stroke-width:1px"
+               pencil:name="bottom_border_rect_active"
+               id="f7f310794c70457ca655417aeabc3e53"
+               d="m 52.5,39 h -53" />
+          </g>
+          <text
+             x="33.415905"
+             y="14.214675"
+             style="font-style:normal;font-weight:normal;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;visibility:visible;fill:#15428b;fill-opacity:1"
+             transform="translate(-8,5)"
+             xml:space="preserve"
+             pencil:name="text_inactive"
+             id="d88a03c67df8455f88fd795dd2daa2ff"> </text>
+          <text
+             x="33.415905"
+             y="14.214675"
+             style="font-style:normal;font-weight:bold;font-size:11px;font-family:Arial;text-align:left;text-decoration:none;text-decoration-line:none;dominant-baseline:central;text-anchor:start;display:none;visibility:hidden;fill:#15428b;fill-opacity:1"
+             transform="translate(27,20)"
+             xml:space="preserve"
+             pencil:name="text_active"
+             id="95ef65a2bc454fdd842a140302f3d379"> </text>
+          <image
+             height="11"
+             width="11"
+             xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAMAAACecocUAAAAAXNSR0IArs4c6QAAADlQTFRF QP9AVHqvW4CzYoa4aIu8b5HAjbLjmbvox9vzz+T70uf81un+4fP/6Pb/8Pn/9Pr/9/z/+/3/ ////OIdsdAAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwY AAAAB3RJTUUH2AkQFDgRCbCWqQAAAFBJREFUCNc1zVkOgDAIRVGwUqh9dnD/ixUk3oTk8ANE pBl5+mQahI0xDL7oNpEhYtu97jO6l3sCpRRgutGOqCFcmS/m+rnX3n0QR5Hls//vCxDrA+Pj d70yAAAAAElFTkSuQmCC"
+             pencil:name="close"
+             id="de2c00d1f6874bdea7458a3aaafa2db6"
+             transform="translate(39,2)"
+             style="display:none;visibility:hidden" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="nz.nwatson.MaterialIcons:tooltip-text"
+         id="g79"
+         transform="translate(161,83.200488)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">24,24</pencil:property>
+          <pencil:property
+             name="fillColor">#FF7D7DFF</pencil:property>
+        </pencil:metadata>
+        <rect
+           style="fill:#000000;fill-opacity:0;stroke:none"
+           x="0"
+           y="0"
+           pencil:name="bgRect"
+           id="ed4716d90ac04856a9015c4d3f896297"
+           height="24"
+           width="24" />
+        <g
+           pencil:name="icon"
+           id="581ba5c0764f4094a68846d207a8f3aa"
+           style="fill:#ff7d7d;fill-opacity:1">
+          <path
+             stroke-width="0.2"
+             stroke-linejoin="round"
+             d="m 4,2 h 16 c 1.1046,0 2,0.89543 2,2 v 12 c 0,1.1046 -0.8954,2 -2,2 H 16 L 12,22 8,18 H 4 C 2.89543,18 2,17.1046 2,16 V 4 C 2,2.89543 2.89543,2 4,2 Z m 1,3.00001 v 2 h 14 v -2 z m 0,4 V 11 H 15 V 9.00001 Z M 5,13 v 2 h 12 v -2 z"
+             id="path78" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="nz.nwatson.MaterialIcons:file-image"
+         id="g80"
+         transform="translate(160.80001,135.60003)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">24,24</pencil:property>
+          <pencil:property
+             name="fillColor">#FF7D7DFF</pencil:property>
+        </pencil:metadata>
+        <rect
+           style="fill:#000000;fill-opacity:0;stroke:none"
+           x="0"
+           y="0"
+           pencil:name="bgRect"
+           id="4ca2c2fd7ec54ffba5ad37794cc14693"
+           height="24"
+           width="24" />
+        <g
+           pencil:name="icon"
+           id="d1609e7f132345588dc4aed15011ce31"
+           style="fill:#ff7d7d;fill-opacity:1">
+          <path
+             stroke-width="0.2"
+             stroke-linejoin="round"
+             d="m 12.9994,8.99807 h 5.5 l -5.5,-5.5 z M 5.99938,1.99809 h 8.00002 l 6,5.99999 V 19.9981 c 0,1.104 -0.896,2 -2,2 H 5.98937 c -1.104,0 -1.98998,-0.896 -1.98998,-2 L 4.0094,3.99808 c 0,-1.10401 0.88497,-1.99999 1.98998,-1.99999 z M 6,20 h 9 3 v -8 l -4,4 -2,-2 z M 8,9 c -1.10457,0 -2,0.89543 -2,2 0,1.1046 0.89543,2 2,2 1.10457,0 2,-0.8954 2,-2 C 10,9.89543 9.10457,9 8,9 Z"
+             id="path79" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="nz.nwatson.MaterialIcons:volume"
+         id="g81"
+         transform="translate(158.80001,189.20022)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">24,24</pencil:property>
+          <pencil:property
+             name="fillColor">#FF7D7DFF</pencil:property>
+        </pencil:metadata>
+        <rect
+           style="fill:#000000;fill-opacity:0;stroke:none"
+           x="0"
+           y="0"
+           pencil:name="bgRect"
+           id="28740cb6d95f456c9420292c56c5aa64"
+           height="24"
+           width="24" />
+        <g
+           pencil:name="icon"
+           id="0fe154732b874c40bf6612143b218dbf"
+           style="fill:#ff7d7d;fill-opacity:1">
+          <path
+             stroke-width="0.2"
+             stroke-linejoin="round"
+             d="m 3,9.00002 3.99998,2e-5 L 12,4.00002 V 20 L 6.99998,15 h -4 z m 17.9999,3.00008 c 0,4.2831 -2.9919,7.8675 -6.9999,8.7769 v -2.0668 c 2.8914,-0.8606 4.9999,-3.5391 4.9999,-6.7101 C 18.9999,8.8291 16.8914,6.15058 14,5.29 V 3.22307 c 4.008,0.90948 6.9999,4.49381 6.9999,8.77703 z M 17,12 c 0,2.0503 -1.2341,3.8124 -3,4.584 V 7.41605 C 15.7659,8.1876 17,9.94968 17,12 Z"
+             id="path80" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="nz.nwatson.MaterialIcons:menu"
+         id="g82"
+         transform="translate(4.3501221,0.15003153)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">45,45</pencil:property>
+          <pencil:property
+             name="fillColor">#FF7D7DFF</pencil:property>
+        </pencil:metadata>
+        <rect
+           style="fill:#000000;fill-opacity:0;stroke:none"
+           x="0"
+           y="0"
+           pencil:name="bgRect"
+           id="68e998b1d376435a9c504ee56b9bcf7b"
+           height="45"
+           width="45" />
+        <g
+           pencil:name="icon"
+           id="76544dadf8f942e495102aa79a7416f2"
+           transform="scale(1.875)"
+           style="fill:#ff7d7d;fill-opacity:1">
+          <path
+             stroke-width="0.2"
+             stroke-linejoin="round"
+             d="M 3,6 H 21 V 8 H 3 Z m 0,5 h 18 v 2 H 3 Z m 0,5 h 18 v 2 H 3 Z"
+             id="path81" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="nz.nwatson.MaterialIcons:menu-left"
+         id="g83"
+         transform="translate(152,36)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">39,39</pencil:property>
+          <pencil:property
+             name="fillColor">#FF7D7DFF</pencil:property>
+        </pencil:metadata>
+        <rect
+           style="fill:#000000;fill-opacity:0;stroke:none"
+           x="0"
+           y="0"
+           pencil:name="bgRect"
+           id="c459aee831b2440d9f75e4daf7bc318b"
+           height="39"
+           width="39" />
+        <g
+           pencil:name="icon"
+           id="ba64af98338b4251a37468ca52edf7bf"
+           transform="scale(1.625)"
+           style="fill:#ff7d7d;fill-opacity:1">
+          <path
+             stroke-width="0.2"
+             stroke-linejoin="round"
+             d="m 14,7 -5,5 5,5 z"
+             id="path82" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:scaleround"
+         id="650d2a6c742443cf8d265b15a378cd3e"
+         transform="translate(281.00007,216.00027)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">247.5,7.99983932822488</pencil:property>
+          <pencil:property
+             name="fillColor">#E8E8E8FF</pencil:property>
+          <pencil:property
+             name="strokeColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="strokeStyle">4|</pencil:property>
+          <pencil:property
+             name="fillColor2">#FFA8A8FF</pencil:property>
+          <pencil:property
+             name="handle0">61.875,3.99991966411244</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+        </pencil:metadata>
+        <path
+           d="M 3.9999197,0 H 240.00008 C 242.20917,0 244,1.790825 244,3.9999197 V 8.0335888e-5 C 244,2.209175 242.20917,4 240.00008,4 H 3.9999197 C 2.2090946,4 0,2.209175 0,8.0335888e-5 V 3.9999197 C 0,1.790825 1.790825,0 3.9999197,0 Z"
+           style="opacity:1;fill:#e8e8e8;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           pencil:name="pathRect0"
+           id="460fcc94bf4248e88836427e6a6efd93"
+           rx="3.99991966411244"
+           ry="3.99991966411244"
+           transform="translate(2,2)" />
+        <rect
+           rx="8"
+           ry="8"
+           style="opacity:1;fill:#ffa8a8;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           width="12"
+           height="11.99984"
+           pencil:name="rectangle0"
+           id="64a0b854f2664edf9b210ed76368eab1"
+           x="55.875"
+           y="-2" />
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:label"
+         pencil:sc="Label h1"
+         id="7c8c743cb5a94b86a62436856e9ae6c4"
+         transform="translate(474.00001,95.000003)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">202,49</pencil:property>
+          <pencil:property
+             name="fillColor">#D69D8500</pencil:property>
+          <pencil:property
+             name="strokeColor">#FFD4D4FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">8|</pencil:property>
+          <pencil:property
+             name="textAlignment">1,1</pencil:property>
+          <pencil:property
+             name="textColor">#BAB997FF</pencil:property>
+          <pencil:property
+             name="textFont">Astonpoliz|bold|normal|40px|none|0</pencil:property>
+          <pencil:property
+             name="text0">&lt;span xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;text-decoration-line: underline;&quot;&gt;Image&lt;/span&gt;</pencil:property>
+          <pencil:property
+             name="text0ImageData">0,0,data:image/svg+xml;utf8,&lt;svg&gt;&lt;/svg&gt;</pencil:property>
+          <pencil:property
+             name="text0IconSide">leading</pencil:property>
+          <pencil:property
+             name="text0IconColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+        </pencil:metadata>
+        <rect
+           rx="0"
+           ry="0"
+           style="fill:#d69d85;fill-opacity:0;stroke:#ffd4d4;stroke-width:8;stroke-opacity:1"
+           width="194"
+           height="41"
+           pencil:name="rectangle0"
+           id="913a1d086e5d413d86c3a9c797b5b055"
+           x="4"
+           y="4" />
+        <g
+           pencil:name="text0Icon"
+           id="f4f28d425ac14aee95e469295539b0ed"
+           transform="scale(202,49)"
+           style="opacity:1">
+          <g
+             x="0"
+             y="0"
+             pencil:name="text0IconImage"
+             id="1de18d0948154ed681ca974f310044d6">
+            <g
+               id="g84" />
+          </g>
+        </g>
+        <g
+           dominant-baseline="auto"
+           pencil:name="text0text"
+           id="38c2a94b0bc14d89b04f3efac41e5342"
+           style="color:#bab997;font-style:normal;font-weight:bold;font-size:40px;font-family:Astonpoliz;text-decoration:none;text-decoration-line:none;opacity:1;fill:#bab997;fill-opacity:1">
+          <g
+             transform="translate(0,3)"
+             id="g85">
+            <text
+               id="text84"><tspan
+                 x="45"
+                 y="32"
+                 style="font-style:normal;font-weight:700;font-size:40px;line-height:0px;font-family:Astonpoliz;text-decoration:underline;text-decoration-line:underline;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;fill:#bab997"
+                 id="tspan84">Image</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:label"
+         pencil:sc="Label h1"
+         id="e246be963f0b48d8be23029655665585"
+         transform="translate(263.00007,168.0001)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">177,30.562398569655556</pencil:property>
+          <pencil:property
+             name="fillColor">#D69D8500</pencil:property>
+          <pencil:property
+             name="strokeColor">#FFD4D4FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">0|</pencil:property>
+          <pencil:property
+             name="textAlignment">1,2</pencil:property>
+          <pencil:property
+             name="textColor">#BAB997FF</pencil:property>
+          <pencil:property
+             name="textFont">Astonpoliz|bold|normal|30px|none|0</pencil:property>
+          <pencil:property
+             name="text0">&lt;span xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;text-decoration-line: underline;&quot;&gt;CFG Scale&lt;/span&gt;</pencil:property>
+          <pencil:property
+             name="text0ImageData">0,0,data:image/svg+xml;utf8,&lt;svg&gt;&lt;/svg&gt;</pencil:property>
+          <pencil:property
+             name="text0IconSide">leading</pencil:property>
+          <pencil:property
+             name="text0IconColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+        </pencil:metadata>
+        <rect
+           rx="0"
+           ry="0"
+           style="fill:#d69d85;fill-opacity:0;stroke:#ffd4d4;stroke-width:0;stroke-opacity:1"
+           width="177"
+           height="31"
+           pencil:name="rectangle0"
+           id="f4d139ff85dc4089b8883b7a2e2a9901"
+           x="0"
+           y="0" />
+        <g
+           pencil:name="text0Icon"
+           id="255ac90e90704f329daa367bfb1ee66f"
+           transform="scale(177,31)"
+           style="opacity:1">
+          <g
+             x="0"
+             y="0"
+             pencil:name="text0IconImage"
+             id="d64e0403306847b3b717b63297d9ae3f">
+            <g
+               id="g86" />
+          </g>
+        </g>
+        <g
+           dominant-baseline="auto"
+           pencil:name="text0text"
+           id="856c51234856499e8685c0b5ae782860"
+           style="color:#bab997;font-style:normal;font-weight:bold;font-size:30px;font-family:Astonpoliz;text-decoration:none;text-decoration-line:none;opacity:1;fill:#bab997;fill-opacity:1">
+          <g
+             transform="translate(0,1)"
+             id="g87">
+            <text
+               id="text86"><tspan
+                 x="22"
+                 y="24"
+                 style="font-style:normal;font-weight:700;font-size:30px;line-height:0px;font-family:Astonpoliz;text-decoration:underline;text-decoration-line:underline;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;fill:#bab997"
+                 id="tspan86">CFG Scale</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:label"
+         pencil:sc="Label h1"
+         id="2941530d0ff344cc936dd29f9fc8d464"
+         transform="translate(650.00008,168.00025)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">207,30.56227787024651</pencil:property>
+          <pencil:property
+             name="fillColor">#D69D8500</pencil:property>
+          <pencil:property
+             name="strokeColor">#FFD4D4FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">0|</pencil:property>
+          <pencil:property
+             name="textAlignment">1,2</pencil:property>
+          <pencil:property
+             name="textColor">#BAB997FF</pencil:property>
+          <pencil:property
+             name="textFont">Astonpoliz|bold|normal|30px|none|0</pencil:property>
+          <pencil:property
+             name="text0">&lt;span xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;text-decoration-line: underline;&quot;&gt;Sample Steps&lt;/span&gt;</pencil:property>
+          <pencil:property
+             name="text0ImageData">0,0,data:image/svg+xml;utf8,&lt;svg&gt;&lt;/svg&gt;</pencil:property>
+          <pencil:property
+             name="text0IconSide">leading</pencil:property>
+          <pencil:property
+             name="text0IconColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+        </pencil:metadata>
+        <rect
+           rx="0"
+           ry="0"
+           style="fill:#d69d85;fill-opacity:0;stroke:#ffd4d4;stroke-width:0;stroke-opacity:1"
+           width="207"
+           height="31"
+           pencil:name="rectangle0"
+           id="ba22eefe926946cda81a4780e85abbef"
+           x="0"
+           y="0" />
+        <g
+           pencil:name="text0Icon"
+           id="2b9343efde7443d5ae41f9fafab6c763"
+           transform="scale(207,31)"
+           style="opacity:1">
+          <g
+             x="0"
+             y="0"
+             pencil:name="text0IconImage"
+             id="913e28dbf69b49479bc3d259ab241492">
+            <g
+               id="g88" />
+          </g>
+        </g>
+        <g
+           dominant-baseline="auto"
+           pencil:name="text0text"
+           id="563e36abc3524a8cbf0e68b21279343f"
+           style="color:#bab997;font-style:normal;font-weight:bold;font-size:30px;font-family:Astonpoliz;text-decoration:none;text-decoration-line:none;opacity:1;fill:#bab997;fill-opacity:1">
+          <g
+             transform="translate(0,-1)"
+             id="g89">
+            <text
+               id="text88"><tspan
+                 x="15"
+                 y="24"
+                 style="font-style:normal;font-weight:700;font-size:30px;line-height:0px;font-family:Astonpoliz;text-decoration:underline;text-decoration-line:underline;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;fill:#bab997"
+                 id="tspan88">Sample Steps</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:scaleround"
+         id="bb7f992ef3214b5ba41a0d278940bab3"
+         transform="translate(664.00026,216.00043)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">247.5,7.99983932822488</pencil:property>
+          <pencil:property
+             name="fillColor">#E8E8E8FF</pencil:property>
+          <pencil:property
+             name="strokeColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="strokeStyle">4|</pencil:property>
+          <pencil:property
+             name="fillColor2">#FFA8A8FF</pencil:property>
+          <pencil:property
+             name="handle0">61.875,3.99991966411244</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+        </pencil:metadata>
+        <path
+           d="M 3.9999197,0 H 240.00008 C 242.20917,0 244,1.790825 244,3.9999197 V 8.0335888e-5 C 244,2.209175 242.20917,4 240.00008,4 H 3.9999197 C 2.2090946,4 0,2.209175 0,8.0335888e-5 V 3.9999197 C 0,1.790825 1.790825,0 3.9999197,0 Z"
+           style="opacity:1;fill:#e8e8e8;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           pencil:name="pathRect0"
+           id="6dedb69921654e6a93b21069c4106582"
+           rx="3.99991966411244"
+           ry="3.99991966411244"
+           transform="translate(2,2)" />
+        <rect
+           rx="8"
+           ry="8"
+           style="opacity:1;fill:#ffa8a8;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           width="12"
+           height="11.99984"
+           pencil:name="rectangle0"
+           id="0862731e5c8a44449ad7312cf6dcea33"
+           x="55.875"
+           y="-2" />
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:comboentry"
+         id="26405676bd184f02a12b450972769cb8"
+         transform="translate(281.00007,298.00004)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">176.25001765787582,28.5</pencil:property>
+          <pencil:property
+             name="fillColor">#D69D85FF</pencil:property>
+          <pencil:property
+             name="strokeColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="strokeStyle">4|</pencil:property>
+          <pencil:property
+             name="textAlignment">0,1</pencil:property>
+          <pencil:property
+             name="textColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="textFont">Android Roboto|500|italic|15px|none|0</pencil:property>
+          <pencil:property
+             name="text0">Combo Entry</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+          <pencil:property
+             name="fillColor2">#E8E8E8FF</pencil:property>
+        </pencil:metadata>
+        <g
+           style="opacity:1;fill:#d69d85;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           pencil:name="vector1"
+           id="2834b63607c8441baf4f5c786b6ec74d"
+           transform="translate(2,2)">
+          <path
+             d="M 134,25 H 0 V 0 h 134"
+             id="path89" />
+        </g>
+        <g
+           dominant-baseline="auto"
+           pencil:name="text0text"
+           id="c7d85c9f2787487b85b0d9806af8e9e3"
+           style="color:#d68d8d;font-style:italic;font-weight:500;font-size:15px;font-family:'Android Roboto';text-decoration:none;text-decoration-line:none;opacity:1;fill:#d68d8d;fill-opacity:1">
+          <g
+             transform="translate(0,-1)"
+             id="g90">
+            <text
+               id="text89"><tspan
+                 x="7"
+                 y="21"
+                 style="font-style:italic;font-weight:500;font-size:15px;line-height:0px;font-family:'Android Roboto';text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;fill:#d68d8d"
+                 id="tspan89">Combo Entry</tspan></text>
+          </g>
+        </g>
+        <rect
+           rx="0"
+           ry="0"
+           style="opacity:1;fill:#e8e8e8;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           width="35"
+           height="25"
+           pencil:name="rectangle1"
+           id="1776aef3633d4db591fdb8609d5aa35f"
+           x="139"
+           y="2" />
+        <g
+           style="opacity:1;fill:#d68d8d;fill-opacity:1;stroke:#d68d8d;stroke-width:0;stroke-opacity:1"
+           pencil:name="vector0"
+           id="da5d371e1f8a4845b797a6001c1b20ee"
+           transform="matrix(0.77777778,0,0,0.81818182,149,10)">
+          <path
+             d="M 9,11 0,0 h 18 z"
+             id="path90" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:label"
+         pencil:sc="Label h1"
+         id="8e4f26ce4c274c5b936931e05dcd6dcb"
+         transform="translate(268,255)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">177,31</pencil:property>
+          <pencil:property
+             name="fillColor">#D69D8500</pencil:property>
+          <pencil:property
+             name="strokeColor">#FFD4D4FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">0|</pencil:property>
+          <pencil:property
+             name="textAlignment">1,2</pencil:property>
+          <pencil:property
+             name="textColor">#BAB997FF</pencil:property>
+          <pencil:property
+             name="textFont">Astonpoliz|bold|normal|30px|none|0</pencil:property>
+          <pencil:property
+             name="text0">&lt;span xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;text-decoration-line: underline;&quot;&gt;Dimensions&lt;/span&gt;</pencil:property>
+          <pencil:property
+             name="text0ImageData">0,0,data:image/svg+xml;utf8,&lt;svg&gt;&lt;/svg&gt;</pencil:property>
+          <pencil:property
+             name="text0IconSide">leading</pencil:property>
+          <pencil:property
+             name="text0IconColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+        </pencil:metadata>
+        <rect
+           rx="0"
+           ry="0"
+           style="fill:#d69d85;fill-opacity:0;stroke:#ffd4d4;stroke-width:0;stroke-opacity:1"
+           width="177"
+           height="31"
+           pencil:name="rectangle0"
+           id="9121d05cb3c84ef9a5c478d8811839f3"
+           x="0"
+           y="0" />
+        <g
+           pencil:name="text0Icon"
+           id="c9c9077f06de402ca2dd02bf4f67690b"
+           transform="scale(177,31)"
+           style="opacity:1">
+          <g
+             x="0"
+             y="0"
+             pencil:name="text0IconImage"
+             id="d2013ced9c8e4da4a85dd3d6f6eed96f">
+            <g
+               id="g91" />
+          </g>
+        </g>
+        <g
+           dominant-baseline="auto"
+           pencil:name="text0text"
+           id="b9a692588a05468a9fafb54407745b2f"
+           style="color:#bab997;font-style:normal;font-weight:bold;font-size:30px;font-family:Astonpoliz;text-decoration:none;text-decoration-line:none;opacity:1;fill:#bab997;fill-opacity:1">
+          <g
+             transform="translate(0,1)"
+             id="g92">
+            <text
+               id="text91"><tspan
+                 x="15"
+                 y="24"
+                 style="font-style:normal;font-weight:700;font-size:30px;line-height:0px;font-family:Astonpoliz;text-decoration:underline;text-decoration-line:underline;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;fill:#bab997"
+                 id="tspan91">Dimensions</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:label"
+         pencil:sc="Label h1"
+         id="83d480aaa2e54292b4ac57081494acac"
+         transform="translate(263,350)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">111,31</pencil:property>
+          <pencil:property
+             name="fillColor">#D69D8500</pencil:property>
+          <pencil:property
+             name="strokeColor">#FFD4D4FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">0|</pencil:property>
+          <pencil:property
+             name="textAlignment">1,2</pencil:property>
+          <pencil:property
+             name="textColor">#BAB997FF</pencil:property>
+          <pencil:property
+             name="textFont">Astonpoliz|bold|normal|30px|none|0</pencil:property>
+          <pencil:property
+             name="text0">&lt;span xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;text-decoration-line: underline;&quot;&gt;Style&lt;/span&gt;</pencil:property>
+          <pencil:property
+             name="text0ImageData">0,0,data:image/svg+xml;utf8,&lt;svg&gt;&lt;/svg&gt;</pencil:property>
+          <pencil:property
+             name="text0IconSide">leading</pencil:property>
+          <pencil:property
+             name="text0IconColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+        </pencil:metadata>
+        <rect
+           rx="0"
+           ry="0"
+           style="fill:#d69d85;fill-opacity:0;stroke:#ffd4d4;stroke-width:0;stroke-opacity:1"
+           width="111"
+           height="31"
+           pencil:name="rectangle0"
+           id="5e0b77949db74764b5f3f4bd5e849b43"
+           x="0"
+           y="0" />
+        <g
+           pencil:name="text0Icon"
+           id="216660cd906f434fbcb1994d098a8821"
+           transform="scale(111,31)"
+           style="opacity:1">
+          <g
+             x="0"
+             y="0"
+             pencil:name="text0IconImage"
+             id="d52568554aee4017b4b2a912596bf185">
+            <g
+               id="g93" />
+          </g>
+        </g>
+        <g
+           dominant-baseline="auto"
+           pencil:name="text0text"
+           id="df3939131c834ff4818e699a8170e18e"
+           style="color:#bab997;font-style:normal;font-weight:bold;font-size:30px;font-family:Astonpoliz;text-decoration:none;text-decoration-line:none;opacity:1;fill:#bab997;fill-opacity:1">
+          <g
+             transform="translate(0,-1)"
+             id="g94">
+            <text
+               id="text93"><tspan
+                 x="23"
+                 y="24"
+                 style="font-style:normal;font-weight:700;font-size:30px;line-height:0px;font-family:Astonpoliz;text-decoration:underline;text-decoration-line:underline;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;fill:#bab997"
+                 id="tspan93">Style</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:comboentry"
+         id="141b59ea2a8f44a0bd151a88824573e8"
+         transform="translate(281.00007,390.00013)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">176.25001765787582,28.5</pencil:property>
+          <pencil:property
+             name="fillColor">#D69D85FF</pencil:property>
+          <pencil:property
+             name="strokeColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="strokeStyle">4|</pencil:property>
+          <pencil:property
+             name="textAlignment">0,1</pencil:property>
+          <pencil:property
+             name="textColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="textFont">Android Roboto|500|italic|15px|none|0</pencil:property>
+          <pencil:property
+             name="text0">Combo Entry</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+          <pencil:property
+             name="fillColor2">#E8E8E8FF</pencil:property>
+        </pencil:metadata>
+        <g
+           style="opacity:1;fill:#d69d85;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           pencil:name="vector1"
+           id="81384020e9294dc5b5cef6c04727591e"
+           transform="translate(2,2)">
+          <path
+             d="M 134,25 H 0 V 0 h 134"
+             id="path94" />
+        </g>
+        <g
+           dominant-baseline="auto"
+           pencil:name="text0text"
+           id="c6d421756c3941f7bd182a31d757bdd4"
+           style="color:#d68d8d;font-style:italic;font-weight:500;font-size:15px;font-family:'Android Roboto';text-decoration:none;text-decoration-line:none;opacity:1;fill:#d68d8d;fill-opacity:1">
+          <g
+             transform="translate(0,-1)"
+             id="g95">
+            <text
+               id="text94"><tspan
+                 x="7"
+                 y="21"
+                 style="font-style:italic;font-weight:500;font-size:15px;line-height:0px;font-family:'Android Roboto';text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;fill:#d68d8d"
+                 id="tspan94">Combo Entry</tspan></text>
+          </g>
+        </g>
+        <rect
+           rx="0"
+           ry="0"
+           style="opacity:1;fill:#e8e8e8;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           width="35"
+           height="25"
+           pencil:name="rectangle1"
+           id="207479baf54a482f840767c3b5f349fd"
+           x="139"
+           y="2" />
+        <g
+           style="opacity:1;fill:#d68d8d;fill-opacity:1;stroke:#d68d8d;stroke-width:0;stroke-opacity:1"
+           pencil:name="vector0"
+           id="dda6f93d46ab4381a17dfe9d8be6a385"
+           transform="matrix(0.77777778,0,0,0.81818182,149,10)">
+          <path
+             d="M 9,11 0,0 h 18 z"
+             id="path95" />
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:label"
+         pencil:sc="Label h1"
+         id="5b67d46064e041f5b5f03ee8b983bfc9"
+         transform="translate(276,442)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">111,31</pencil:property>
+          <pencil:property
+             name="fillColor">#D69D8500</pencil:property>
+          <pencil:property
+             name="strokeColor">#FFD4D4FF</pencil:property>
+          <pencil:property
+             name="strokeStyle">0|</pencil:property>
+          <pencil:property
+             name="textAlignment">1,2</pencil:property>
+          <pencil:property
+             name="textColor">#BAB997FF</pencil:property>
+          <pencil:property
+             name="textFont">Astonpoliz|bold|normal|30px|none|0</pencil:property>
+          <pencil:property
+             name="text0">&lt;span xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;text-decoration-line: underline;&quot;&gt;Model&lt;/span&gt;</pencil:property>
+          <pencil:property
+             name="text0ImageData">0,0,data:image/svg+xml;utf8,&lt;svg&gt;&lt;/svg&gt;</pencil:property>
+          <pencil:property
+             name="text0IconSide">leading</pencil:property>
+          <pencil:property
+             name="text0IconColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+        </pencil:metadata>
+        <rect
+           rx="0"
+           ry="0"
+           style="fill:#d69d85;fill-opacity:0;stroke:#ffd4d4;stroke-width:0;stroke-opacity:1"
+           width="111"
+           height="31"
+           pencil:name="rectangle0"
+           id="ed26b615ae7241e09f60cf38db5ac373"
+           x="0"
+           y="0" />
+        <g
+           pencil:name="text0Icon"
+           id="b09087a5030f4f1ab13911fc76d974e5"
+           transform="scale(111,31)"
+           style="opacity:1">
+          <g
+             x="0"
+             y="0"
+             pencil:name="text0IconImage"
+             id="dc43b80bfa4642b082f3cef5f74594a1">
+            <g
+               id="g96" />
+          </g>
+        </g>
+        <g
+           dominant-baseline="auto"
+           pencil:name="text0text"
+           id="294a8eef27354047b63e2832f4d4af4c"
+           style="color:#bab997;font-style:normal;font-weight:bold;font-size:30px;font-family:Astonpoliz;text-decoration:none;text-decoration-line:none;opacity:1;fill:#bab997;fill-opacity:1">
+          <g
+             transform="translate(0,1)"
+             id="g97">
+            <text
+               id="text96"><tspan
+                 x="15"
+                 y="24"
+                 style="font-style:normal;font-weight:700;font-size:30px;line-height:0px;font-family:Astonpoliz;text-decoration:underline;text-decoration-line:underline;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;fill:#bab997"
+                 id="tspan96">Model</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         pencil:type="Shape"
+         pencil:def="dgthanhan.GenericWireframe:comboentry"
+         id="f7a3a7adbb9f4dc485f6db6b6ce10f21"
+         transform="translate(281.00007,484.00017)"
+         pencil:locked="true">
+        <pencil:metadata>
+          <pencil:property
+             name="box">176.25001765787582,28.5</pencil:property>
+          <pencil:property
+             name="fillColor">#D69D85FF</pencil:property>
+          <pencil:property
+             name="strokeColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="strokeStyle">4|</pencil:property>
+          <pencil:property
+             name="textAlignment">0,1</pencil:property>
+          <pencil:property
+             name="textColor">#D68D8DFF</pencil:property>
+          <pencil:property
+             name="textFont">Android Roboto|500|italic|15px|none|0</pencil:property>
+          <pencil:property
+             name="text0">Combo Entry</pencil:property>
+          <pencil:property
+             name="disabled">false</pencil:property>
+          <pencil:property
+             name="fillColor2">#E8E8E8FF</pencil:property>
+        </pencil:metadata>
+        <g
+           style="opacity:1;fill:#d69d85;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           pencil:name="vector1"
+           id="6e592657e43343fe8b05b848077b8ef0"
+           transform="translate(2,2)">
+          <path
+             d="M 134,25 H 0 V 0 h 134"
+             id="path97" />
+        </g>
+        <g
+           dominant-baseline="auto"
+           pencil:name="text0text"
+           id="6596ee7d70214f88a8b35437948e6a4d"
+           style="color:#d68d8d;font-style:italic;font-weight:500;font-size:15px;font-family:'Android Roboto';text-decoration:none;text-decoration-line:none;opacity:1;fill:#d68d8d;fill-opacity:1">
+          <g
+             transform="translate(0,-1)"
+             id="g98">
+            <text
+               id="text97"><tspan
+                 x="7"
+                 y="21"
+                 style="font-style:italic;font-weight:500;font-size:15px;line-height:0px;font-family:'Android Roboto';text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;fill:#d68d8d"
+                 id="tspan97">Combo Entry</tspan></text>
+          </g>
+        </g>
+        <rect
+           rx="0"
+           ry="0"
+           style="opacity:1;fill:#e8e8e8;fill-opacity:1;stroke:#d68d8d;stroke-width:4;stroke-opacity:1"
+           width="35"
+           height="25"
+           pencil:name="rectangle1"
+           id="ebbe80323d864779a89e0c7fec0c1a46"
+           x="139"
+           y="2" />
+        <g
+           style="opacity:1;fill:#d68d8d;fill-opacity:1;stroke:#d68d8d;stroke-width:0;stroke-opacity:1"
+           pencil:name="vector0"
+           id="794b2fa0cd7744e0add32f995212faac"
+           transform="matrix(0.77777778,0,0,0.81818182,149,10)">
+          <path
+             d="M 9,11 0,0 h 18 z"
+             id="path98" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
