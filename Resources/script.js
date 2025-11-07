@@ -9,14 +9,23 @@ document.addEventListener('DOMContentLoaded', function () {
     const mainContent = document.querySelector('.main-content');
 
     function updateSidebarState() {
+        const collapseBtnImg = collapseBtn.querySelector('img');
         if (isSidebarMinimized) {
             sidebar.classList.add('minimized');
             mainContent.style.left = '20px'; // Adjust main content position
             mainContent.style.width = 'calc(100% - 20px)'; // Adjust main content width
+            if (collapseBtnImg) {
+                collapseBtnImg.src = 'Resources/expand.png';
+                collapseBtnImg.alt = 'Expand';
+            }
         } else {
             sidebar.classList.remove('minimized');
             mainContent.style.left = '250px'; // Adjust main content position
             mainContent.style.width = 'calc(100% - 250px)'; // Adjust main content width
+            if (collapseBtnImg) {
+                collapseBtnImg.src = 'Resources/collapse_filler.svg';
+                collapseBtnImg.alt = 'Collapse';
+            }
         }
     }
 
