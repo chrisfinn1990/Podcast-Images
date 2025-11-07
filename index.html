@@ -8,65 +8,72 @@
 </head>
 <body>
     <header>
-        <div class="menu">
-            <div class="dropdown" role="navigation" aria-label="File menu">
-                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">File</button>
-                <div class="dropdown-content" role="menu">
-                    <a href="#" role="menuitem">New</a>
-                    <a href="#" role="menuitem">Open</a>
-                    <a href="#" role="menuitem">Save</a>
-                    <a href="#" role="menuitem">Save As</a>
-                    <a href="#" role="menuitem">Import</a>
-                    <a href="#" role="menuitem">Export</a>
-                </div>
-            </div>
-            <div class="dropdown" role="navigation" aria-label="Mode selection">
-                <button class="dropbtn" id="mode-button" aria-haspopup="true" aria-expanded="false">Mode</button>
-                <div class="dropdown-content" role="menu">
-                    <a href="#" data-mode="transcript" role="menuitem">Transcript</a>
-                    <a href="#" data-mode="timeline" role="menuitem">Timeline</a>
-                    <a href="#" data-mode="generative" role="menuitem">Generative</a>
-                </div>
-            </div>
+        <div class="logo">
+            <img src="Resources/logo.png" alt="AutoPod Logo">
+            <h1>AutoPod</h1>
         </div>
     </header>
-
     <div class="container">
         <aside class="sidebar">
-            <div class="tabs" role="tablist">
-                <button class="tab-button active" data-tab="image" role="tab" aria-selected="true" aria-controls="image-tab">Image</button>
-                <button class="tab-button" data-tab="text" role="tab" aria-selected="false" aria-controls="text-tab">Text</button>
-                <button class="tab-button" data-tab="audio" role="tab" aria-selected="false" aria-controls="audio-tab">Audio</button>
+            <div class="sidebar-header">
+                <button id="collapse-btn" class="collapse-btn"><img src="Resources/collapse.png" alt="Collapse"></button>
             </div>
-            <div class="media-library">
-                <div id="image-tab" class="tab-content active" role="tabpanel" aria-labelledby="image-tab">
-                    <button class="generate-new">Generate New +</button>
-                </div>
-                <div id="text-tab" class="tab-content" role="tabpanel" aria-labelledby="text-tab">
-                    <button class="generate-new">Generate New +</button>
-                </div>
-                <div id="audio-tab" class="tab-content" role="tabpanel" aria-labelledby="audio-tab">
-                    <button class="generate-new">Generate New +</button>
-                </div>
+            <div class="menu">
+                <a href="#" class="active"><img src="Resources/transcript_icon.png" alt=""> <span>Transcript</span></a>
+                <a href="#"><img src="Resources/timeline_icon.png" alt=""> <span>Timeline</span></a>
+                <a href="#"><img src="Resources/media_icon.png" alt=""> <span>Media</span></a>
             </div>
         </aside>
-
         <main class="main-content">
-            <div id="transcript-mode" class="mode-content active">
-                <h1>Transcript</h1>
-                <div class="ImageContainer"><img src="pages/autopod_transcript.png" width="1150" height="584" /></div>
+            <div class="transcript-header">
+                <h2>Transcript</h2>
+                <div class="transcript-actions">
+                    <button><img src="Resources/correct_icon.png" alt="Correct"></button>
+                    <button><img src="Resources/share_icon.png" alt="Share"></button>
+                    <button><img src="Resources/copy_icon.png" alt="Copy"></button>
+                    <button><img src="Resources/summarize_icon.png" alt="Summarize"></button>
+                </div>
             </div>
-            <div id="timeline-mode" class="mode-content">
-                <h1>Timeline</h1>
-                <div class="ImageContainer"><img src="pages/autopod_timeline.png" width="1150" height="584" /></div>
-            </div>
-            <div id="generative-mode" class="mode-content">
-                <h1>Generative Options</h1>
-                <div class="ImageContainer"><img src="pages/autopod_generative_options_pt1.png" width="1150" height="584" /></div>
+            <div class="transcript">
+                <div class="transcript-item">
+                    <div class="speaker-info">
+                        <span class="speaker">Speaker 1</span>
+                        <span class="timestamp">0:00</span>
+                    </div>
+                    <div class="transcript-text">
+                        <p>Welcome to the AutoPod, where we discuss the latest in AI and automation. Today, we have a special guest, Dr. Evelyn Reed, a leading researcher in generative models.</p>
+                    </div>
+                </div>
+                <div class="transcript-item">
+                    <div class="speaker-info">
+                        <span class="speaker">Speaker 2</span>
+                        <span class="timestamp">0:15</span>
+                    </div>
+                    <div class="transcript-text">
+                        <p>Thanks for having me. It's a pleasure to be here.</p>
+                    </div>
+                </div>
+                <div class="transcript-item">
+                    <div class="speaker-info">
+                        <span class="speaker">Speaker 1</span>
+                        <span class="timestamp">0:22</span>
+                    </div>
+                    <div class="transcript-text">
+                        <p>Let's dive right in. Generative AI has seen explosive growth. What do you think is the most exciting development in this field?</p>
+                    </div>
+                </div>
+                <div class="transcript-item highlight">
+                    <div class="speaker-info">
+                        <span class="speaker">Speaker 2</span>
+                        <span class="timestamp">0:35</span>
+                    </div>
+                    <div class="transcript-text">
+                        <p>For me, it's the multi-modal models. The ability to generate not just text, but also images, audio, and even video from a single prompt is a game-changer. It opens up so many creative possibilities.</p>
+                    </div>
+                </div>
             </div>
         </main>
     </div>
-
     <script src="Resources/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge against index.html",
+            "file": "${workspaceFolder}/index.html",
+            "webRoot": "${workspaceFolder}",
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Run with Unit Test Arguments",
+            "file": "${workspaceFolder}/index.html",
+            "webRoot": "${workspaceFolder}",
+            "runtimeArgs": [
+                "--unittest",
+                "--user-id 12345"
+            ]
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Debug with Stop on Entry",
+            "file": "${workspaceFolder}/index.html",
+            "webRoot": "${workspaceFolder}",
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Stress Test",
+            "file": "${workspaceFolder}/index.html",
+            "webRoot": "${workspaceFolder}",
+            "runtimeArgs": [
+                "--stress-test",
+                "--users 1000"
+            ]
+        }
+    ]
+}

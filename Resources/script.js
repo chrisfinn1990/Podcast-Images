@@ -1,71 +1,55 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const tabButtons = document.querySelectorAll('.tab-button');
-    const tabContents = document.querySelectorAll('.tab-content');
-    const modeLinks = document.querySelectorAll('.dropdown-content a[data-mode]');
-    const modeContents = document.querySelectorAll('.mode-content');
-    const modeButton = document.getElementById('mode-button');
-    const dropdowns = document.querySelectorAll('.dropdown');
+    const collapseBtn = document.getElementById('collapse-btn');
+    const sidebar = document.querySelector('.sidebar');
 
-    // Tab switching
-    tabButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const tab = button.dataset.tab;
-
-            tabButtons.forEach(btn => {
-                btn.classList.remove('active');
-                btn.setAttribute('aria-selected', 'false');
-            });
-            button.classList.add('active');
-            button.setAttribute('aria-selected', 'true');
-
-            tabContents.forEach(content => {
-                if (content.id === `${tab}-tab`) {
-                    content.classList.add('active');
-                } else {
-                    content.classList.remove('active');
-                }
-            });
-        });
+    collapseBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('collapsed');
     });
 
-    // Mode switching
-    modeLinks.forEach(link => {
+    const menuLinks = document.querySelectorAll('.menu a');
+
+    // Menu navigation
+    menuLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
-            const mode = link.dataset.mode;
-
-            modeContents.forEach(content => {
-                if (content.id === `${mode}-mode`) {
-                    content.classList.add('active');
-                } else {
-                    content.classList.remove('active');
-                }
-            });
-
-            // Update mode button text
-            modeButton.textContent = link.textContent;
+            menuLinks.forEach(l => l.classList.remove('active'));
+            link.classList.add('active');
+            console.log(`Navigating to ${link.textContent.trim()}`);
         });
     });
 
-    // Close dropdowns when clicking outside
-    window.addEventListener('click', function(event) {
-        dropdowns.forEach(dropdown => {
-            const button = dropdown.querySelector('.dropbtn');
-            const content = dropdown.querySelector('.dropdown-content');
-            if (!dropdown.contains(event.target)) {
-                content.style.display = 'none';
-                button.setAttribute('aria-expanded', 'false');
+    const transcriptActions = document.querySelectorAll('.transcript-actions button');
+    const transcriptContainer = document.querySelector('.transcript');
+
+    // Transcript actions
+    transcriptActions.forEach(button => {
+        button.addEventListener('click', () => {
+            const action = button.querySelector('img').alt;
+            console.log(`${action} clicked`);
+            alert(`${action} functionality not implemented yet`);
+        });
+    });
+
+    // Text highlighting functionality
+    if (transcriptContainer) {
+        transcriptContainer.addEventListener('mouseup', (event) => {
+            const selection = window.getSelection();
+            if (selection.rangeCount > 0 && selection.toString().trim().length > 0) {
+                const range = selection.getRangeAt(0);
+                const selectedText = range.toString();
+                const parentElement = range.commonAncestorContainer.parentElement;
+
+                if (parentElement.closest('.transcript-item')) {
+                    const transcriptItems = document.querySelectorAll('.transcript-item');
+                    transcriptItems.forEach(item => item.classList.remove('highlight'));
+                    
+                    const surroundingItem = parentElement.closest('.transcript-item');
+                    if(surroundingItem) {
+                        surroundingItem.classList.add('highlight');
+                    }
+                }
+                selection.removeAllRanges();
             }
         });
-    });
-
-    dropdowns.forEach(dropdown => {
-        const button = dropdown.querySelector('.dropbtn');
-        const content = dropdown.querySelector('.dropdown-content');
-
-        dropdown.addEventListener('mouseover', () => {
-            content.style.display = 'block';
-            button.setAttribute('aria-expanded', 'true');
-        });
-    });
+    }
 });
