@@ -106,8 +106,7 @@ header {
     width: 250px;
     background-color: #333333; /* Darker grey for sidebar */
     padding: 0; /* Set padding to 0 */
-    display: flex;
-    flex-direction: column;
+    display: block; /* Change to block element */
     border-right: 1px solid #D68D8D; /* Reddish-brown border */
     transition: width 0.3s ease, left 0.3s ease, padding 0.3s ease; /* Added padding transition */
     position: relative; /* Explicitly set to relative */
@@ -118,9 +117,13 @@ header {
 }
 
 .sidebar-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: flex-start; /* Align collapse button to the left */
-    margin-bottom: 0; /* Remove extra space */
+    box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .collapse-btn {
@@ -129,6 +132,7 @@ header {
     cursor: pointer;
     z-index: 35; /* Ensure it's above sidebar-tabs */
     position: relative; /* Needed for z-index to work */
+    padding: 5px; /* Add padding around the image */
 }
 
 .collapse-btn img {
@@ -136,16 +140,13 @@ header {
     height: 24px;
 }
 
-.menu a {
-    display: flex;
-    align-items: center;
-    color: #F0F0F0; /* Light text color */
-    text-decoration: none;
-    padding: 15px 10px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    font-weight: 500;
+.menu {
+    position: absolute;
+    top: 60px; /* Adjust based on sidebar-header height */
+    left: 0;
+    right: 40px; /* Adjust based on sidebar-tabs width */
+    bottom: 0;
+    overflow-y: auto; /* Enable scrolling for menu content */
 }
 
 .menu a:hover {
