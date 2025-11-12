@@ -188,9 +188,16 @@ header {
     height: 100px; /* Fixed height for each tab */
 }
 
-.sidebar-tabs a span {
-    transform: rotate(-90deg); /* Rotate text for vertical tabs */
+.sidebar-tabs .tab-content {
+    /* The rotation was for the vertical text, which is now removed. */
+    /* The parent 'a' tag already centers content, so these properties are not needed. */
+    /* transform: rotate(-90deg); */
     transform-origin: center center;
+}
+
+.sidebar-tabs .tab-content img {
+    width: 24px;
+    height: 24px;
 }
 
 .sidebar-tabs a:hover {
@@ -593,4 +600,10 @@ header {
 
 .sidebar.minimized .collapse-btn {
     margin: 0 auto; /* Center the collapse button */
+}
+
+/* Style for click debugger */
+.debug-click-highlight {
+    outline: 2px solid #00F2FF !important; /* A bright cyan outline */
+    box-shadow: 0 0 10px #00F2FF !important; /* A glowing effect */
 }

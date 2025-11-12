@@ -256,4 +256,46 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
+
+    // Function to switch view based on URL parameter
+    function setViewFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        const viewId = params.get('view');
+        if (viewId) {
+            const views = document.querySelectorAll('.view');
+            views.forEach(view => view.classList.remove('active-view'));
+
+            const activeView = document.getElementById(viewId);
+            if (activeView) {
+                activeView.classList.add('active-view');
+                console.log(`Switched to view '${viewId}' from URL parameter.`);
+            }
+        }
+    }
+
+    // Function to enable a debug mode that highlights and logs all clicks
+    function initializeClickDebugger() {
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('debug-clicks') === 'true') {
+            console.log('Click Debugger Initialized. Click any element to see its details.');
+            document.body.addEventListener('click', (event) => {
+                const target = event.target;
+                console.log('Clicked Element:', {
+                    tagName: target.tagName,
+                    id: target.id,
+                    className: target.className,
+                    element: target
+                });
+
+                // Add a temporary highlight class
+                target.classList.add('debug-click-highlight');
+                setTimeout(() => target.classList.remove('debug-click-highlight'), 500);
+            }, true); // Use capture phase to catch all clicks
+        }
+    }
+
+    // Set initial view based on URL at load time
+    setViewFromUrl();
+    // Initialize the click debugger if the URL parameter is present
+    initializeClickDebugger();
 });

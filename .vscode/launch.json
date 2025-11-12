@@ -1,13 +1,12 @@
 {
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
             "type": "msedge",
             "request": "launch",
             "name": "Launch Edge against index.html",
-            "file": "${workspaceFolder}/index.html",
-            "webRoot": "${workspaceFolder}",
+            "file": "${workspaceFolder}/index.html"
         },
         {
             "type": "msedge",
@@ -16,16 +15,42 @@
             "file": "${workspaceFolder}/index.html",
             "webRoot": "${workspaceFolder}",
             "runtimeArgs": [
-                "--unittest",
-                "--user-id 12345"
+                "--run-tests",
+                "--test-suite=all",
+                "--user-id=12345",
+                "--load-transcript=sample.txt",
+                "--initial-view=transcript-view"
             ]
         },
         {
             "type": "msedge",
             "request": "launch",
+            "name": "Debug UI (Timeline View)",
+            "file": "${workspaceFolder}/index.html?view=timeline-view"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Debug UI (Transcript View)",
+            "file": "${workspaceFolder}/index.html?view=transcript-view"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Debug UI (Generative Options pt1)",
+            "file": "${workspaceFolder}/index.html?view=generative-options-pt1-view"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Debug UI (Highlight All Clickables)",
+            "file": "${workspaceFolder}/index.html?debug-clicks=true"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
             "name": "Debug with Stop on Entry",
-            "file": "${workspaceFolder}/index.html",
-            "webRoot": "${workspaceFolder}",
+            "file": "${workspaceFolder}/index.html"
         },
         {
             "type": "msedge",
@@ -34,8 +59,10 @@
             "file": "${workspaceFolder}/index.html",
             "webRoot": "${workspaceFolder}",
             "runtimeArgs": [
-                "--stress-test",
-                "--users 1000"
+                "--stress-test=full",
+                "--concurrent-users=1000",
+                "--generation-requests=5000",
+                "--timeline-assets=200"
             ]
         }
     ]
