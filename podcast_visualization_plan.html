@@ -1,4 +1,5 @@
     <div class="phase">
+        <!-- Corresponds to Module A (Ingestion) and Module B (Editor) -->
         <h2>Phase 1: Transcript Import and Highlighting</h2>
         <div class="steps">
             <h3>Transcript Import</h3>
@@ -15,6 +16,7 @@
     </div>
 
     <div class="phase">
+        <!-- Corresponds to Module C (Generation) and Module D (Asset Management) -->
         <h2>Phase 2: Generative Tools</h2>
         <div class="steps">
             <h3>Image, Audio, and Video Generation</h3>
@@ -27,6 +29,7 @@
     </div>
 
     <div class="phase">
+        <!-- Corresponds to Module E (Timeline & Integration) -->
         <h2>Phase 3: Timeline Editing</h2>
         <div class="steps">
             <h3>Drag-and-Drop Interface</h3>
@@ -39,6 +42,7 @@
     </div>
 
     <div class="phase">
+        <!-- This section defines the core modules of the system. -->
         <h2>Architectural Overview: Module and Data Flow</h2>
         <div class="steps">
             <h3>Core System Modules</h3>
@@ -103,6 +107,7 @@
     </div>
 
     <div class="phase">
+        <!-- Describes the UI components related to Module C (Generation) and Module D (Asset Management) for images. -->
         <h2>Core UI Architecture: Image Integration</h2>
         <div class="steps">
             <h3>Image Lifecycle</h3>
@@ -151,6 +156,12 @@
                 <li><strong>Generate New:</strong> At the end of the list of cached files in each tab, a 'Generate New' button with a black plus icon will be available to create new assets.</li>
             </ul>
             <h3>Highlight Tool</h3>
+            <div class="asset-usage">
+                <h4>Asset Usage</h4>
+                <ul>
+                    <li><strong>Potential Usage:</strong> Assets residing in the media sidebar will possibly be used by the tool that is processing them. The usage of an asset is dependent on the specific tool's workflow and its role in the production process.</li>
+                </ul>
+            </div>
             <ul>
                 <li><strong>Selection:</strong> Users can click and drag to select any portion of the transcript text.</li>
                 <li><strong>Highlighting:</strong> Upon selection, the text will be visually highlighted (e.g., with a yellow background) to indicate that it has been chosen for image generation.</li>
@@ -162,6 +173,7 @@
     </div>
 
     <div class="phase">
+        <!-- Describes the UI components related to Module C (Generation) and Module D (Asset Management) for audio. -->
         <h2>Core UI Architecture: Audio Integration</h2>
         <div class="steps">
             <h3>Audio Lifecycle</h3>
@@ -189,6 +201,12 @@
                 <li><strong>Generate New:</strong> At the end of the list of cached files in each tab, a 'Generate New' button with a black plus icon will be available to create new assets.</li>
             </ul>
             <h3>Highlight Tool</h3>
+            <div class="asset-usage">
+                <h4>Asset Usage</h4>
+                <ul>
+                    <li><strong>Potential Usage:</strong> Assets residing in the media sidebar will possibly be used by the tool that is processing them. The usage of an asset is dependent on the specific tool's workflow and its role in the production process.</li>
+                </ul>
+            </div>
             <ul>
                 <li><strong>Selection:</strong> Users can click and drag to select any portion of the transcript text.</li>
                 <li><strong>Highlighting:</strong> Upon selection, the text will be visually highlighted (e.g., with a yellow background) to indicate that it has been chosen for audio generation.</li>
@@ -200,6 +218,7 @@
     </div>
 
     <div class="phase">
+        <!-- Corresponds to Module E (Integration) and is supported by all other modules. -->
         <h2>Phase 4: Full Podcast Production</h2>
         <div class="steps">
             <h3>Audio Production</h3>
@@ -229,6 +248,7 @@
     </div>
 
     <div class="phase">
+        <!-- This section provides a meta-analysis of how the modules relate to the final production phase. -->
         <h2>Connections between Architecture and Phase 4</h2>
         <div class="steps">
             <p>This section clarifies how the modules from the Architectural Overview map to the tasks in Phase 4.</p>
@@ -241,6 +261,7 @@
     </div>
 
     <div class="phase">
+        <!-- Lists external tools and internal standards required for the project. -->
         <h2>Technical Requirements</h2>
         <div class="steps">
             <h3>Software Tools</h3>
