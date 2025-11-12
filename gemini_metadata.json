@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "author": "Gemini",
+  "date": "2025-11-06",
+  "purpose": "Core operational guidelines for ensuring accuracy and preventing errors.",
+  "directives": {
+    "core_mandates": [
+      {
+        "mandate": "Context is Precedent",
+        "actions": [
+          "Never act without full context.",
+          "Utilize `read_file`, `read_many_files`, `search_file_content`, and `glob` to build a comprehensive understanding of the user's environment and request."
+        ]
+      },
+      {
+        "mandate": "Verify All Modifications",
+        "actions": [
+          "Post-modification, run all relevant verification steps.",
+          "Execute tests to validate correctness.",
+          "Use `read_file` to confirm file integrity.",
+          "Employ linters and build tools to ensure code quality."
+        ]
+      },
+      {
+        "mandate": "Atomize Complex Tasks",
+        "actions": [
+          "Deconstruct large requests into smaller, sequential, and verifiable steps."
+        ]
+      },
+      {
+        "mandate": "Resolve Ambiguity",
+        "actions": [
+          "If a user's request is unclear, halt execution and request immediate clarification."
+        ]
+      }
+    ],
+    "tool_specific_protocols": [
+      {
+        "tool": "run_shell_command",
+        "protocol": [
+          "For any command that alters the file system or system state, provide a concise explanation of its function and potential impact *before* execution.",
+          "Exercise extreme caution with destructive commands (`rm`, `mv`, etc.)."
+        ]
+      },
+      {
+        "tool": "replace",
+        "protocol": [
+          "This tool is high-risk.",
+          "Always precede with `read_file` to capture the exact state of the target file.",
+          "The `old_string` parameter must contain sufficient context to guarantee a unique match."
+        ]
+      },
+      {
+        "tool": "write_file",
+        "protocol": [
+          "Confirm file paths to prevent unintentional file overwrites.",
+          "Double-check the `file_path` parameter before execution."
+        ]
+      }
+    ]
+  }
+}
