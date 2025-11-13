@@ -1,0 +1,108 @@
+{
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge against index.html",
+            "url": "http://127.0.0.1:5500/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Run with Unit Test Arguments",
+            "url": "http://127.0.0.1:5500/index.html",
+            "webRoot": "${workspaceFolder}",
+            "runtimeArgs": [
+                "--run-tests",
+                "--test-suite=all",
+                "--user-id=12345",
+                "--load-transcript=sample.txt",
+                "--initial-view=transcript-view"
+            ]
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Debug UI (Timeline View)",
+            "url": "http://127.0.0.1:5500/index.html?view=timeline-view",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Debug UI (Transcript View)",
+            "url": "http://127.0.0.1:5500/index.html?view=transcript-view",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Debug UI (Generative Options pt1)",
+            "url": "http://127.0.0.1:5500/index.html?view=generative-options-pt1-view",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Debug UI (Invalid View Parameter)",
+            "url": "http://127.0.0.1:5500/index.html?view=invalid-view-for-debug",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Debug UI (Highlight All Clickables)",
+            "url": "http://127.0.0.1:5500/index.html?debug-clicks=true",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Debug with Stop on Entry",
+            "url": "http://127.0.0.1:5500/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Stress Test",
+            "url": "http://127.0.0.1:5500/index.html",
+            "webRoot": "${workspaceFolder}",
+            "runtimeArgs": [
+                "--stress-test=full",
+                "--concurrent-users=1000",
+                "--generation-requests=5000",
+                "--timeline-assets=200"
+            ]
+        },
+        {
+            "name": "Python: Test Homepage Title",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_e2e_test.py",
+            "console": "integratedTerminal",
+            "args": ["--test", "homepage_title"]
+        },
+        {
+            "name": "Python: Test Timeline View Switch",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_e2e_test.py",
+            "console": "integratedTerminal",
+            "args": ["--test", "timeline_view"]
+        },
+        {
+            "name": "Python: Test Sidebar Collapse",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_e2e_test.py",
+            "console": "integratedTerminal",
+            "args": ["--test", "sidebar_collapse"]
+        }
+    ]
+}

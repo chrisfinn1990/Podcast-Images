@@ -259,17 +259,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to switch view based on URL parameter
     function setViewFromUrl() {
+        // Define a whitelist of valid view IDs for security.
+        const validViews = [
+            'transcript-view',
+            'timeline-view',
+            'generative-options-pt1-view',
+            'generative-options-pt2-view'
+        ];
+        
         const params = new URLSearchParams(window.location.search);
         const viewId = params.get('view');
-        if (viewId) {
+        
+        // Only proceed if the viewId is not null and is in our whitelist.
+        if (viewId && validViews.includes(viewId)) {
             const views = document.querySelectorAll('.view');
             views.forEach(view => view.classList.remove('active-view'));
 
             const activeView = document.getElementById(viewId);
             if (activeView) {
                 activeView.classList.add('active-view');
-                console.log(`Switched to view '${viewId}' from URL parameter.`);
+                console.log(`Successfully switched view to '${viewId}'.`);
             }
+        } else if (viewId) {
+            // If a viewId is provided but it's not valid, log it.
+            console.warn(`Attempted to switch to an invalid view: '${viewId}'. Action blocked.`);
         }
     }
 
