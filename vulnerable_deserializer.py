@@ -6,10 +6,10 @@ import os
 
 def vulnerable_load(data_stream):
     """
-    This function simulates a vulnerable service that deserializes data using
-    the unsafe yaml.load() function. It returns the deserialized data.
+    This function safely deserializes a YAML data stream.
+    It was previously vulnerable but has been patched.
     """
-    return yaml.load(data_stream, Loader=yaml.UnsafeLoader)
+    return yaml.safe_load(data_stream)
 
 def safe_load(data_stream):
     """

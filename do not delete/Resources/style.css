@@ -191,7 +191,6 @@ header {
 .sidebar-tabs .tab-content {
     /* The rotation was for the vertical text, which is now removed. */
     /* The parent 'a' tag already centers content, so these properties are not needed. */
-    /* transform: rotate(-90deg); */
     transform-origin: center center;
 }
 
@@ -202,12 +201,12 @@ header {
 
 .sidebar-tabs a:hover {
     background-color: #FF8C00; /* DarkOrange for hover */
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .sidebar-tabs a.active {
     background-color: #FF8C00; /* DarkOrange for active */
-    color: #FFFFFF;
+    color: #000000;
     z-index: 1; /* Bring active tab to front */
     border-color: #FF8C00; /* Active tab border color */
     box-shadow: 0 0 12px rgba(255, 140, 0, 0.7), -1px 1px 5px rgba(0,0,0,0.3); /* Glowing orange shadow + base shadow */
@@ -285,7 +284,7 @@ header {
 
 .media-section button {
     background-color: #FF8C00;
-    color: #FFFFFF;
+    color: #000000;
     border: none;
     padding: 8px 12px;
     border-radius: 5px;
@@ -300,6 +299,7 @@ header {
 .media-section .slider {
     width: 100%;
     -webkit-appearance: none;
+    appearance: none;
     height: 8px;
     background: #555;
     outline: none;

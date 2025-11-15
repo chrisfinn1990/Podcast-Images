@@ -1,0 +1,22 @@
+{
+    "tasks": [
+        {
+            "name": "Run UI Fuzz Test",
+            "description": "Runs the Selenium-based fuzz test against the UI to check for robustness and parameter injection.",
+            "program": "run_e2e_test.py",
+            "args": ["--test", "fuzz_views"]
+        },
+        {
+            "name": "Test YAML Deserializer Vulnerability",
+            "description": "Runs the fuzzer that proves the RCE vulnerability in the YAML deserializer.",
+            "program": "fuzz_deserializer.py",
+            "args": []
+        },
+        {
+            "name": "Verify Indexer Vulnerability Fix",
+            "description": "Runs the fuzzer that verifies the RCE vulnerability in the pickle-based indexer is fixed.",
+            "program": "fuzz_indexer.py",
+            "args": []
+        }
+    ]
+}

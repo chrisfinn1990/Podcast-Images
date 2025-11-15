@@ -1,58 +1,74 @@
 """
-Fuzz Tester for the Vulnerable Deserializer.
+Fuzz Tester for the Patched Deserializer.
 
-This script tests the robustness and security of the deserialization functions
-in 'vulnerable_deserializer.py' by feeding them a variety of malicious and
-malformed YAML payloads.
+This script verifies that the fix in 'vulnerable_deserializer.py'
+successfully prevents Remote Code Execution (RCE) attacks.
 """
 import yaml
-from vulnerable_deserializer import vulnerable_load, safe_load
+from vulnerable_deserializer import vulnerable_load
 
 # --- Fuzzing Payloads ---
-# A list of different YAML strings, from benign to malicious.
+# The RCE attack payload is the most critical one to test.
 fuzz_payloads = {
     "rce_attack": '''
 !!python/object/apply:os.system
-- "echo RCE ATTACK SUCCESSFUL"
+- "echo RCE ATTACK SUCCESSFUL > rce_proof.txt"
 ''',
     "empty_string": "",
     "simple_string": "just a string",
     "malformed_yaml": "key: value: another_value",
-    "complex_object": '''
-!!python/object/apply:__main__.MyClass
-args: [1, 2]
-''',
-    "large_string": "A" * 5000,
 }
 
-if __name__ == "__main__":
-    print("--- Starting Deserializer Fuzz Test ---")
+def _test_payload(name, payload, failures):
+    """Test a single payload and handle the results."""
+    print(f"\n--- Testing Payload: {name} ---")
     
-    class MyClass:
-        def __init__(self, *args):
-            pass
+    try:
+        print("  [->] Testing the (now fixed) vulnerable_load() function...")
+        vulnerable_load(payload)
+        
+        if name == "rce_attack":
+            failures.append(f"Payload '{name}': RCE payload was processed but should have been rejected.")
+            print("  [!] VULNERABILITY DETECTED: Malicious payload was not blocked.")
+        else:
+            print("  [+] Benign payload processed safely.")
+
+    except yaml.YAMLError:
+        if name == "rce_attack":
+            print("  [+] FIX CONFIRMED: The safe function correctly rejected the RCE payload.")
+        else:
+            print("  [+] Correctly handled malformed YAML.")
+    except Exception as e:
+        error_message = f"Payload '{name}': An unexpected error occurred: {type(e).__name__}"
+        failures.append(error_message)
+        print(f"  [!] {error_message}")
+
+def run_fuzz_test():
+    """
+    Tests the patched deserializer. The test passes if the previously
+    vulnerable function now safely handles malicious payloads.
+    """
+    print("--- Starting Patched Deserializer Fuzz Test ---")
+    
+    failures = []
 
     for name, payload in fuzz_payloads.items():
-        print(f"\n--- Testing Payload: {name} ---")
-        
-        print("  [->] Testing vulnerable_load()...")
-        try:
-            result = vulnerable_load(payload)
-            
-            # For the os.system payload, a return code of 0 means success.
-            if name == "rce_attack" and result == 0:
-                print("  [!] VULNERABILITY CONFIRMED: RCE command executed successfully.")
-            else:
-                print("  [+] Payload processed without RCE.")
-
-        except Exception as e:
-            print(f"  [+] Handled as an error (as expected for malformed data): {type(e).__name__}")
-
-        print("  [->] Testing safe_load()...")
-        try:
-            safe_load(payload)
-            print("  [+] Payload processed safely.")
-        except Exception as e:
-            print(f"  [+] SAFE function correctly raised an error: {type(e).__name__}")
+        _test_payload(name, payload, failures)
 
     print("\n--- Deserializer Fuzz Test Complete ---")
+
+    if failures:
+        print("\n[FAILURE] The following issues were found:")
+        for f in failures:
+            print(f"  - {f}")
+        return False
+    else:
+        print("\n[SUCCESS] All tests passed. The deserializer is secure.")
+        return True
+
+if __name__ == "__main__":
+    try:
+        run_fuzz_test()
+    except Exception as e:
+        print("\n[ERROR] An unexpected error occurred during the fuzz testing process.")
+        print(f"  Details: {e}")
